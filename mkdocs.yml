@@ -1,0 +1,29 @@
+site_name: OneSurvey Documentation
+site_url: https://rstewartIA.github.io/OneSurvey-Docs/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - navigation.top
+markdown_extensions:
+  - admonition
+  - def_list
+  - footnotes
+  - attr_list
+  - toc:
+      permalink: true
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Get Started:
+      - About: get-started/about.md
+      - Installation: get-started/installation.md
+  - User Guides:
+      - Projects: user-guides/projects.md
+      - Surveys: user-guides/surveys.md
+  - Reference:
+      - API Overview: reference/api-overview.md
