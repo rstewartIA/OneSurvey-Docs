@@ -95,3 +95,10 @@ code, .md-typeset code { color: #39527B; }
   box-shadow: 0 3px 14px rgba(0,0,0,0.08);
   transform: translateY(-2px);
 }
+
+/* Header logo sizing */
+.md-header__button.md-logo img {
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+}
