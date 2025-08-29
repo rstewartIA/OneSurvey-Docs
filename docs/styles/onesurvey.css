@@ -1,0 +1,104 @@
+/* OneSurvey brand theme for Material for MkDocs */
+
+/* Light scheme */
+:root {
+  /* Primary brand blues */
+  --md-primary-fg-color: #2C6499;      /* main */
+  --md-primary-fg-color--light: #367ABB;
+  --md-primary-fg-color--dark: #003F7D;
+
+  /* Accent */
+  --md-accent-fg-color: #3A74C2;
+
+  /* Default text and subtle surfaces */
+  --md-default-fg-color: #434343;
+  --md-default-fg-color--light: #5a5a5a;
+  --md-default-fg-color--lighter: #6f6f6f;
+  --md-default-fg-color--lightest: #9a9a9a;
+
+  /* Optional: light backgrounds for callouts/cards */
+  --md-default-bg-color: #ffffff;
+  --md-footer-bg-color: #B3D1E5;
+}
+
+/* Dark scheme overrides (if user prefers dark or switches) */
+[data-md-color-scheme="slate"] {
+  --md-hue: 220; /* keep blues accurate */
+  --md-primary-fg-color: #003F7D;      /* deeper primary */
+  --md-primary-fg-color--light: #2C6499;
+  --md-primary-fg-color--dark: #002a55;
+  --md-accent-fg-color: #3A74C2;
+}
+
+/* Sidebar + navigation accents */
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: var(--md-accent-fg-color);
+}
+
+.md-nav__item--active > .md-nav__link {
+  color: var(--md-primary-fg-color);
+}
+
+/* Active section indicator (left border) */
+.md-nav__item--active > .md-nav__link {
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: calc(var(--md-nav-indent) - 3px);
+}
+
+/* Improve visibility of chevrons for collapsible items */
+.md-nav__toggle:focus + .md-nav__link .md-nav__icon,
+.md-nav__toggle:hover + .md-nav__link .md-nav__icon {
+  color: var(--md-accent-fg-color);
+}
+
+/* Inline code and code blocks accents */
+code, .md-typeset code { color: #39527B; }
+.md-typeset .focus .highlight, .md-typeset .highlight pre {
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+/* Admonitions: subtle OneSurvey tint */
+.md-typeset .admonition, .md-typeset details {
+  border-color: var(--md-primary-fg-color--light);
+}
+.md-typeset .admonition-title, .md-typeset summary {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 10%, white);
+}
+
+/* Responsive industry tiles */
+.os-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+.os-card {
+  background: var(--md-default-bg-color);
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 15%, #e6eaf0);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+.os-card h4 {
+  margin: 0 0 .25rem 0;
+  color: var(--md-primary-fg-color);
+}
+.os-card p {
+  margin: 0;
+  font-size: .92rem;
+}
+.os-card:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 3px 14px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+/* Header logo sizing */
+.md-header__button.md-logo img {
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+}
