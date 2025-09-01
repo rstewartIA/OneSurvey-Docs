@@ -6,6 +6,7 @@ theme:
     - navigation.sections
     - content.code.copy
     - navigation.tracking
+    - navigation.footer
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -32,21 +33,24 @@ markdown_extensions:
       permalink: true
 plugins:
   - search
+extra:
+  generator: false
+extra_javascript:
+  - assets/js/year.js
+copyright: 'Copyright © <span id="os-year"></span> OneSurvey'
 nav:
-  - Home: index.md
   - Getting Started:
-      - Overview: getting-started/index.md
+      - Introduction: index.md
       - Creating an Account: getting-started/creating-account.md
-      - Logging In: getting-started/logging-in.md
-      - Dashboard Tour: getting-started/dashboard-tour.md
+      # - Dashboard Tour: getting-started/dashboard-tour.md (removed)
   - Projects:
       - Overview: projects/index.md
       - Create a Project: projects/create-project.md
       - Project Detail: projects/project-detail.md
-      - Project Albums: projects/project-albums.md
-      - Project Photos: projects/project-photos.md
+      - Gallery:
+          - Project Photos: projects/project-photos.md
+          - Project Albums: projects/project-albums.md
       - Attachments: projects/attachments.md
-      - Gallery: projects/gallery.md
       - Proposals: projects/proposals.md
       - Reports: projects/reports.md
       - Site Data: projects/site-data.md
