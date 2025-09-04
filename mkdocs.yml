@@ -51,13 +51,13 @@ nav:
           - Project Photos: projects/project-photos.md
           - Project Albums: projects/project-albums.md
       - Attachments: projects/attachments.md
-      - Proposals: projects/proposals.md
+      - OneProposal™: projects/proposals.md
       - Reports: projects/reports.md
       - Site Data: projects/site-data.md
       - Site Elements: projects/site-elements.md
       - Site Settings: projects/site-settings.md
-      - Tasks (Beta): projects/tasks.md
-      - Tickets (Beta): projects/tickets.md
+      - OneTask™: projects/tasks.md
+      - OneTicket™: projects/tickets.md
   - Surveys:
       - Overview: surveys/index.md
       - Getting Started:
@@ -77,15 +77,18 @@ nav:
           - Installation Access Notes: surveys/installation-access.md
       - Quality Assurance:
           - Quality Check: surveys/quality-check.md
-  - Media & Documentation:
-      - OneSnap: media/onesnap.md
-      - Project Album Detail: media/project-album-detail.md
-      - Project Photos: media/project-photos.md
+  - Other Applications:
+      - OneSnap™: media/onesnap.md
+      - OneProposal™: projects/proposals.md
+      - OneTask™: projects/tasks.md
+      - OneTicket™: projects/tickets.md
+      - OneTime™: projects/onetime.md
   - Organization & Users:
       - Organization Settings: organization/index.md
       - Clients: organization/clients.md
       - Users & Roles: organization/users.md
   - Support & Resources:
-      - Tickets (Beta): support/tickets.md
+      - Release Notes: support/release-notes.md
+      - Submit a Request: support/tickets.md
       - FAQ: support/faq.md
       - Glossary: support/glossary.md

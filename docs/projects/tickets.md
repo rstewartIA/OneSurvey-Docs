@@ -1,6 +1,6 @@
-# Tickets (Beta)
+# OneTicket™ (Coming Soon)
 
-> Coming soon — a simple, powerful way to log issues, requests, and follow-ups tied to your projects.
+> Coming soon — a simple, powerful way to log issues, requests, and follow‑ups tied to your projects.
 
 What’s ahead:
 
@@ -10,4 +10,4 @@ What’s ahead:
 - Activity timeline with comments and @mentions
 - Smart filters, exports, and status dashboards
 
-Excited to try it? Share your use cases and we’ll invite you to early beta as features land.
+Excited to try it? Share your use cases and we’ll invite you to early access as features land.
