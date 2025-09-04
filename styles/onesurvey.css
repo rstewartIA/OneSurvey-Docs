@@ -243,6 +243,47 @@ code, .md-typeset code { color: #39527B; }
   margin-top: .55rem;
 }
 
+/* "New!" badge next to OneSnap in side navigation */
+.md-nav__link[href$="/media/onesnap/"]::after,
+.md-nav__link[href$="media/onesnap/"]::after,
+.md-nav__link[href$="/media/onesnap/index.html"]::after {
+  content: "New!";
+  display: inline-block;
+  margin-left: .35rem;
+  padding: 0 .32rem;
+  font-size: .6rem;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: .02em;
+  vertical-align: middle;
+  color: var(--md-primary-fg-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 8%, #ffffff);
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 20%, #e6eaf0);
+  border-radius: 9999px;
+}
+/* Ensure visibility when the item is active/selected */
+.md-nav__link--active[href$="/media/onesnap/"]::after,
+.md-nav__link--active[href$="media/onesnap/"]::after,
+.md-nav__link--active[href$="/media/onesnap/index.html"]::after {
+  color: #ffffff;
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+[data-md-color-scheme="slate"] .md-nav__link[href$="/media/onesnap/"]::after,
+[data-md-color-scheme="slate"] .md-nav__link[href$="media/onesnap/"]::after,
+[data-md-color-scheme="slate"] .md-nav__link[href$="/media/onesnap/index.html"]::after {
+  color: #0b4c8d;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 20%, #cfe2f5);
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 40%, #cfe2f5);
+}
+[data-md-color-scheme="slate"] .md-nav__link--active[href$="/media/onesnap/"]::after,
+[data-md-color-scheme="slate"] .md-nav__link--active[href$="media/onesnap/"]::after,
+[data-md-color-scheme="slate"] .md-nav__link--active[href$="/media/onesnap/index.html"]::after {
+  color: #ffffff;
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
 /* Header search polish */
 .md-header .md-search__form {
   background: rgba(255, 255, 255, 0.96);
