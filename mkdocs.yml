@@ -7,6 +7,7 @@ theme:
     - content.code.copy
     - navigation.tracking
     - navigation.footer
+    - content.feedback
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -35,9 +36,20 @@ plugins:
   - search
 extra:
   generator: false
+  feedback:
+    title: Was this page helpful?
+    ratings:
+      - icon: material/thumb-up-outline
+        name: This page was helpful
+        data: helpful
+        note: Thanks for your feedback!
+      - icon: material/thumb-down-outline
+        name: This page could be improved
+        data: not-helpful
+        note: Thanks! Help us improve this page.
 extra_javascript:
   - assets/js/year.js
-copyright: 'Copyright © <span id="os-year"></span> OneSurvey'
+copyright: 'Copyright Ac <span id="os-year"></span> OneSurvey'
 nav:
   - Getting Started:
       - Introduction: index.md
@@ -51,19 +63,13 @@ nav:
           - Project Photos: projects/project-photos.md
           - Project Albums: projects/project-albums.md
       - Attachments: projects/attachments.md
-      - OneProposal™: projects/proposals.md
       - Reports: projects/reports.md
       - Site Data: projects/site-data.md
       - Site Elements: projects/site-elements.md
       - Site Settings: projects/site-settings.md
-      - OneTask™: projects/tasks.md
-      - OneTicket™: projects/tickets.md
   - Surveys:
       - Overview: surveys/index.md
-      - Getting Started:
-          - Start a Survey: surveys/start-survey.md
-          - Upload a Floor Plan: surveys/upload-floor-plan.md
-          - Survey Settings: surveys/survey-settings.md
+      - Upload a Floor Plan: surveys/upload-floor-plan.md
       - Canvas & Tools:
           - Canvas Basics: surveys/canvas-basics.md
           - Drag & Drop Elements: surveys/drag-and-drop.md
@@ -78,11 +84,11 @@ nav:
       - Quality Assurance:
           - Quality Check: surveys/quality-check.md
   - Other Applications:
-      - OneSnap™: media/onesnap.md
-      - OneProposal™: projects/proposals.md
-      - OneTask™: projects/tasks.md
-      - OneTicket™: projects/tickets.md
-      - OneTime™: projects/onetime.md
+      - OneSnap: media/onesnap.md
+      - OneProposal: projects/proposals.md
+      - OneTask: projects/tasks.md
+      - OneTicket: projects/tickets.md
+      - OneTime: projects/onetime.md
   - Organization & Users:
       - Organization Settings: organization/index.md
       - Clients: organization/clients.md

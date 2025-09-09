@@ -1,4 +1,8 @@
-# OneSnap™
+---
+title: OneSnap
+---
+
+# OneSnap
 
 OneSnap is the project photo hub — collecting, organizing, and sharing field images in one place. Use it to track progress, build reports, or hand off visual context to downstream teams.
 
@@ -14,7 +18,7 @@ Browse every photo in the current event:
 - Create Album / Report / Archive / Delete — batch actions become available when photos are selected.
 - Commenting — open a side panel to leave notes on any photo.
 
-Related: [Project Photos](project-photos.md)
+Related: [Project Photos](../projects/project-photos.md)
 
 ## Albums
 
@@ -28,26 +32,12 @@ The Map tab is reserved for displaying photo locations. This feature has not bee
 
 ## Reports
 
-Generated photo reports appear in a sortable table. Each row lists details, type, timestamp, and creator with actions to preview, download, edit, or delete the file.
+The Reports tab aggregates generated OneSnap reports, which serve as a PDF snapshot of a OneSnap events photos that can be shared with your team.
 
-Related: [Reports](../projects/reports.md)
-
-## Archive
-
-Archived photos stay accessible in their own gallery so nothing is lost. Each item is marked as archived and still supports commenting.
-
-## Participant
-
-Assign the OneSnap event to a client and invite team members by role. Viewers can only see galleries, collaborators can edit and access the archive, and technicians can capture photos without album or report access.
-
-Related: [Users & Roles](../organization/users.md), [Clients](../organization/clients.md)
-
-## Floor Plan Builder
-
-Start linking photos to floor plans or create new layouts for visual context. The Start Building button opens the builder interface, and existing floor‑plan versions are listed below.
-
-Related: [Upload a Floor Plan](../surveys/upload-floor-plan.md), [Link Photos & Files](../surveys/link-photos.md)
+## Review & Download
+- Each row lists the report’s details, type, timestamp, and creator, with a one-click download button for the file.
+- Use the actions menu on any row to remove an outdated or incorrect report when needed.
 
 ---
 
-OneSnap keeps your visual documentation organized from capture to report generation — ensuring everyone stays aligned with the latest site imagery.
+These tools help keep project documentation organized, ensuring generated reports remain accessible throughout the project lifecycle.

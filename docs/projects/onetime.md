@@ -1,4 +1,8 @@
-# OneTime™ (Coming Soon)
+---
+title: OneTime (Coming Soon)
+---
+
+# OneTime (Coming Soon)
 
 > Coming soon — we’re crafting a precise, no‑fuss time‑tracking experience to keep every survey and install on schedule.
 
@@ -10,5 +14,5 @@ What to expect:
 - Export entries for payroll or invoicing
 - Approvals and project‑level summaries to stay on top of budgets
 
-If you’d like early access, tell us how you track time today and which parts slow you down—we’ll prioritize the workflows that make your team more productive.
+If you’d like early access, tell us how you track time today and which parts slow you down — we’ll prioritize the workflows that make your team more productive.
 

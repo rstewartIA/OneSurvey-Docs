@@ -1,4 +1,8 @@
-# OneProposal™ (Coming Soon)
+---
+title: OneProposal (Coming Soon)
+---
+
+# OneProposal (Coming Soon)
 
 > Coming soon — OneProposal will streamline how you present project scopes, equipment lists, and estimated costs directly from within OneSurvey.
 
@@ -18,4 +22,5 @@ In the meantime:
 - Use [Attachments](attachments.md) to store external proposal documents.
 - Organize project details in other tabs — for example, [Site Data](site-data.md), [Site Elements](site-elements.md), and [Reports](reports.md) — to prepare for future proposal workflows.
 
-Stay tuned — OneProposal will bring a seamless way to move from survey data to client‑ready documents, helping your team close projects faster.
+Stay tuned — OneProposal will bring a seamless way to move from survey data to client-ready documents, helping your team close projects faster.
+

@@ -1,12 +1,25 @@
-# Tickets (Beta)
+---
+title: Submit a Request (Coming Soon)
+---
 
-> Coming soon — centralized ticketing for support teams, tightly connected to your projects and site data.
+# Submit a Request (Coming Soon)
 
-Planned capabilities:
+We’re building a simple way to contact Support directly from OneSurvey. This page is a placeholder so you know what to expect when the feature goes live.
 
-- Submit and triage requests with custom forms
-- Link support tickets to projects, elements, and photos
-- Two-way comments and email notifications
-- SLA tracking, priorities, and analytics
+What to expect
 
-We’re polishing the experience now. Interested in piloting support workflows? Reach out for early beta access.
+- Short form to describe your issue or question
+- Optional project link for context
+- File upload for screenshots or documents
+- Confirmation email with a ticket number
+- Email updates when there’s progress or a reply
+
+Status
+
+- The Submit a Request form is under active development. For now, please continue using your existing support channel to reach us.
+
+Helpful resources
+
+- Frequently Asked Questions: [FAQ](./faq.md)
+- Product changes and updates: [Release Notes](./release-notes.md)
+
