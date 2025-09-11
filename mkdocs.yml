@@ -76,11 +76,11 @@ nav:
           - Visibility Filters: surveys/visibility-filters.md
           - Version History: surveys/version-history.md
       - Element Customization:
-          - Design & Labels: surveys/design.md
-          - Color & Styling: surveys/color-styling.md
-          - Element Information & Metadata: surveys/element-information.md
-          - Link Photos & Files: surveys/link-photos.md
-          - Installation Access Notes: surveys/installation-access.md
+          - Uploading Photos: surveys/link-photos.md
+          - Commenting: surveys/commenting.md
+          - Adding a Path: surveys/adding-a-path.md
+          - Designing: surveys/design.md
+          - Element Metadata: surveys/element-information.md
       - Quality Assurance:
           - Quality Check: surveys/quality-check.md
   - Other Applications:
