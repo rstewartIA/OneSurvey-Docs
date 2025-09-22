@@ -1,6 +1,6 @@
 # Reports
 
-The Reports tab aggregates generated project reports, such as survey summaries or bill-of-materials exports, so you can review, download, or delete them in one place.
+The Reports tab aggregates generated project reports, such as floor plan images or bill-of-materials exports, so you can review, download, or delete them in one place.
 
 ## Review & Download
 

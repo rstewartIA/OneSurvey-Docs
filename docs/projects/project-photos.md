@@ -20,7 +20,7 @@ If no photos match your filters, a clear “No Photos Found” message lets you 
 
 Tips:
 
-- Keep photos tagged consistently to improve filtering and report clarity.
+- Keep photos labeled consistently to improve filtering and report clarity.
 - Use albums for stakeholder updates (e.g., weekly progress) and export PDFs when needed.
 
 Related: [Project Albums](project-albums.md), [OneSnap](../media/onesnap.md), [Reports](reports.md)

@@ -51,10 +51,9 @@ extra_javascript:
   - assets/js/year.js
 copyright: 'Copyright Ac <span id="os-year"></span> OneSurvey'
 nav:
-  - Getting Started:
-      - Introduction: index.md
-      - Creating an Account: getting-started/creating-account.md
-      # - Dashboard Tour: getting-started/dashboard-tour.md (removed)
+  - Introduction: index.md
+  - Creating an Account: getting-started/creating-account.md
+  # - Dashboard Tour: getting-started/dashboard-tour.md (removed)
   - Projects:
       - Overview: projects/index.md
       - Create a Project: projects/create-project.md
@@ -98,3 +97,5 @@ nav:
       - Submit a Request: support/tickets.md
       - FAQ: support/faq.md
       - Glossary: support/glossary.md
+
+
