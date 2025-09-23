@@ -2,17 +2,17 @@
 
 Design smarter site surveys on floor plans. Capture photos. Collaborate. Turn work into proposals and reports — all in one place.
 
----
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="./assets/images/onesurvey-intro.png" alt="Showcasing the OneSurvey app in action, with a beautful design of an office with security cameras that have been proposed for install." loading="lazy">
+  </div>
+</div>
 
 ## Overview
 
 Welcome to OneSurvey! 🚀 This platform is built to simplify the entire project workflow for technology and security systems—from site surveys to design, proposals, installation, and ongoing maintenance. With OneSurvey, you can design directly on floor plans by placing system elements, while also capturing key project data like progress photos, notes, and documentation. Everything is organized in one collaborative space, making it easier for teams to stay aligned, reduce errors, and deliver projects more efficiently. OneSurvey is trusted across industries such as those highlighted at [www.innovaaccelerator.com](https://www.innovaaccelerator.com), including technology, security, and facilities management.
 
-<div class="os-screenshot">
-  <div class="os-screenshot-card">
-    <img src="../assets/images/onesurvey-intro.png" alt="Showcasing the OneSurvey app in action, with a beautful design of an office with security cameras that have been proposed for install." loading="lazy">
-  </div>
-</div>
+---
 <!-- <div class="os-video">
   <a class="os-video-card" href="#" aria-label="Intro video placeholder">
     <div class="os-video-play" aria-hidden="true">
