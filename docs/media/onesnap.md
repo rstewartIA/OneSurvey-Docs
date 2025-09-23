@@ -6,6 +6,12 @@ title: OneSnap
 
 OneSnap is the project photo hub — collecting, organizing, and sharing field images in one place. Use it to track progress, build reports, or hand off visual context to downstream teams.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/onesnap-photos.png" alt="Showing the OneSnap gallery tab with photos of a recent intercom installation. Pictures include close up wiring and the finalized install" loading="lazy">
+  </div>
+</div>
+
 ## Managing OneSnap Events
 
 - The OneSnap page lists all events. Filter by name or add new events directly from the top bar.
@@ -29,6 +35,12 @@ Related: [Project Albums](../projects/project-albums.md), [Album Detail](project
 ## Map
 
 The Map tab is reserved for displaying photo locations. This feature has not been implemented yet.
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/onesnap-geotag.png" alt="Showing satellite map with geolocation enabled, and tags where installation photos were taken." loading="lazy">
+  </div>
+</div>
 
 ## Reports
 

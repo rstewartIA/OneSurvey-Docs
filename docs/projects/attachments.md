@@ -2,6 +2,12 @@
 
 The Attachments tab centralizes project files, allowing teams to upload, preview, rename, or remove supporting documents in either a table or grid layout.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/attachments.png" alt="Showing the attachments tab with an uploaded SOW file." loading="lazy">
+  </div>
+</div>
+
 ## Upload Files
 
 - Click Add File to open the upload modal and select a document from your device.

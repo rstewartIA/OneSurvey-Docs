@@ -1,6 +1,12 @@
 # Canvas Basics
 
-The canvas is where surveys come to life. Here, you can view floor plans, place system elements, and refine their layout without leaving the browser. This page covers the essential navigation and tools you’ll use in the canvas workspace.
+The canvas is where surveys come to life. Here, you can view floor plans, place system elements, and refine their layout without leaving the browser. This page covers the essential navigation and tools you'll use in the canvas workspace.
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/canvas-basics.png" alt="Survey canvas page with version history on the left, visibility filters and device lists on the right." loading="lazy">
+  </div>
+</div>
 
 ## Floor Plan Area
 
@@ -33,10 +39,10 @@ The central workspace displays the current floor plan or background image.
 
 - Drag & Drop items from the left toolbar onto the canvas. See: [Drag & Drop Elements](drag-and-drop.md).
 - Click an element to open mini popups for:
-  - [Design](design.md) — rename, add labels, or adjust position.
-  - [Color & Styling](color-styling.md) — change color, size, or icon.
-  - [Element Information](element-information.md) — add descriptions, notes, or linked files.
-  - [Installation Access](installation-access.md) — capture access details or special instructions.
+  - [Design](design.md): rename, add labels, or adjust position.
+  - [Color & Styling](color-styling.md): change color, size, or icon.
+  - [Element Information](element-information.md): add descriptions, notes, or linked files.
+  - [Installation Access](installation-access.md): capture access details or special instructions.
 
 ## Version History
 
@@ -52,3 +58,8 @@ Access Version History from the left toolbar to review and restore earlier canva
 - Learn about [Drag & Drop Elements](drag-and-drop.md) for detailed placement tips.
 - Explore [Visibility Filters](visibility-filters.md) to declutter the view.
 - Visit [Version History](version-history.md) for deeper rollback and restoration instructions.
+
+
+
+
+

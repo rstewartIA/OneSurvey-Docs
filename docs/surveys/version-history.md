@@ -2,6 +2,12 @@
 
 Version History keeps snapshots of your survey so you can revisit earlier layouts, restore a prior state, or audit who changed what. Use it to experiment with alternate designs without losing your original work.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/version-history.png" alt="Showing version history option for floor plans. A left side menu display a list of different versions of the same floor plan. Click them shows the variations in design created by users." loading="lazy">
+  </div>
+</div>
+
 ## Opening Version History
 
 1. In the survey’s top bar, open the dropdown menu.

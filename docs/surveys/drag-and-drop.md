@@ -2,6 +2,12 @@
 
 Placing devices on a floor plan starts with a simple drag. Elements can be pulled from either the Element Library or the Element List and dropped directly onto the canvas to mark their locations.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/drag-and-drop.png" alt="Showing new element being placed on floor plan." loading="lazy">
+  </div>
+</div>
+
 ## 1. Start the Drag
 
 On the left toolbar, open a category under “Universal Elements” or “My Library”.

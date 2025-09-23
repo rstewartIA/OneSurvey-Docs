@@ -1,10 +1,30 @@
 # Comments
 Attach notes or voice clips directly to an element so every design decision has context. The comments panel keeps a running thread with author names and timestamps.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/comment-preview.png" alt="Showing a simple preview of a voice note being recorded with a preview of the previous comment." loading="lazy">
+  </div>
+</div>
+
 ## Open the comments panel
 1. Click an element on the survey canvas to reveal its mini menu.
 2. Choose Comments. A sidebar slides in from the right showing the message thread for that element.
 3. If no messages exist, the panel displays “No comments yet.”
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/comments-tab.png" alt="Showing the comments tab on the element detail panel." loading="lazy">
+  </div>
+  <div class="os-screenshot-caption">Comments tab in element detail panel</div>
+</div>
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/comments-menu.png" alt="Showing the recent comment interaction between two technicians. They discuss a TV removal and upgrade. The message thread concludes with a voice note." loading="lazy">
+  </div>
+  <div class="os-screenshot-caption">Comments menu with example thread</div>
+</div>
 
 ## Post a text comment
 1. Type in the “Write a comment…” field at the bottom of the panel.

@@ -2,6 +2,12 @@
 
 Project albums group related photos — such as “Pre‑Install Walkthrough” or “Final Inspection” — so teams can view, share, and report on focused sets of images.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/gallery-albums.png" alt="A view of the project album inside the gallery." loading="lazy">
+  </div>
+</div>
+
 ## Key Actions
 
 - Browse albums with thumbnail previews and photo counts.

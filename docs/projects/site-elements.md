@@ -2,6 +2,12 @@
 
 The Site Elements tab is your catalog of devices and components that can be placed on project floor plans. From here, you can browse the universal library, manage your own collections, and flag frequently used items as favorites for quick access.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/site-elements.png" alt="Showing the Site Elements tab with universal element categories. A menu shows on the right side with favorite elements that the usder selected." loading="lazy">
+  </div>
+</div>
+
 ## Browsing Libraries
 
 Tabs let you switch between:

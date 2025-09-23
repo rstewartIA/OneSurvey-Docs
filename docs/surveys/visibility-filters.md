@@ -2,6 +2,12 @@
 
 The Visibility Filter lets you focus on specific elements while working on a survey canvas. Toggle it using the floating Filter button at the bottom of the canvas.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/visibility-filter.png" alt="Showing element visibility filter on floor plan, with categories reduced to only show audio/visual and access control." loading="lazy">
+  </div>
+</div>
+
 ## Opening the Filter Panel
 
 1. Click the round Filter button hovering near the bottom center of the canvas.

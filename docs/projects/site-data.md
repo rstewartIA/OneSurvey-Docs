@@ -2,6 +2,12 @@
 
 Site Data consolidates every detail collected during surveys into a set of structured tables. Each tab focuses on a different slice of information, with filters, search, and export tools to help you refine and share what you need.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/bill-of-materials.png" alt="A view of bill of materials in site data, showing quantity of elements in different categories." loading="lazy">
+  </div>
+</div>
+
 ---
 
 ## Tabs at a Glance

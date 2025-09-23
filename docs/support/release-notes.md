@@ -5,7 +5,7 @@ Track notable changes to OneSurvey across versions.
 ---
 
 ## 1.0.0-beta.1
-**Planned Release date:** 09/15/2025
+**Planned Release date:** 09/29/2025
 
 ### Highlights
 - Major multi-phase **UI/UX overhaul** completed, modernizing the look and feel of OneSurvey.  
@@ -63,6 +63,11 @@ Track notable changes to OneSurvey across versions.
 ---
 
 ### Thanks
-A huge thanks to everyone who contributed to the multi-phase UI cleanup and code refactor — especially the design and dev teams who delivered consistent styling, component reuse, and improved UX across the platform.  
+A huge thanks to everyone who contributed to the multi-phase UI cleanup and code refactor — especially the design and dev teams who delivered consistent styling, component reuse, and improved UX across the platform.
+
+Contributors:
+- Achmad Affandy Letto
+- River Stewart
+- Miftahul Faizin
 
 

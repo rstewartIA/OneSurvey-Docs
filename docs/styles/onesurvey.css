@@ -350,3 +350,32 @@ code, .md-typeset code { color: #39527B; }
     top: -1px;
   }
 }
+
+/* Survey overview screenshot styling */
+.os-screenshot {
+  margin: .75rem 0 1.75rem 0;
+}
+.os-screenshot-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 18%, #e6eaf0);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+.os-screenshot-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.os-screenshot-card:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+.os-screenshot-caption {
+  text-align: center;
+  font-size: .92rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: .55rem;
+}
+

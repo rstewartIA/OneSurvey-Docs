@@ -2,6 +2,12 @@
 
 The Project Photos view lists every image associated with the project, regardless of album. Use it to filter, select, and organize photos before placing them into albums or generating reports.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/gallery-photos.png" alt="A view of the project photos inside the gallery. A filter menu shows on the right-hand side." loading="lazy">
+  </div>
+</div>
+
 ## Main Features
 
 - Select Mode — enable to pick individual photos for bulk actions.
