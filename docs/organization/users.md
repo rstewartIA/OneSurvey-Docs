@@ -4,6 +4,12 @@
 
 User management ensures the right people have the right access across your organization. Each user is assigned a role, granting permissions that control what they can view or edit. Roles also govern access to specific modules, like OneSurvey or OneSnap, so you can tailor the app to different team functions.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/users-page.png" alt="Showing the users page with an example of a list of users." loading="lazy">
+  </div>
+</div>
+
 ## Available Roles
 
 | Role | Typical Capabilities |
