@@ -10,7 +10,7 @@ Welcome to OneSurvey! 🚀 This platform is built to simplify the entire project
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../assets/images/onesurvey-intro.png" alt="Showcasing the OneSurvey app in action, with a beautful design of an offic with security cameras that have been proposed for install." loading="lazy">
+    <img src="../assets/images/onesurvey-intro.png" alt="Showcasing the OneSurvey app in action, with a beautful design of an office with security cameras that have been proposed for install." loading="lazy">
   </div>
 </div>
 <!-- <div class="os-video">
