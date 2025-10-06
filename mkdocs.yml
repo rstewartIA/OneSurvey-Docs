@@ -92,10 +92,21 @@ nav:
       - Organization Settings: organization/index.md
       - Clients: organization/clients.md
       - Users & Roles: organization/users.md
+  - Mobile Experience:
+      - Overview: mobile/index.md
+      - Projects on Mobile: mobile/projects.md
+      - Surveys in the Field: mobile/surveys.md
+      - OneSnap Photo Capture: mobile/onesnap.md
+      - Cross-Platform Reference: mobile/cross-platform-reference.md
+      - Field Tips & Troubleshooting: mobile/field-tips.md
   - Support & Resources:
       - Release Notes: support/release-notes.md
       - Submit a Request: support/tickets.md
       - FAQ: support/faq.md
       - Glossary: support/glossary.md
+
+
+
+
 
 
