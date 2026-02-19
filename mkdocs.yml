@@ -1,5 +1,5 @@
 site_name: OneSurvey Documentation
-site_url: https://rstewartIA.github.io/OneSurvey-Docs/
+site_url: !ENV [MKDOCS_SITE_URL, "https://rstewartIA.github.io/OneSurvey-Docs/"]
 theme:
   name: material
   features:
