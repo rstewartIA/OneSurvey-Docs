@@ -1,12 +1,13 @@
-site_name: OneSurvey Documentation
+﻿site_name: OneSurvey Documentation
 site_url: !ENV [MKDOCS_SITE_URL, "https://rstewartIA.github.io/OneSurvey-Docs/"]
+
 theme:
   name: material
   features:
     - navigation.sections
-    - content.code.copy
     - navigation.tracking
     - navigation.footer
+    - content.code.copy
     - content.feedback
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -21,10 +22,13 @@ theme:
         name: Switch to light mode
   logo: assets/images/onesurvey-icon.png
   favicon: assets/images/onesurvey-icon.png
-  # Use a left sidebar only; no top tabs
-  # Custom colors applied via extra_css below
+
 extra_css:
   - styles/onesurvey.css
+
+extra_javascript:
+  - assets/js/year.js
+
 markdown_extensions:
   - admonition
   - def_list
@@ -32,8 +36,24 @@ markdown_extensions:
   - attr_list
   - toc:
       permalink: true
+
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        projects/tasks.md: projects/assignments.md
+        projects/proposals.md: support/release-notes.md
+        projects/onetime.md: support/release-notes.md
+        projects/site-settings.md: projects/project-detail.md
+        support/tickets.md: support/faq.md
+        media/project-photos.md: projects/gallery.md
+        media/project-album-detail.md: projects/gallery.md
+        projects/project-photos.md: projects/gallery.md
+        projects/project-albums.md: projects/gallery.md
+
+validation:
+  omitted_files: ignore
+
 extra:
   generator: false
   feedback:
@@ -46,66 +66,62 @@ extra:
       - icon: material/thumb-down-outline
         name: This page could be improved
         data: not-helpful
-        note: Thanks! Help us improve this page.
-extra_javascript:
-  - assets/js/year.js
-copyright: 'Copyright Ac <span id="os-year"></span> OneSurvey'
+        note: Thanks, we will use this to improve the docs.
+
+copyright: 'Copyright (c) <span id="os-year"></span> OneSurvey'
+
 nav:
   - Introduction: index.md
-  - Creating an Account: getting-started/creating-account.md
-  # - Dashboard Tour: getting-started/dashboard-tour.md (removed)
-  - Projects:
+  - Getting Started:
+      - Sign In and Invitations: getting-started/creating-account.md
+  - Sites:
       - Overview: projects/index.md
-      - Create a Project: projects/create-project.md
-      - Project Detail: projects/project-detail.md
-      - Gallery:
-          - Project Photos: projects/project-photos.md
-          - Project Albums: projects/project-albums.md
+      - Create a Site: projects/create-project.md
+      - Site Detail: projects/project-detail.md
+      - Site Elements: projects/site-elements.md
+      - Site Data: projects/site-data.md
       - Attachments: projects/attachments.md
       - Reports: projects/reports.md
-      - Site Data: projects/site-data.md
-      - Site Elements: projects/site-elements.md
-      - Site Settings: projects/site-settings.md
+      - Gallery: projects/gallery.md
+      - Assignments: projects/assignments.md
+      - Tickets: projects/tickets.md
   - Surveys:
       - Overview: surveys/index.md
+      - Start a Survey: surveys/start-survey.md
       - Upload a Floor Plan: surveys/upload-floor-plan.md
-      - Canvas & Tools:
-          - Canvas Basics: surveys/canvas-basics.md
-          - Drag & Drop Elements: surveys/drag-and-drop.md
-          - Visibility Filters: surveys/visibility-filters.md
-          - Version History: surveys/version-history.md
-      - Element Customization:
-          - Uploading Photos: surveys/link-photos.md
-          - Commenting: surveys/commenting.md
-          - Adding a Path: surveys/adding-a-path.md
-          - Designing: surveys/design.md
-          - Element Metadata: surveys/element-information.md
-      - Quality Assurance:
-          - Quality Check: surveys/quality-check.md
-  - Other Applications:
-      - OneSnap: media/onesnap.md
-      - OneProposal: projects/proposals.md
-      - OneTask: projects/tasks.md
-      - OneTicket: projects/tickets.md
-      - OneTime: projects/onetime.md
-  - Organization & Users:
+      - Canvas Basics: surveys/canvas-basics.md
+      - Drag and Drop Elements: surveys/drag-and-drop.md
+      - Drawings and Walls: surveys/drawings-and-walls.md
+      - Visibility Filters: surveys/visibility-filters.md
+      - Element Information: surveys/element-information.md
+      - Link Photos: surveys/link-photos.md
+      - Commenting: surveys/commenting.md
+      - Adding a Path: surveys/adding-a-path.md
+      - Design and Color: surveys/design.md
+      - Survey Settings: surveys/survey-settings.md
+      - Installation Access: surveys/installation-access.md
+      - Version History: surveys/version-history.md
+      - Quality Check: surveys/quality-check.md
+  - OneSnap:
+      - Overview: media/onesnap.md
+  - Organization and Access:
       - Organization Settings: organization/index.md
       - Clients: organization/clients.md
-      - Users & Roles: organization/users.md
-  - Mobile Experience:
+      - Users and Roles: organization/users.md
+      - Audit Logs: organization/audit-logs.md
+  - Mobile:
       - Overview: mobile/index.md
-      - Projects on Mobile: mobile/projects.md
-      - Surveys in the Field: mobile/surveys.md
-      - OneSnap Photo Capture: mobile/onesnap.md
+      - Sites: mobile/projects.md
+      - Surveys: mobile/surveys.md
+      - Assignments and Tickets: mobile/assignments-tickets.md
+      - OneSnap: mobile/onesnap.md
+      - Settings and Notifications: mobile/settings-notifications.md
       - Cross-Platform Reference: mobile/cross-platform-reference.md
-      - Field Tips & Troubleshooting: mobile/field-tips.md
-  - Support & Resources:
-      - Release Notes: support/release-notes.md
-      - Submit a Request: support/tickets.md
+      - Field Tips: mobile/field-tips.md
+  - Support:
       - FAQ: support/faq.md
       - Glossary: support/glossary.md
-
-
+      - Release Notes: support/release-notes.md
 
 
 

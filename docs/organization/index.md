@@ -1,33 +1,26 @@
 # Organization Settings
 
-The Organization Settings page centralizes company branding and contact information so every project inherits the correct identity and details from the start.
+## Overview
+Organization Settings is where admins maintain branding and company-level contact details used across the app.
 
-## Branding
+## Who Can Use It
+- Owners and managers can access organization settings.
 
-- Upload square and horizontal logos so documents and reports reflect your company identity.
-- Recommended: provide a high‑resolution square icon for app chrome and a horizontal logo for report headers.
+## Where to Find It
+1. Open **Profile**.
+2. Select the **Organization** tab.
 
-## Color Scheme
+## What You Can Update
+- Organization name.
+- Square and wide logos.
+- Primary contact details.
+- Billing and technical contact information.
+- Company address and account details used in organization records.
 
-- Configure up to four color options used in exported reports.
-- A tooltip explains where colors appear (for example, headings, accents, and table highlights).
+## Why It Matters
+Keeping this information current improves invite emails, exported assets, and shared team context.
 
-## Contacts
-
-Capture key contacts to keep communication details organized:
-
-- Billing — name, email, phone
-- Technical — name, email, phone
-- Primary — name, email, phone
-
-## Company Details
-
-Record company information for accurate documentation and reporting:
-
-- Company name and license number
-- Phone and website
-- Full address (street, city, state, postal code, country)
-
-This setup ensures every project inherits the correct branding, color scheme, and contact information right from the start.
-
-Related: [Users & Roles](users.md), [Clients](clients.md)
+## Related Pages
+- [Users and Roles](users.md)
+- [Clients](clients.md)
+- [Audit Logs](audit-logs.md)

@@ -1,15 +1,22 @@
-# Element Metadata
+# Element Information
 
-Centralize details about each element so teams can design, install, and audit with confidence.
+## Overview
+Element Information is where you review and update details for each placed element.
 
-## Status
-Track lifecycle state (e.g., Proposed, Approved, In Progress, Installed). Status appears on the canvas and in reports.
+## Typical Fields
+- Name or label.
+- Status.
+- Installation details.
+- Survey-specific details.
+- Linked comments and photos.
 
-## Survey Information
-Edit design‑time properties: labels, orientation, colors, and field‑of‑view parameters. See also: [Designing](design.md).
+## Steps
+1. Select an element.
+2. Open the element panel.
+3. Update required fields.
+4. Save changes.
 
-## Installation Information
-Capture install details: installer, date, mounting height/surface, photos, and notes. Values feed into [Site Data](../projects/site-data.md).
-
-## Element Information
-One place to view and edit key attributes including IDs, part numbers, categories, and linked documents/photos.
+## Related Pages
+- [Link Photos](link-photos.md)
+- [Commenting](commenting.md)
+- [Design and Color](design.md)

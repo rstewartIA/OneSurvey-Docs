@@ -1,18 +1,51 @@
----
-title: OneTicket (Coming Soon)
----
+﻿# Tickets
 
-# OneTicket (Coming Soon)
+## Overview
+Tickets track service issues and support work tied to site context.
 
-> Coming soon — a simple, powerful way to log issues, requests, and follow-ups tied to your projects.
+## Common Ticket Statuses
+- Open
+- Pending Vendor
+- In Progress
+- Waiting on Parts
+- Scheduled
+- Completed
+- Closed
 
-What’s ahead:
+## Common Priorities
+- Critical
+- High
+- Medium
+- Low
 
-- Create tickets from the field or the web
-- Link tickets to rooms, floor plans, photos, or site elements
-- Custom categories, priorities, and SLAs
-- Activity timeline with comments and @mentions
-- Smart filters, exports, and status dashboards
+## Common Categories
+- RMA
+- Maintenance
+- Programming
+- Cabling
+- Vendor Work
+- Other
 
-Excited to try it? Share your use cases and we’ll invite you to early access as features land.
+## What a Ticket Can Include
+- Title and description.
+- Linked site, survey, and element context.
+- Assignees and followers.
+- Comments and attachments.
+- SLA summary and timeline.
+- Activity history.
+
+## Typical Workflow
+1. Create a ticket and set status, priority, and category.
+2. Link the related site/element context.
+3. Collaborate with comments and attachments.
+4. Move through active statuses.
+5. Close the ticket with a resolution summary.
+
+## Assignment Conversion
+When a ticket becomes execution work, use **Convert to Assignment** from ticket detail.
+
+## Related Pages
+- [Assignments](assignments.md)
+- [Site Detail](project-detail.md)
+- [Audit Logs](../organization/audit-logs.md)
 

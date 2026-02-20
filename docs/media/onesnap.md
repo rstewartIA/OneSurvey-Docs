@@ -1,55 +1,30 @@
----
-title: OneSnap
----
-
 # OneSnap
 
-OneSnap is the project photo hub — collecting, organizing, and sharing field images in one place. Use it to track progress, build reports, or hand off visual context to downstream teams.
+## Overview
+OneSnap is a fast photo workflow for field capture, organization, and review.
 
-<div class="os-screenshot">
-  <div class="os-screenshot-card">
-    <img src="../../assets/images/onesnap-photos.png" alt="Showing the OneSnap gallery tab with photos of a recent intercom installation. Pictures include close up wiring and the finalized install" loading="lazy">
-  </div>
-</div>
+## Session Tabs
+- Gallery
+- Albums
+- Map
+- Reports
+- Archive
+- Floor Plan Builder (coming soon)
 
-## Managing OneSnap Events
+## What Teams Do in OneSnap
+- Capture and review photos in Gallery.
+- Group photos in Albums.
+- Review location context in Map.
+- Generate share-ready outputs in Reports.
+- Move old content to Archive.
 
-- The OneSnap page lists all events. Filter by name or add new events directly from the top bar.
+## Sharing and Access
+- Session access can be managed per user inside OneSnap.
+- Available actions vary by your role/seat and session access.
 
-## Gallery
+## Notes
+Floor Plan Builder currently shows as a maintenance/coming-soon area.
 
-Browse every photo in the current event:
-
-- Select Mode — pick individual or all images.
-- Create Album / Report / Archive / Delete — batch actions become available when photos are selected.
-- Commenting — open a side panel to leave notes on any photo.
-
-Related: [Project Photos](../projects/project-photos.md)
-
-## Albums
-
-Switch to Albums to view grouped photos. Selecting an album opens its photo grid while displaying the album name and photo count.
-
-Related: [Project Albums](../projects/project-albums.md), [Album Detail](project-album-detail.md)
-
-## Map
-
-The Map tab is reserved for displaying photo locations. This feature has not been implemented yet.
-
-<div class="os-screenshot">
-  <div class="os-screenshot-card">
-    <img src="../../assets/images/onesnap-geotag.png" alt="Showing satellite map with geolocation enabled, and tags where installation photos were taken." loading="lazy">
-  </div>
-</div>
-
-## Reports
-
-The Reports tab aggregates generated OneSnap reports, which serve as a PDF snapshot of a OneSnap events photos that can be shared with your team.
-
-## Review & Download
-- Each row lists the report’s details, type, timestamp, and creator, with a one-click download button for the file.
-- Use the actions menu on any row to remove an outdated or incorrect report when needed.
-
----
-
-These tools help keep project documentation organized, ensuring generated reports remain accessible throughout the project lifecycle.
+## Related Pages
+- [Gallery](../projects/gallery.md)
+- [Mobile OneSnap](../mobile/onesnap.md)

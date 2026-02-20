@@ -1,61 +1,60 @@
-# Users & Roles
+﻿# Users and Roles
 
 ## Overview
+The **Users** page is where admins invite people, set access, and manage seat usage.
 
-User management ensures the right people have the right access across your organization. Each user is assigned a role, granting permissions that control what they can view or edit. Roles also govern access to specific modules, like OneSurvey or OneSnap, so you can tailor the app to different team functions.
+## Role and Seat Model
 
-<div class="os-screenshot">
-  <div class="os-screenshot-card">
-    <img src="../../assets/images/users-page.png" alt="Showing the users page with an example of a list of users." loading="lazy">
-  </div>
-</div>
-
-## Available Roles
-
-| Role | Typical Capabilities |
+### Organization Role
+| Role | What it controls |
 | --- | --- |
-| Organization Admin | Full administrative control: manage clients, users, roles, and organization settings. |
-| Account Manager | Oversee projects and surveys, manage attachments and reports, and invite collaborators. |
-| Collaborator | Edit projects and surveys they’re assigned to, upload files, and adjust element metadata. |
-| Technician | Field‑level access for capturing photos, commenting, and completing assigned tasks. |
-| Viewer | Read‑only access for stakeholders who need visibility without editing rights. |
+| Owner | Full organization authority, including assigning Owner access. |
+| Manager | Manages users and operations across the organization. |
+| Member | Works in sites based on seat type. |
 
-These roles correspond to the default role options included in the codebase for OneSurvey and OneSnap modules.
+### Seat Type
+| Seat | Typical usage |
+| --- | --- |
+| Full | Full site planning, editing, and management workflows. |
+| Field | Field execution workflows for surveys, assignments, tickets, and capture. |
+| Viewer | View and comment access with limited editing. |
 
-## Adding a User
+Manager and Owner roles require a Full seat.
 
-- Go to Organization → Users & Roles.
-- Click Invite User (or the “+” icon).
-- Enter the user’s name, email, and username.
-- Select one or more roles under OneSurvey or OneSnap.
-- Click Send Invite. The user receives an email with login instructions.
+## Invite a User
+1. Open **Users**.
+2. Select **Add User**.
+3. Enter email.
+4. Choose seat type and role.
+5. Select **Send Invite**.
 
-## Editing or Removing Users
+## Invitation Lifecycle
+- New invitees appear as **Invited** until they complete setup and sign in.
+- Use row actions to **Resend invite** or **Revoke invite**.
+- If the email already has a OneSurvey account, the user is added to your organization and receives a join email.
 
-- Edit: Open a user’s row, adjust their details or roles, and save.
-- Deactivate: Toggle the user’s status to prevent access without deleting their history.
-- Delete: Remove the user entirely if they no longer require access (not reversible).
+## Edit Access
+1. Open row actions and select **Edit**.
+2. Update role and seat.
+3. Save changes.
 
-## Managing Roles
+### Important Behavior
+- Only existing owners can assign Owner access.
+- The last owner in an organization cannot be demoted.
+- Access updates take effect immediately.
 
-- Navigate to Organization Settings → Users.
-- Assign the updated roles to users as needed.
+## Remove a User
+Use row actions and select **Delete**.
 
-Note: Role management is restricted to Organization Admins and Account Managers.
+### What Happens on Removal
+- If the person belongs to only your organization, their user record is removed.
+- If the person belongs to multiple organizations, they are removed from your organization only.
 
-## Best Practices
+## Seat Usage
+The page shows Full, Field, and Viewer usage against seat limits, so admins can monitor capacity before inviting new users.
 
-- Principle of Least Privilege: Assign the lowest level of access needed for each user’s responsibilities.
-- Review Regularly: Audit users and roles periodically, especially after team changes.
-- Leverage Modules: Use separate roles for OneSurvey vs. OneSnap to keep permissions precise.
-- Document Custom Roles: If you define custom roles, record their intended purpose so future admins understand them.
+## Related Pages
+- [Organization Settings](index.md)
+- [Audit Logs](audit-logs.md)
+- [Creating an Account](../getting-started/creating-account.md)
 
-## Troubleshooting & FAQs
-
-- Invite not received? Have the user check spam folders or verify the email address before resending.
-
-## Next Steps
-
-- Visit [Clients](clients.md) to manage organizations your team serves.
-- Explore Organization Settings for company‑wide configuration.
-- Return to [Getting Started](../getting-started/creating-account.md) if you’re onboarding new users.

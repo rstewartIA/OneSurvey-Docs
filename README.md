@@ -21,7 +21,13 @@ py -m venv .venv
 .\serve.cmd
 ```
 
-Open `http://127.0.0.1:8000` (or `http://127.0.0.1:8001` if 8000 is busy).
+Open `http://127.0.0.1:8000`.
+
+If you want a different port:
+
+```powershell
+.\serve.cmd 8001
+```
 
 ## Build locally
 
