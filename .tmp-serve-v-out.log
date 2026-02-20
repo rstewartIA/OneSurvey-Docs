@@ -1,0 +1,9 @@
+
+ │ ⚠ WARNING – MkDocs 2.0 is incompatible with Material for MkDocs
+ │ 
+ │   MkDocs 1.x is unmaintained. We recommend switching to Zensical, our
+ │   new static site generator, as soon as possible. We're providing an
+ │   analysis of the situation in this article:
+ │   
+ │   https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/
+

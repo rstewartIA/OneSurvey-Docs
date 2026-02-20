@@ -33,4 +33,4 @@ set "MKDOCS_SITE_URL=http://127.0.0.1:%PORT%/"
 echo [INFO] Starting docs server from %cd%
 echo [INFO] URL: http://127.0.0.1:%PORT%/
 echo [INFO] Press Ctrl+C to stop.
-".venv\Scripts\python.exe" -m mkdocs serve --dev-addr 127.0.0.1:%PORT%
+".venv\Scripts\python.exe" -m mkdocs serve --livereload --dev-addr 127.0.0.1:%PORT%

@@ -24,7 +24,7 @@ theme:
   favicon: assets/images/onesurvey-icon.png
 
 extra_css:
-  - styles/onesurvey.css
+  - styles/onesurvey-theme.css
 
 extra_javascript:
   - assets/js/year.js

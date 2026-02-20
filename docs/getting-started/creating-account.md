@@ -1,40 +1,66 @@
 ﻿# Creating an Account
 
 ## Overview
-Most users are invited by an organization admin. This page covers sign in, invitation setup, and password recovery.
+Most people join OneSurvey through an invite sent by an admin.
+This guide covers both sides of the flow:
+- Admin flow: invite a user.
+- Invited user flow: accept the invite and finish setup.
 
-## Sign In Options
-- Email and password.
-- **Continue with Google** (if your sign-in page shows it).
+## Admin Flow: Invite a User
+1. Open **Users**.
+2. Select **Add User**.
+3. Enter the user email.
+4. Select **Seat Type** (`Full`, `Field`, or `Viewer`).
+5. Select **Org Role** (`Owner`, `Manager`, or `Member`).
+6. Select **Send Invite**.
 
-## Invitation Flow for New Users
+After sending:
+- The user appears with status **Invited**.
+- Use row actions for **Resend invite** or **Revoke invite**.
+
+### Invite Rules Admins Should Know
+- `Manager` and `Owner` require a `Full` seat.
+- Only an existing `Owner` can assign another `Owner`.
+- If seat limits are reached, the invite is blocked until seats are available.
+- If the email already belongs to an existing OneSurvey account, the person is added to the organization and gets an organization invite email.
+
+## Invited User Flow: New User
 1. Open the invitation email.
-2. Select **Join OneSurvey**.
-3. Complete your profile.
-4. Set a password (minimum 8 characters).
-5. Finish setup and continue to Sites.
+2. Select **Accept Invitation**.
+3. On **Complete Your Profile**, confirm your email and organization.
+4. Enter required fields:
+   - First name
+   - Last name
+   - Password (minimum 8 characters)
+   - Confirm password
+5. Optional: add phone, address, and profile photo.
+6. Select **Complete Setup**.
 
-## What You Enter During Setup
-- Required: first name, last name, password.
-- Optional: phone, address, profile photo.
+Result:
+- The account is activated.
+- The user is signed in and sent to **Sites**.
 
-## If You Already Have a OneSurvey Account
-If your email is already registered, your admin can still invite you to another organization. You keep the same login and gain access to the new organization.
+## Invited User Flow: Existing OneSurvey User
+1. Open the organization invite email.
+2. Select **Go to [Organization]**.
+3. Sign in with your existing OneSurvey account.
+4. If needed, switch to the invited organization from the organization selector.
 
-## Forgot Password Flow
+## Password Help
 1. On the login page, select **Forgot Password**.
 2. Enter your email.
-3. Open the reset email and select the reset link.
-4. Set your new password and sign in.
+3. Open the reset email and use the reset link.
+4. Set a new password and sign in.
 
 ## Troubleshooting
-- No invitation email: check spam/junk, then ask for **Resend invite**.
-- Invitation link expired: ask your admin to resend. Invite links are time-limited.
-- Password reset link expired: request a new reset link from **Forgot Password**.
-- Missing sites after login: confirm the correct organization is selected in the app.
+- Invite email not received: check spam/junk, then ask an admin to use **Resend invite**.
+- Invite link expired: ask an admin to resend the invite.
+- Invite link invalid: the invite may have been revoked; ask for a new invite.
+- Cannot assign `Owner`: only an existing `Owner` can do this.
+- Cannot send invite due to seat limit: free up seats or update seat capacity.
+- Signed in but missing expected sites: switch to the correct organization.
 
 ## Related Pages
-- [Sites Overview](../projects/index.md)
 - [Users and Roles](../organization/users.md)
+- [Sites Overview](../projects/index.md)
 - [FAQ](../support/faq.md)
-
