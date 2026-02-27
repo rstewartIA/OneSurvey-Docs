@@ -1,50 +1,51 @@
-# Overview
+# Mobile Overview
 
-OneSurvey Mobile keeps essential project and media tools within thumb’s reach, pairing fixed navigation with focused detail screens so you can review work and capture updates without leaving the field.
+OneSurvey mobile is built for fast field updates, quick issue tracking, and on-site confirmation.
 
----
+## Most Used
 
-## Layout at a Glance
+<div class="os-quick-links" role="list">
+  <a class="os-quick-link" href="projects/" role="listitem">Sites on Mobile</a>
+  <a class="os-quick-link" href="surveys/" role="listitem">Surveys on Mobile</a>
+  <a class="os-quick-link" href="assignments-tickets/" role="listitem">Assignments and Tickets</a>
+  <a class="os-quick-link" href="onesnap/" role="listitem">OneSnap</a>
+  <a class="os-quick-link" href="settings-notifications/" role="listitem">Settings and Notifications</a>
+</div>
 
-- A fixed header anchors the OneSurvey logo and logout control, making it easy to confirm where you are and exit securely at any time.  
-- The bottom navigation lets you jump between your project list and OneSnap galleries, with active states that highlight your current workspace.  
-- A slide-up bottom sheet surfaces context actions—from survey floor-plan previews to gallery management—without obscuring the page you’re on.  
+## Guides by Topic
 
----
+<div class="os-topic-grid">
+  <section class="os-topic-card">
+    <h3>Field Workflows</h3>
+    <p>Open sites, update surveys, and move active work forward in the field.</p>
+    <ul>
+      <li><a href="projects/">Sites</a></li>
+      <li><a href="surveys/">Surveys</a></li>
+      <li><a href="assignments-tickets/">Assignments and Tickets</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Media and Communications</h3>
+    <p>Capture photos quickly and stay aligned with notifications and updates.</p>
+    <ul>
+      <li><a href="onesnap/">OneSnap</a></li>
+      <li><a href="settings-notifications/">Settings and Notifications</a></li>
+      <li><a href="../projects/gallery/">Gallery</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Cross-Platform Coordination</h3>
+    <p>Align mobile activity with desktop workflows and reporting outputs.</p>
+    <ul>
+      <li><a href="cross-platform-reference/">Cross-Platform Reference</a></li>
+      <li><a href="field-tips/">Field Tips</a></li>
+      <li><a href="../projects/reports/">Reports</a></li>
+    </ul>
+  </section>
+</div>
 
-## Projects on Mobile
-
-- The **Projects** tab greets you with an organization banner, search bar, and tappable cards that summarize client, work type, and project ID so you can open the right site fast.  
-- Opening a project reveals tabs for **Surveys, Attachments, and Info**.  
-  - You can browse survey cards, review reference files, or edit site contacts in-line while changes auto-save after brief pauses.  
-
----
-
-## Surveys in the Field
-
-- The survey list groups every element on the active floor, showing labels, status callouts, and camera alerts.  
-- Tapping any row opens its detail view.  
-- **Element details** offer tabs for:  
-  - **Status** – check condition  
-  - **Photos** – review or upload imagery  
-  - **Fields** – update metadata  
-  - **Comments** – leave notes without switching screens  
-
----
-
-## OneSnap Galleries
-
-- OneSnap mirrors the project list experience with search and cards, plus a floating action button that opens quick-create options in the bottom sheet.  
-- Inside an event, tabs separate **Gallery, Albums, and Archived** views.  
-- Selection mode:  
-  - Tracks chosen photos  
-  - Offers an **Upload Photo** shortcut  
-  - Hands off bulk actions to the bottom sheet when needed  
-
----
-
-## Sign-In Support
-
-- Dedicated mobile routes cover **login, forgot-password, and set-new-password** flows.  
-- Users can regain access directly from their phones before landing back on the projects dashboard.  
-
+## Related Pages
+- [Sites Overview](../projects/index.md)
+- [Surveys Overview](../surveys/index.md)
+- [Users and Roles](../organization/users.md)
+- [FAQ](../support/faq.md)

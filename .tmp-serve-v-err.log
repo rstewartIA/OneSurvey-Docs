@@ -1,0 +1,327 @@
+DEBUG   -  Loading configuration file: C:\Users\rstew\OneSurvey\OneSurvey-Docs\mkdocs.yml
+DEBUG   -  Loaded theme configuration for 'material' from 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\material\templates\mkdocs_theme.yml': {'language': 'en', 'direction': None, 'features': [], 'font': {'text': 'Roboto', 'code': 'Roboto Mono'}, 'icon': None, 'favicon': 'assets/images/favicon.png', 'static_templates': ['404.html']}
+DEBUG   -  Config value 'config_file_path' = 'C:\\Users\\rstew\\OneSurvey\\OneSurvey-Docs\\mkdocs.yml'
+DEBUG   -  Config value 'site_name' = 'OneSurvey Documentation'
+DEBUG   -  Config value 'nav' = [{'Introduction': 'index.md'}, {'Getting Started': [{'Sign In and Invitations': 'getting-started/creating-account.md'}]}, {'Sites': [{'Overview': 'projects/index.md'}, {'Create a Site': 'projects/create-project.md'}, {'Site Detail': 'projects/project-detail.md'}, {'Site Elements': 'projects/site-elements.md'}, {'Site Data': 'projects/site-data.md'}, {'Attachments': 'projects/attachments.md'}, {'Reports': 'projects/reports.md'}, {'Gallery': 'projects/gallery.md'}, {'Assignments': 'projects/assignments.md'}, {'Tickets': 'projects/tickets.md'}]}, {'Surveys': [{'Overview': 'surveys/index.md'}, {'Start a Survey': 'surveys/start-survey.md'}, {'Upload a Floor Plan': 'surveys/upload-floor-plan.md'}, {'Canvas Basics': 'surveys/canvas-basics.md'}, {'Drag and Drop Elements': 'surveys/drag-and-drop.md'}, {'Drawings and Walls': 'surveys/drawings-and-walls.md'}, {'Visibility Filters': 'surveys/visibility-filters.md'}, {'Element Information': 'surveys/element-information.md'}, {'Link Photos': 'surveys/link-photos.md'}, {'Commenting': 'surveys/commenting.md'}, {'Adding a Path': 'surveys/adding-a-path.md'}, {'Design and Color': 'surveys/design.md'}, {'Survey Settings': 'surveys/survey-settings.md'}, {'Installation Access': 'surveys/installation-access.md'}, {'Version History': 'surveys/version-history.md'}, {'Quality Check': 'surveys/quality-check.md'}]}, {'OneSnap': [{'Overview': 'media/onesnap.md'}]}, {'Organization and Access': [{'Organization Settings': 'organization/index.md'}, {'Clients': 'organization/clients.md'}, {'Users and Roles': 'organization/users.md'}, {'Audit Logs': 'organization/audit-logs.md'}]}, {'Mobile': [{'Overview': 'mobile/index.md'}, {'Sites': 'mobile/projects.md'}, {'Surveys': 'mobile/surveys.md'}, {'Assignments and Tickets': 'mobile/assignments-tickets.md'}, {'OneSnap': 'mobile/onesnap.md'}, {'Settings and Notifications': 'mobile/settings-notifications.md'}, {'Cross-Platform Reference': 'mobile/cross-platform-reference.md'}, {'Field Tips': 'mobile/field-tips.md'}]}, {'Support': [{'FAQ': 'support/faq.md'}, {'Glossary': 'support/glossary.md'}, {'Release Notes': 'support/release-notes.md'}]}]
+DEBUG   -  Config value 'pages' = None
+DEBUG   -  Config value 'exclude_docs' = None
+DEBUG   -  Config value 'draft_docs' = None
+DEBUG   -  Config value 'not_in_nav' = None
+DEBUG   -  Config value 'site_url' = 'https://rstewartIA.github.io/OneSurvey-Docs/'
+DEBUG   -  Config value 'site_description' = None
+DEBUG   -  Config value 'site_author' = None
+DEBUG   -  Config value 'theme' = Theme(name='material', dirs=['C:\\Users\\rstew\\OneSurvey\\OneSurvey-Docs\\.venv\\Lib\\site-packages\\material\\templates', 'C:\\Users\\rstew\\OneSurvey\\OneSurvey-Docs\\.venv\\Lib\\site-packages\\mkdocs\\templates'], static_templates={'404.html', 'sitemap.xml'}, name='material', locale=Locale('en'), language='en', direction=None, features=['navigation.sections', 'navigation.tracking', 'navigation.footer', 'content.code.copy', 'content.feedback'], font={'text': 'Roboto', 'code': 'Roboto Mono'}, icon=None, favicon='assets/images/onesurvey-icon.png', palette=[{'media': '(prefers-color-scheme: light)', 'scheme': 'default', 'toggle': {'icon': 'material/weather-night', 'name': 'Switch to dark mode'}}, {'media': '(prefers-color-scheme: dark)', 'scheme': 'slate', 'toggle': {'icon': 'material/weather-sunny', 'name': 'Switch to light mode'}}], logo='assets/images/onesurvey-icon.png')
+DEBUG   -  Config value 'docs_dir' = 'C:\\Users\\rstew\\OneSurvey\\OneSurvey-Docs\\docs'
+DEBUG   -  Config value 'site_dir' = 'C:\\Users\\rstew\\AppData\\Local\\Temp\\mkdocs_gp89dpz1'
+DEBUG   -  Config value 'copyright' = 'Copyright (c) <span id="os-year"></span> OneSurvey'
+DEBUG   -  Config value 'google_analytics' = None
+DEBUG   -  Config value 'dev_addr' = _IpAddressValue(host='127.0.0.1', port=8000)
+DEBUG   -  Config value 'use_directory_urls' = True
+DEBUG   -  Config value 'repo_url' = None
+DEBUG   -  Config value 'repo_name' = None
+DEBUG   -  Config value 'edit_uri_template' = None
+DEBUG   -  Config value 'edit_uri' = None
+DEBUG   -  Config value 'extra_css' = ['styles/onesurvey-theme.css']
+DEBUG   -  Config value 'extra_javascript' = ['assets/js/year.js']
+DEBUG   -  Config value 'extra_templates' = []
+DEBUG   -  Config value 'markdown_extensions' = ['toc', 'tables', 'fenced_code', 'admonition', 'def_list', 'footnotes', 'attr_list']
+DEBUG   -  Config value 'mdx_configs' = {'toc': {'permalink': True}}
+DEBUG   -  Config value 'strict' = False
+DEBUG   -  Config value 'remote_branch' = 'gh-pages'
+DEBUG   -  Config value 'remote_name' = 'origin'
+DEBUG   -  Config value 'extra' = {'generator': False, 'feedback': {'title': 'Was this page helpful?', 'ratings': [{'icon': 'material/thumb-up-outline', 'name': 'This page was helpful', 'data': 'helpful', 'note': 'Thanks for your feedback!'}, {'icon': 'material/thumb-down-outline', 'name': 'This page could be improved', 'data': 'not-helpful', 'note': 'Thanks, we will use this to improve the docs.'}]}}
+DEBUG   -  Config value 'plugins' = {'material/search': <material.plugins.search.plugin.SearchPlugin object at 0x000002BE5CF04050>, 'redirects': <mkdocs_redirects.plugin.RedirectPlugin object at 0x000002BE5CF04440>}
+DEBUG   -  Config value 'hooks' = {}
+DEBUG   -  Config value 'watch' = []
+DEBUG   -  Config value 'validation' = {'nav': {'omitted_files': 10, 'not_found': 30, 'absolute_links': 20}, 'links': {'not_found': 30, 'absolute_links': 20, 'unrecognized_links': 20, 'anchors': 20}}
+DEBUG   -  Running `startup` event from plugin 'material/search'
+INFO    -  Building documentation...
+DEBUG   -  Running `config` event from plugin 'material/search'
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\mkdocs\templates\locales'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\material\templates\locales'
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\mkdocs\templates\locales'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\material\templates\locales'
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\mkdocs\templates\locales'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\material\templates\locales'
+INFO    -  Cleaning site directory
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\mkdocs\templates\locales'
+DEBUG   -  No translations found here: 'C:\Users\rstew\OneSurvey\OneSurvey-Docs\.venv\Lib\site-packages\material\templates\locales'
+DEBUG   -  Running `files` event from plugin 'redirects'
+DEBUG   -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - assets\images\README.md
+  - getting-started\dashboard-tour.md
+  - media\project-album-detail.md
+  - media\project-photos.md
+  - projects\onetime.md
+  - projects\project-albums.md
+  - projects\project-photos.md
+  - projects\proposals.md
+  - projects\site-settings.md
+  - projects\tasks.md
+  - support\tickets.md
+  - surveys\color-styling.md
+DEBUG   -  Reading markdown pages.
+DEBUG   -  Reading: index.md
+DEBUG   -  Reading: assets/images/README.md
+DEBUG   -  Reading: getting-started/creating-account.md
+DEBUG   -  Reading: getting-started/dashboard-tour.md
+DEBUG   -  Reading: media/onesnap.md
+DEBUG   -  Reading: media/project-album-detail.md
+DEBUG   -  Reading: media/project-photos.md
+DEBUG   -  Reading: mobile/index.md
+DEBUG   -  Reading: mobile/assignments-tickets.md
+DEBUG   -  Reading: mobile/cross-platform-reference.md
+DEBUG   -  Reading: mobile/field-tips.md
+DEBUG   -  Reading: mobile/onesnap.md
+DEBUG   -  Reading: mobile/projects.md
+DEBUG   -  Reading: mobile/settings-notifications.md
+DEBUG   -  Reading: mobile/surveys.md
+DEBUG   -  Reading: organization/index.md
+DEBUG   -  Reading: organization/audit-logs.md
+DEBUG   -  Reading: organization/clients.md
+DEBUG   -  Reading: organization/users.md
+DEBUG   -  Reading: projects/index.md
+DEBUG   -  Reading: projects/assignments.md
+DEBUG   -  Reading: projects/attachments.md
+DEBUG   -  Reading: projects/create-project.md
+DEBUG   -  Reading: projects/gallery.md
+DEBUG   -  Reading: projects/onetime.md
+DEBUG   -  Reading: projects/project-albums.md
+DEBUG   -  Reading: projects/project-detail.md
+DEBUG   -  Reading: projects/project-photos.md
+DEBUG   -  Reading: projects/proposals.md
+DEBUG   -  Reading: projects/reports.md
+DEBUG   -  Reading: projects/site-data.md
+DEBUG   -  Reading: projects/site-elements.md
+DEBUG   -  Reading: projects/site-settings.md
+DEBUG   -  Reading: projects/tasks.md
+DEBUG   -  Reading: projects/tickets.md
+DEBUG   -  Reading: support/faq.md
+DEBUG   -  Reading: support/glossary.md
+DEBUG   -  Reading: support/release-notes.md
+DEBUG   -  Reading: support/tickets.md
+DEBUG   -  Reading: surveys/index.md
+DEBUG   -  Reading: surveys/adding-a-path.md
+DEBUG   -  Reading: surveys/canvas-basics.md
+DEBUG   -  Reading: surveys/color-styling.md
+DEBUG   -  Reading: surveys/commenting.md
+DEBUG   -  Reading: surveys/design.md
+DEBUG   -  Reading: surveys/drag-and-drop.md
+DEBUG   -  Reading: surveys/drawings-and-walls.md
+DEBUG   -  Reading: surveys/element-information.md
+DEBUG   -  Reading: surveys/installation-access.md
+DEBUG   -  Reading: surveys/link-photos.md
+DEBUG   -  Reading: surveys/quality-check.md
+DEBUG   -  Reading: surveys/start-survey.md
+DEBUG   -  Reading: surveys/survey-settings.md
+DEBUG   -  Reading: surveys/upload-floor-plan.md
+DEBUG   -  Reading: surveys/version-history.md
+DEBUG   -  Reading: surveys/visibility-filters.md
+DEBUG   -  Copying static assets.
+DEBUG   -  Copying media file: 'assets/images/add-project.png'
+DEBUG   -  Copying media file: 'assets/images/attachments.png'
+DEBUG   -  Copying media file: 'assets/images/bill-of-materials.png'
+DEBUG   -  Copying media file: 'assets/images/canvas-basics.png'
+DEBUG   -  Copying media file: 'assets/images/comment-preview.png'
+DEBUG   -  Copying media file: 'assets/images/comments-menu.png'
+DEBUG   -  Copying media file: 'assets/images/comments-tab.png'
+DEBUG   -  Copying media file: 'assets/images/comments-ui.png'
+DEBUG   -  Copying media file: 'assets/images/create-an-account.png'
+DEBUG   -  Copying media file: 'assets/images/drag-and-drop.png'
+DEBUG   -  Copying media file: 'assets/images/floorplan-upload-button.png'
+DEBUG   -  Copying media file: 'assets/images/gallery-albums.png'
+DEBUG   -  Copying media file: 'assets/images/gallery-photos.png'
+DEBUG   -  Copying media file: 'assets/images/invitation-email.png'
+DEBUG   -  Copying media file: 'assets/images/onesnap-geotag.png'
+DEBUG   -  Copying media file: 'assets/images/onesnap-photos.png'
+DEBUG   -  Copying media file: 'assets/images/onesurvey-icon.png'
+DEBUG   -  Copying media file: 'assets/images/onesurvey-intro.png'
+DEBUG   -  Copying media file: 'assets/images/project-detail.png'
+DEBUG   -  Copying media file: 'assets/images/project-list.png'
+DEBUG   -  Copying media file: 'assets/images/scale-floorplan.png'
+DEBUG   -  Copying media file: 'assets/images/site-elements.png'
+DEBUG   -  Copying media file: 'assets/images/survey-overview.png'
+DEBUG   -  Copying media file: 'assets/images/survey-photos-menu.png'
+DEBUG   -  Copying media file: 'assets/images/upload-floorplan.png'
+DEBUG   -  Copying media file: 'assets/images/upload-photo.png'
+DEBUG   -  Copying media file: 'assets/images/users-page.png'
+DEBUG   -  Copying media file: 'assets/images/version-history.png'
+DEBUG   -  Copying media file: 'assets/images/visibility-filter.png'
+DEBUG   -  Copying media file: 'assets/js/year.js'
+DEBUG   -  Copying media file: 'styles/onesurvey-theme.css'
+DEBUG   -  Copying media file: 'assets/images/favicon.png'
+DEBUG   -  Copying media file: 'assets/javascripts/bundle.79ae519e.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/bundle.79ae519e.min.js.map'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ar.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.da.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.de.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.du.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.el.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.es.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.fi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.fr.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.he.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.hi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.hu.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.hy.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.it.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ja.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.jp.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.kn.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ko.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.multi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.nl.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.no.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.pt.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ro.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ru.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.sa.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.stemmer.support.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.sv.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ta.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.te.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.th.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.tr.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.vi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.zh.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/tinyseg.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/wordcut.js'
+DEBUG   -  Copying media file: 'assets/javascripts/workers/search.2c215733.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/workers/search.2c215733.min.js.map'
+DEBUG   -  Copying media file: 'assets/stylesheets/main.484c7ddc.min.css'
+DEBUG   -  Copying media file: 'assets/stylesheets/main.484c7ddc.min.css.map'
+DEBUG   -  Copying media file: 'assets/stylesheets/palette.ab4e12ef.min.css'
+DEBUG   -  Copying media file: 'assets/stylesheets/palette.ab4e12ef.min.css.map'
+DEBUG   -  Building theme template: 404.html
+DEBUG   -  Building theme template: sitemap.xml
+DEBUG   -  Gzipping template: sitemap.xml
+DEBUG   -  Building markdown pages.
+DEBUG   -  Building page index.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page assets/images/README.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page getting-started/creating-account.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page getting-started/dashboard-tour.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page media/onesnap.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page media/project-album-detail.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page media/project-photos.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/index.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/assignments-tickets.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/cross-platform-reference.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/field-tips.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/onesnap.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/projects.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/settings-notifications.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page mobile/surveys.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page organization/index.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page organization/audit-logs.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page organization/clients.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page organization/users.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/index.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/assignments.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/attachments.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/create-project.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/gallery.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/onetime.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/project-albums.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/project-detail.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/project-photos.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/proposals.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/reports.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/site-data.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/site-elements.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/site-settings.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/tasks.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page projects/tickets.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page support/faq.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page support/glossary.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page support/release-notes.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page support/tickets.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/index.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/adding-a-path.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/canvas-basics.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/color-styling.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/commenting.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/design.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/drag-and-drop.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/drawings-and-walls.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/element-information.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/installation-access.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/link-photos.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/quality-check.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/start-survey.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/survey-settings.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/upload-floor-plan.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/version-history.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page surveys/visibility-filters.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Running `post_build` event from plugin 'material/search'
+DEBUG   -  Running `post_build` event from plugin 'redirects'
+DEBUG   -  Creating redirect: 'projects/tasks/index.html' -> '../assignments/'
+DEBUG   -  Creating redirect: 'projects/proposals/index.html' -> '../../support/release-notes/'
+DEBUG   -  Creating redirect: 'projects/onetime/index.html' -> '../../support/release-notes/'
+DEBUG   -  Creating redirect: 'projects/site-settings/index.html' -> '../project-detail/'
+DEBUG   -  Creating redirect: 'support/tickets/index.html' -> '../faq/'
+DEBUG   -  Creating redirect: 'media/project-photos/index.html' -> '../../projects/gallery/'
+DEBUG   -  Creating redirect: 'media/project-album-detail/index.html' -> '../../projects/gallery/'
+DEBUG   -  Creating redirect: 'projects/project-photos/index.html' -> '../gallery/'
+DEBUG   -  Creating redirect: 'projects/project-albums/index.html' -> '../gallery/'
+INFO    -  Documentation built in 1.49 seconds
+INFO    -  [10:05:18] Serving on http://127.0.0.1:8000/OneSurvey-Docs/

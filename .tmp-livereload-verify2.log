@@ -1,0 +1,25 @@
+[INFO] Starting docs server from c:\Users\rstew\OneSurvey\OneSurvey-Docs
+[INFO] URL: http://127.0.0.1:8021/
+[INFO] Press Ctrl+C to stop.
+
+ │ ⚠ WARNING – MkDocs 2.0 is incompatible with Material for MkDocs
+ │ 
+ │   MkDocs 1.x is unmaintained. We recommend switching to Zensical, our
+ │   new static site generator, as soon as possible. We're providing an
+ │   analysis of the situation in this article:
+ │   
+ │   https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/
+
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Documentation built in 1.25 seconds
+INFO    -  [10:17:06] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO    -  [10:17:06] Serving on http://127.0.0.1:8021/
+INFO    -  [10:17:08] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 2.72 seconds
+INFO    -  [10:17:11] Reloading browsers
+INFO    -  [10:17:28] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 3.16 seconds
+INFO    -  [10:17:32] Reloading browsers

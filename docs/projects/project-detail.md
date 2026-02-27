@@ -1,75 +1,82 @@
-# Project Detail
+# Site Detail
 
-The Project Detail page is your central command center for everything related to a single job. Once a project is created, this page consolidates all floor plans, photos, documents, tasks, and other data so teams can coordinate from one place.
+## Overview
+
+Site Detail is the main workspace for a site. When you open a site from the Project List, you land here by default on the **Surveys** tab. All of the site's work — surveys, elements, data, files, photos, assignments, and tickets — is organized across tabs at the top of the page.
+
+The page header shows the site name. Users with the appropriate role can rename the site directly from the header.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../../assets/images/project-detail.png" alt="Showing inside the project folder. A tab with options such as gallery, surveys, reports, and more show at the top. Two floor plan tiles appear below the Surveys tab." loading="lazy">
+    <img src="../../assets/images/project-detail.png" alt="Site detail page with tabs">
   </div>
-  <div class="os-screenshot-caption">Project details menu</div>
+  <p class="os-screenshot-caption">Site Detail workspace with surveys, media, and operations tabs.</p>
 </div>
 
-## Accessing a Project
-- From the Projects dashboard, click the project name or open the context menu and choose View Project.
-- You'll be taken to the Project Detail page, with the project title and key metadata at the top (client, address, status, etc.).
+---
 
-## Key Tabs & Features
-Each tab focuses on a specific aspect of the project:
+## Tabs
 
-### Project Albums
- 
-- See also: [Project Albums](project-albums.md) and [Album Detail](../media/project-album-detail.md)
-Group photos into themed collections (e.g., "Pre-Install Walkthrough"). Albums make it easy to share or review sets of images.
+Site Detail contains the following tabs. Tab visibility depends on your role and seat:
 
-### Project Photos
- 
-- See also: [Project Photos](project-photos.md) and [OneSnap Mobile Capture](../media/onesnap.md)
-Browse every image captured for the project. Add metadata, annotations, or tags to keep photos organized and searchable.
+| Tab | What it contains |
+|---|---|
+| **Surveys** | All surveys for this site. Create new surveys, open existing ones, and manage floor plans. |
+| **Site Elements** | The element library for this site. Browse, search, and favorite elements before placing them in surveys. |
+| **Site Data** | Tabular views of element, survey, installation, and bill of materials data across the whole site. |
+| **Attachments** | Documents, drawings, and reference files uploaded to the site. |
+| **Reports** | Generated report outputs ready for download or sharing. |
+| **Gallery** | All site photos and albums. Upload, filter, organize, and build photo packages. |
+| **Tickets** | Service issues and support tickets linked to this site. |
+| **Assignments** | Tracked work items owned by team members. |
 
-### Attachments
-Store supporting files such as blueprints, diagrams, inspection reports, or spreadsheets in one place. Upload new documents or download existing ones for reference.
+!!! note "Tab visibility"
+    Users with a **Viewer** seat cannot access the Assignments tab. All other tabs are visible to all users with site access.
 
-### Gallery
-A visual grid of all photos and albums combined, ideal for quickly scanning through site imagery.
+---
 
-### Proposals
-Draft and refine statements of work or installation plans. Proposals can be exported or shared with stakeholders for approval.
+## Navigating Between Tabs
 
-### Reports
- 
-- See also: [Reports](reports.md)
-Generate formal reports based on collected data. Customize the output to include photos, site notes, or specific elements.
+Click any tab name to switch views. The URL updates to include a `?tab=` parameter so refreshing the page returns you to the same tab.
 
-### Site Data
-Record measurements, coordinates, or other field notes. This tab centralizes survey data that doesn't belong on floor plans.
+Deep links can also open a specific record directly:
 
-### Site Elements
- 
-- Related: [Drag and Drop](../surveys/drag-and-drop.md) and [Visibility Filters](../surveys/visibility-filters.md)
-Place and manage system components (e.g., cameras, sensors) directly on floor plans. Each element can carry configuration details or installation notes.
+- A URL with `?tab=assignments&assignment=<id>` opens the Assignments tab with that assignment's detail panel open.
+- A URL with `?tab=tickets&ticket=<id>` opens the Tickets tab with that ticket's detail panel open.
 
-### Site Settings
- 
-- See also: [Site Settings](site-settings.md)
-Configure project metadata, default permissions, or naming conventions. You can adjust project-level settings at any time.
+---
 
-### Tasks
-Assign action items, track progress, and resolve outstanding work. Tasks help teams stay aligned and accountable.
+## Typical Workflow
 
-### Tickets
-Log issues or requests tied to the project (e.g., "Need updated floor plan"). Tickets track problem resolution and communication history.
+The tabs support a natural project progression:
 
-## Tips & Best Practices
-- Use the Tabs Strategically: Encourage team members to store information in the most relevant tab (e.g., photos in Albums, documents in Attachments) to maintain clarity.
-- Leverage Permissions: Site Settings let you control who can view or edit each section, ensuring sensitive data stays protected.
-- Search & Filter: Many tabs include search or filter tools, so take advantage of them to quickly locate specific files, photos, or elements.
+1. **Surveys** — Build floor plans, place elements, and keep element details current.
+2. **Gallery** — Upload and organize site photos. Link photos to elements from within the survey or directly from Gallery.
+3. **Site Data** — Review element and survey data in bulk before generating reports or handing off.
+4. **Assignments** — Track execution work and team ownership during active phases.
+5. **Tickets** — Log and resolve service issues or follow-up items.
+6. **Reports** — Generate and download final deliverables.
+7. **Attachments** — Store reference drawings, specs, and deliverable files.
 
-## Next Steps
-- Return to [Create a Project](create-project.md) if you haven't set one up yet.
-- Explore [Project Albums](project-albums.md) and [Project Photos](project-photos.md) for deeper guidance on managing visual content.
-- Continue to [Site Elements](site-elements.md) to learn how to place devices on floor plans.
+---
 
+## Access Notes
 
+- **Archived sites** open in read-only mode. Content can be viewed but not edited.
+- If you open a site that belongs to a different organization than your current one, the app will automatically switch organizations if you are a member of both.
+- Users who are not members of a site's organization will see an access denied message.
 
+---
 
+## Related Pages
+
+- [Create a Site](create-project.md)
+- [Surveys Overview](../surveys/index.md)
+- [Site Elements](site-elements.md)
+- [Site Data](site-data.md)
+- [Attachments](attachments.md)
+- [Reports](reports.md)
+- [Gallery](gallery.md)
+- [Assignments](assignments.md)
+- [Tickets](tickets.md)
 

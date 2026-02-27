@@ -1,90 +1,94 @@
-# OneSurvey Docs
+﻿# OneSurvey Help Center
 
-Design smarter site surveys on floor plans. Capture photos. Collaborate. Turn work into proposals and reports — all in one place.
+OneSurvey brings survey design, field capture, site media, assignments, tickets, and reporting into one workflow.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="./assets/images/onesurvey-intro.png" alt="Showcasing the OneSurvey app in action, with a beautful design of an office with security cameras that have been proposed for install." loading="lazy">
+    <img src="assets/images/onesurvey-intro.png" alt="OneSurvey workspace overview">
   </div>
+  <p class="os-screenshot-caption">Workspace overview across surveys, sites, and field operations.</p>
 </div>
 
-## Overview
+## Most Used
 
-Welcome to OneSurvey! 🚀 This platform is built to simplify the entire project workflow for technology and security systems—from site surveys to design, proposals, installation, and ongoing maintenance. With OneSurvey, you can design directly on floor plans by placing system elements, while also capturing key project data like progress photos, notes, and documentation. Everything is organized in one collaborative space, making it easier for teams to stay aligned, reduce errors, and deliver projects more efficiently. OneSurvey is trusted across industries such as those highlighted at [www.innovaaccelerator.com](https://www.innovaaccelerator.com), including technology, security, and facilities management.
-
----
-<!-- <div class="os-video">
-  <a class="os-video-card" href="#" aria-label="Intro video placeholder">
-    <div class="os-video-play" aria-hidden="true">
-      <svg width="26" height="30" viewBox="0 0 26 30" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="0,0 26,15 0,30"></polygon>
-      </svg>
-    </div>
-  </a>
-  <div class="os-video-caption">Watch the OneSurvey overview (YouTube embed coming soon)</div>
-</div> -->
-
-## Start Here
-
-1. [Getting Started](getting-started/creating-account.md) - Account, login, and your first steps.
-2. [Create a Project](projects/create-project.md) — Set up the hub for your site work.
-3. [Start a Survey](surveys/start-survey.md) — Prepare floor plans and settings.
-4. [Upload a Floor Plan](surveys/upload-floor-plan.md) — Add PDFs, images, or DWG exports.
-5. [Canvas Basics](surveys/canvas-basics.md) — Pan, zoom, and place elements with confidence.
-
----
-
-## What You Can Do
-
-- Design directly on floor plans using a fast, browser-based canvas.
-- Capture site photos and context, and link them to elements and rooms.
-- Keep everything organized by project, with albums, tasks, and tickets.
-- Generate clean reports and proposals from real survey data.
-- Collaborate with teammates and clients while maintaining a full audit trail.
-
----
-
-## Popular Guides
-
-<div class="os-grid">
-  <div class="os-card">
-    <h4><a href="surveys/canvas-basics.md">Canvas Basics</a></h4>
-    <p>Navigate, fit to screen, and reset rotation.</p>
-  </div>
-  <div class="os-card">
-    <h4><a href="surveys/drag-and-drop.md">Drag &amp; Drop Elements</a></h4>
-    <p>Place, align, and manage elements quickly.</p>
-  </div>
-  <div class="os-card">
-    <h4><a href="surveys/visibility-filters.md">Visibility Filters</a></h4>
-    <p>Focus on the devices and layers that matter.</p>
-  </div>
-  <div class="os-card">
-    <h4><a href="surveys/version-history.md">Version History</a></h4>
-    <p>Review and restore earlier canvas states.</p>
-  </div>
-  <div class="os-card">
-    <h4><a href="media/project-photos.md">Project Photos</a></h4>
-    <p>Capture, organize, and attach photos to your survey.</p>
-  </div>
-  <div class="os-card">
-    <h4><a href="projects/reports.md">Reports</a></h4>
-    <p>Export clean documentation from your survey data.</p>
-  </div>
+<div class="os-quick-links" role="list">
+  <a class="os-quick-link" href="getting-started/" role="listitem">Start Here</a>
+  <a class="os-quick-link" href="projects/create-project/" role="listitem">Create a Site</a>
+  <a class="os-quick-link" href="surveys/upload-floor-plan/" role="listitem">Upload a Floor Plan</a>
+  <a class="os-quick-link" href="projects/gallery/" role="listitem">Manage Gallery</a>
+  <a class="os-quick-link" href="projects/assignments/" role="listitem">Assignments</a>
+  <a class="os-quick-link" href="support/faq/" role="listitem">FAQ</a>
 </div>
 
----
+## Browse by Area
 
-## Explore the Docs
+<div class="os-topic-grid">
+  <section class="os-topic-card">
+    <h3>Start Here</h3>
+    <p>Account setup, invitations, and first-day orientation.</p>
+    <ul>
+      <li><a href="getting-started/">Getting Started Overview</a></li>
+      <li><a href="getting-started/creating-account/">Sign In and Invitations</a></li>
+      <li><a href="support/access-and-roles/">Access and Roles</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Sites</h3>
+    <p>Plan and manage site-level work from setup through delivery.</p>
+    <ul>
+      <li><a href="projects/">Sites Overview</a></li>
+      <li><a href="projects/project-detail/">Site Detail</a></li>
+      <li><a href="projects/reports/">Reports</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Surveys</h3>
+    <p>Build floor plans, map elements, and maintain field data.</p>
+    <ul>
+      <li><a href="surveys/">Surveys Overview</a></li>
+      <li><a href="surveys/upload-floor-plan/">Upload a Floor Plan</a></li>
+      <li><a href="surveys/element-information/">Element Information</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Mobile</h3>
+    <p>Update surveys and operations quickly while in the field.</p>
+    <ul>
+      <li><a href="mobile/">Mobile Overview</a></li>
+      <li><a href="mobile/projects/">Sites on Mobile</a></li>
+      <li><a href="mobile/assignments-tickets/">Assignments and Tickets</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Organization and Access</h3>
+    <p>Manage organization settings, users, seats, and audit history.</p>
+    <ul>
+      <li><a href="organization/">Organization Settings</a></li>
+      <li><a href="organization/users/">Users and Roles</a></li>
+      <li><a href="organization/audit-logs/">Audit Logs</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Help</h3>
+    <p>Find common answers, product terminology, and release updates.</p>
+    <ul>
+      <li><a href="support/">Help Overview</a></li>
+      <li><a href="support/faq/">FAQ</a></li>
+      <li><a href="support/release-notes/">Release Notes</a></li>
+    </ul>
+  </section>
+</div>
 
-- Surveys: [Overview](surveys/index.md), [Canvas Basics](surveys/canvas-basics.md), [Drag &amp; Drop](surveys/drag-and-drop.md), [Visibility Filters](surveys/visibility-filters.md), [Version History](surveys/version-history.md)
-- Projects: [Overview](projects/index.md), [Project Detail](projects/project-detail.md), [Reports](projects/reports.md), [Proposals](projects/proposals.md), [Tasks](projects/tasks.md)
-- Media: [OneSnap](media/onesnap.md), [Project Photos](media/project-photos.md), [Project Albums](projects/project-albums.md)
-- Organization: [Overview](organization/index.md), [Users](organization/users.md), [Clients](organization/clients.md)
-- Support: [FAQ](support/faq.md), [Glossary](support/glossary.md), [Support Tickets](support/tickets.md)
+## Core Workflow
 
----
+1. Owners and managers invite users and assign role and seat access.
+2. Teams create sites and build surveys.
+3. Field users capture updates, photos, assignments, and tickets.
+4. Managers review progress and export reports.
 
-## Next Up
+## Related Pages
 
-Ready to dive in? Start with [Getting Started](getting-started/creating-account.md), then open your first project and head to the [Canvas Basics](surveys/canvas-basics.md) guide to place your first elements.
+- [Users and Roles](organization/users.md)
+- [Sites Overview](projects/index.md)
+- [Surveys Overview](surveys/index.md)
+- [Mobile Overview](mobile/index.md)

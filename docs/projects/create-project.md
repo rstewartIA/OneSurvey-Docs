@@ -1,59 +1,125 @@
-# Create a Project
+﻿---
+audience: public-end-user
+roles:
+  - member
+  - manager
+  - owner
+last_reviewed: 2026-02-27
+doc_owner: Docs Team
+---
 
-Creating a project is the first step toward organizing surveys, photos, documents, and tasks in one shared workspace. Follow this guide to set up a new project and prepare it for field work or design.
+# Create a Site
+
+## Overview
+
+A **Site** is the central workspace for work in OneSurvey. Surveys, media, assignments, tickets, and reports are all organized under a site.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../../assets/images/add-project.png" alt="Showing Add Project pop up menu on the main project list page." loading="lazy">
+    <img src="../../assets/images/add-project.png" alt="Add Project modal for creating a site">
   </div>
-  <div class="os-screenshot-caption">Add project pop-up menu</div>
+  <p class="os-screenshot-caption">Create a site from the Add Project modal.</p>
 </div>
 
-## 1) Navigate to Projects
-- From the Dashboard, click Projects in the main navigation.
-- On the Projects page, select Add Project (or the `+` icon) to launch the creation form.
+---
 
-## 2) Enter Project Details
-Fill out the required fields:
+## Available to
 
-- Project Name: A clear, descriptive title (e.g., Downtown HQ Security Upgrade).
-- Project ID: Designate number to organize projects by.
-- Client: Choose an existing client or create a new one if needed.
+- Create site: **Full seat** users.
+- Manage site team: **Manager, Owner**.
 
-Additional options may include project type, start date, or location, depending on your organization's configuration.
+If **Add Project** is not visible, your current access does not allow site creation.
 
-## 3) Add Team & Permissions (Optional)
-Assign users who should have access:
+---
 
-- Project Manager: Primary owner who can edit all project settings.
-- Surveyors / Designers: Team members who will collect data or design on floor plans.
-- View-only Users: Stakeholders who can see project progress without editing.
+## Create a Site
 
-Permissions can be adjusted later in [Site Settings](site-settings.md).
+1. Open **Sites**.
+2. Select **Add Project**.
+3. Complete the form.
+4. Select **Submit**.
 
-## 4) Upload Reference Files (Optional)
-Before saving, you can upload supporting materials such as:
+### Site Form Fields
 
-- Floor Plans in PDF or image formats
-- Documents like scope notes or existing reports
-- Photos for initial context
+| Field | Required | Description |
+|---|---|---|
+| **Name** | Yes | Display name for the site. |
+| **Project ID** | Yes | Short identifier for the site. Spaces are converted to hyphens. |
+| **Stage** | No | Current lifecycle stage. |
+| **Client Organization** | No | Links the site to a client record. |
 
-Uploads can also be added later via [Attachments](attachments.md) or [Project Albums](project-albums.md).
+### Stage Options
 
-## 5) Save & Continue
-Click Create (or Save) to finalize the project. You'll be redirected to the [Project Detail](project-detail.md) page where you can:
+| Stage | Description |
+|---|---|
+| **Lead in/Profile** | Initial profile and scoping. |
+| **Pre-Design** | Survey and assessment phase. |
+| **Take Off** | Quantity and scope takeoff. |
+| **Design** | Active design work. |
+| **Deployment** | Installation or deployment phase. |
+| **LiveBuilt** | Final as-built documentation. |
 
-- Add floor plans and place [Site Elements](site-elements.md)
-- Capture [Project Photos](project-photos.md) and organize [Albums](project-albums.md)
-- Track [Tasks](tasks.md), [Tickets](tickets.md), and [Proposals](proposals.md)
-- Generate [Reports](reports.md) or share project access
+---
+
+## Manage Site Team
+
+Available to: **Manager, Owner**
+
+1. In the Project List, select the team avatar stack (or **+**) for a site.
+2. Search users by name or email.
+3. Add people to the invite list.
+4. Set project access level.
+5. Select **Save**.
+
+### Project Access Levels
+
+| Access Level | Intended users | What they can do |
+|---|---|---|
+| **Edit** | Full seat users | Full survey and project actions. |
+| **Restricted Edit** | Field seat users | Field updates and photo workflows; limited design actions. |
+| **View** | Viewer seat users | View and comment only. |
+
+### Seat-Based Limits
+
+- Full seat: Edit, Restricted Edit, or View.
+- Field seat: Restricted Edit or View.
+- Viewer seat: View only.
+- Owner and Manager organization roles are always locked to **Edit**.
+
+---
+
+## Manage Existing Sites
+
+Available to: **Manager, Owner** (for menu actions)
+
+From the row action menu in Project List:
+- **Edit**: update site details.
+- **Copy Project**: duplicate a site and its content.
+- **Archive Site / Unarchive Site**: move sites in or out of active views.
+
+### Update Stage from List
+
+Available to: **Full seat** users
+
+Click the stage value in the **Stage** column to change stage directly.
+
+---
 
 ## Next Steps
-- Visit [Project Detail](project-detail.md) to explore all project tabs.
-- Head over to [Upload Floor Plan](../surveys/upload-floor-plan.md) if you're ready to start a survey.
-- Review [Project Albums](project-albums.md) for managing photos and visual documentation.
 
-With your project created, your team is ready to collaborate, document, and deliver work efficiently. Happy surveying!
+1. Add your first survey.
+2. Assign team members.
+3. Review site elements and data.
+4. Capture photos with Gallery or OneSnap.
+5. Track work with assignments and tickets.
 
+---
 
+## Related Pages
 
+- [Site Detail](project-detail.md)
+- [Surveys Overview](../surveys/index.md)
+- [Gallery](gallery.md)
+- [Assignments](assignments.md)
+- [Tickets](tickets.md)
+- [Clients](../organization/clients.md)

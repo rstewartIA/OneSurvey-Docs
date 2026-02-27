@@ -1,44 +1,61 @@
-# Project Overview
+# Sites Overview
 
-Projects are the core workspace in OneSurvey, bringing together every detail about a site, from its floor plans and system elements to photos, documents, and tasks. Each project acts as a central hub where teams can collaborate, track progress, and prepare for installation or maintenance.
+Sites are the central workspace for planning, field execution, media capture, and final handoff.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../assets/images/project-list.png" alt="Showing a central location to view all projects in the organization." loading="lazy">
+    <img src="../assets/images/project-list.png" alt="Sites project list view">
   </div>
-  <div class="os-screenshot-caption">List of projects that have been created</div>
+  <p class="os-screenshot-caption">Sites list with stage, team, and quick actions.</p>
 </div>
 
-## Project Lifecycle
-- Create a Project: Start from the Projects dashboard and define a name, description, and client information.
-- Add Site Details: Upload relevant floor plans, notes, or reference materials.
-- Collect Data: Capture photos, attach documents, and record survey information.
-- Review & Share: Generate reports, share access with stakeholders, or export data for downstream systems.
+## Most Used
 
-## Key Tabs & Features
-- Project Albums: Organize and browse photos grouped by album.
-- Project Photos: Manage individual images with metadata and annotations.
-- Attachments: Store documents such as drawings, PDFs, or spreadsheets.
-- Gallery: View all visual assets in a unified grid.
-- Proposals: Draft and refine scope-of-work documents.
-- Reports: Generate formal reports from collected data.
-- Site Data: Record measurements, coordinates, or other field notes.
-- Site Elements: Place and manage system elements on floor plans.
-- Site Settings: Configure project metadata, permissions, and defaults.
-- Tasks: Assign, track, and resolve action items.
-- Tickets: Log issues or requests tied to the project.
+<div class="os-quick-links" role="list">
+  <a class="os-quick-link" href="create-project/" role="listitem">Create a Site</a>
+  <a class="os-quick-link" href="project-detail/" role="listitem">Site Detail</a>
+  <a class="os-quick-link" href="gallery/" role="listitem">Gallery</a>
+  <a class="os-quick-link" href="assignments/" role="listitem">Assignments</a>
+  <a class="os-quick-link" href="tickets/" role="listitem">Tickets</a>
+  <a class="os-quick-link" href="reports/" role="listitem">Reports</a>
+</div>
 
-## Navigation Tips
-- Use the Projects navigation menu to switch between active projects.
-- The sidebar lists all tabs; click a tab name to reveal its content.
-- Global search helps quickly jump to albums, photos, or tasks.
-- Breadcrumbs at the top of each page show where you are within a project's hierarchy.
+## Guides by Topic
 
-## Next Steps
-Once you've familiarized yourself with the overview, explore the focused guides for each tab, starting with [Creating a Project](create-project.md) and [Project Albums](project-albums.md), to dive deeper into the functionality available within a project.
+<div class="os-topic-grid">
+  <section class="os-topic-card">
+    <h3>Planning and Setup</h3>
+    <p>Create site records, manage key details, and establish structured data.</p>
+    <ul>
+      <li><a href="create-project/">Create a Site</a></li>
+      <li><a href="project-detail/">Site Detail</a></li>
+      <li><a href="site-elements/">Site Elements</a></li>
+      <li><a href="site-data/">Site Data</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Media and Deliverables</h3>
+    <p>Capture evidence, store files, and generate reports for delivery.</p>
+    <ul>
+      <li><a href="gallery/">Gallery</a></li>
+      <li><a href="attachments/">Attachments</a></li>
+      <li><a href="reports/">Reports</a></li>
+      <li><a href="../media/onesnap/">OneSnap Overview</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Execution and Follow-up</h3>
+    <p>Track install work and service requests throughout project lifecycles.</p>
+    <ul>
+      <li><a href="assignments/">Assignments</a></li>
+      <li><a href="tickets/">Tickets</a></li>
+      <li><a href="../support/faq/">FAQ</a></li>
+    </ul>
+  </section>
+</div>
 
-
-
-
-
-
+## Related Pages
+- [Surveys Overview](../surveys/index.md)
+- [Mobile Overview](../mobile/index.md)
+- [Users and Roles](../organization/users.md)
+- [Release Notes](../support/release-notes.md)

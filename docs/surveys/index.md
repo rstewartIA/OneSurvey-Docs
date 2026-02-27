@@ -1,40 +1,63 @@
-# Surveys Overview
+﻿# Surveys Overview
 
-Surveys are where site data comes to life. This module lets you collect floor plans, place system elements, and capture installation details, all inside a visual canvas so your team can collaborate on accurate, up-to-date designs.
+Surveys are where teams create floor plan layouts, place elements, and maintain field-ready site information.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../assets/images/survey-overview.png" alt="Survey canvas highlighting element information and side panels" loading="lazy">
+    <img src="../assets/images/survey-overview.png" alt="Surveys overview screen">
   </div>
-  <div class="os-screenshot-caption">Metadata, photos, and design tools appear side-by-side in a live survey.</div>
+  <p class="os-screenshot-caption">Survey list and status overview for a site.</p>
 </div>
 
-## What You Can Do
+## Most Used
 
-- Start new surveys for a project or floor.
-- Upload floor plans in PDF or image formats.
-- Work on the canvas to drag, drop, and reposition elements.
-- Edit element metadata such as labels, colors, and linked photos.
+<div class="os-quick-links" role="list">
+  <a class="os-quick-link" href="upload-floor-plan/" role="listitem">Upload a Floor Plan</a>
+  <a class="os-quick-link" href="drag-and-drop/" role="listitem">Drag and Drop Elements</a>
+  <a class="os-quick-link" href="element-information/" role="listitem">Element Information</a>
+  <a class="os-quick-link" href="link-photos/" role="listitem">Link Photos</a>
+  <a class="os-quick-link" href="version-history/" role="listitem">Version History</a>
+</div>
 
-## Typical Workflow
+## Guides by Topic
 
-1. Create a Project: set up a project to house your surveys and other site data. See: [Projects Overview](../projects/index.md).
-2. Start a Survey: create a survey record tied to that project or floor. See: [Start a Survey](start-survey.md).
-3. Upload a Floor Plan: add the blueprint or layout you'll design on. See: [Upload a Floor Plan](upload-floor-plan.md).
-4. Use the Canvas: drag elements onto the floor plan, adjust their properties, and switch between floor plans if needed. See: [Canvas Basics](canvas-basics.md).
-5. Add Elements & Metadata: document each device with descriptions, installation notes, and links to photos or files. See: [Element Information & Metadata](element-information.md).
+<div class="os-topic-grid">
+  <section class="os-topic-card">
+    <h3>Survey Setup</h3>
+    <p>Initialize a survey and prepare floor plans for accurate mapping.</p>
+    <ul>
+      <li><a href="upload-floor-plan/">Upload a Floor Plan</a></li>
+      <li><a href="canvas-basics/">Canvas Basics</a></li>
+      <li><a href="drawings-and-walls/">Drawings and Walls</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Element and Media Work</h3>
+    <p>Place elements, maintain details, and attach visual context.</p>
+    <ul>
+      <li><a href="drag-and-drop/">Drag and Drop Elements</a></li>
+      <li><a href="element-information/">Element Information</a></li>
+      <li><a href="link-photos/">Link Photos</a></li>
+      <li><a href="commenting/">Commenting</a></li>
+      <li><a href="adding-a-path/">Adding a Path</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Quality and Control</h3>
+    <p>Manage visibility, design standards, and review history before delivery.</p>
+    <ul>
+      <li><a href="visibility-filters/">Visibility Filters</a></li>
+      <li><a href="design/">Design and Color</a></li>
+      <li><a href="survey-settings/">Survey Settings</a></li>
+      <li><a href="version-history/">Version History</a></li>
+      <li><a href="installation-access/">Installation Access</a></li>
+    </ul>
+  </section>
+</div>
 
-## Next Steps
+## Related Pages
 
-- Create a Project if you haven't already: [Projects Overview](../projects/index.md).
-- Upload a Floor Plan to add the layout you'll work on: [Upload a Floor Plan](upload-floor-plan.md).
-- Canvas & Floor Plans explains navigation, zooming, and version history: [Canvas Basics](canvas-basics.md), [Version History](version-history.md).
-- Elements & Metadata shows how to configure and document each element: [Element Information & Metadata](element-information.md).
-
-Use this overview as your hub for everything related to surveys before diving into each detailed guide.
-
-
-
-
-
-
+- [Sites Overview](../projects/index.md)
+- [Mobile Surveys](../mobile/surveys.md)
+- [Reports](../projects/reports.md)
+- [FAQ](../support/faq.md)

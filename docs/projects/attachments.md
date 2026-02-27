@@ -1,32 +1,75 @@
 # Attachments
 
-The Attachments tab centralizes project files, allowing teams to upload, preview, rename, or remove supporting documents in either a table or grid layout.
+## Overview
+
+The **Attachments** tab is the site file library. Use it to store and share reference documents, drawings, specifications, and any other files the team needs during or after site work. Files uploaded here are available to all users with access to the site.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../../assets/images/attachments.png" alt="Showing the attachments tab with an uploaded SOW file." loading="lazy">
+    <img src="../../assets/images/attachments.png" alt="Attachments tab in list view">
   </div>
+  <p class="os-screenshot-caption">Attachments tab for uploading and managing project files.</p>
 </div>
-
-## Upload Files
-
-- Click Add File to open the upload modal and select a document from your device.
-- Fill in the file name and confirm to attach it to the project.
-
-## View Modes
-
-Switch between Table and Grid layouts with the view toggle, letting you browse files by metadata or thumbnail preview.
-
-### Table View
-
-Displays file name, size, creation date, and action controls for renaming or deleting files.
-
-### Grid View
-
-Shows each attachment as a card with a thumbnail (for images) and a menu for rename or delete actions.
 
 ---
 
-These tools help keep project documentation organized, ensuring files remain accessible throughout the project lifecycle.
+## Viewing Attachments
 
-See also: [Reports](reports.md)
+Use the toggle in the top-right corner to switch between two layouts:
+
+- **List view** — Files displayed in a table with name, size, and action controls. Best for scanning a long file list.
+- **Grid view** — Files displayed as visual cards with previews. Best for image or PDF files.
+
+Your view preference is saved automatically and persists between sessions.
+
+---
+
+## Uploading Files
+
+### Upload a Single File
+
+1. Click **Add Attachment** in the top-right corner.
+2. Enter a **file name** for the attachment.
+3. Select your file using the file picker.
+4. Click **Upload** to confirm.
+
+The file appears in the attachment list immediately.
+
+### Upload Multiple Files at Once
+
+1. Click the **Upload Multiple** option.
+2. Select one or more files from your device.
+3. A progress bar tracks each file individually during upload.
+4. All successfully uploaded files are added to the attachment list.
+
+---
+
+## Managing Attachments
+
+### Rename a File
+
+1. Find the file in the list or grid.
+2. Open its row actions menu (three-dot icon).
+3. Select **Rename**, enter the new name, and confirm.
+
+### Delete a File
+
+1. Find the file in the list or grid.
+2. Open its row actions menu (three-dot icon).
+3. Select **Delete** and confirm.
+
+Deleted files cannot be recovered.
+
+---
+
+## Best Practice
+
+Keep Attachments current. When files are updated — for example, a revised floor plan or a final spec sheet — upload the new version and remove or clearly rename the old one. Teams rely on this tab as a shared source of truth for project reference files.
+
+---
+
+## Related Pages
+
+- [Reports](reports.md)
+- [Site Detail](project-detail.md)
+

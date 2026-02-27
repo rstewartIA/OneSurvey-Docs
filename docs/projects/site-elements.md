@@ -1,36 +1,67 @@
 # Site Elements
 
-The Site Elements tab is your catalog of devices and components that can be placed on project floor plans. From here, you can browse the universal library, manage your own collections, and flag frequently used items as favorites for quick access.
+## Overview
+
+The **Site Elements** tab is the element library for a site. It shows all element types available to place on surveys, organized by category. Before starting survey work, use this tab to browse available elements and set up favorites for faster access during survey editing.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../../assets/images/site-elements.png" alt="Showing the Site Elements tab with universal element categories. A menu shows on the right side with favorite elements that the usder selected." loading="lazy">
+    <img src="../../assets/images/site-elements.png" alt="Site Elements library view">
   </div>
+  <p class="os-screenshot-caption">Browse and search element libraries before placement.</p>
 </div>
 
-## Browsing Libraries
+---
 
-Tabs let you switch between:
+## Element Libraries
 
-- Universal Elements — a shared library available to all users.
-- My Library — elements curated for your organization or project.
+The tab has two libraries, toggled at the top:
 
-Search filters the current library by element name so you can quickly locate specific items.
+| Library | What it contains |
+|---|---|
+| **Universal Elements** | Standard elements available to all sites in the organization. Managed by your organization's admins. |
+| **My Library** | Custom elements specific to your organization, organized into super categories and categories. |
 
-## Managing Favorites
+Both libraries organize elements in a hierarchy: **Super Category → Category → Elements**. Click a category header to expand or collapse it and reveal the elements inside.
 
-- Click the Favorites button in the top-right corner to open the favorites dropdown.
-- Use the star icon on any element to toggle it as a favorite (up to 20 items).
-- Remove favorites directly from the dropdown when you no longer need quick access.
+---
 
-After an element is marked as a favorite, it automatically appears under the Favorites dropdown in the left toolbar of the floor plan for easy placement.
+## Searching Elements
 
-Favorites appear across both the universal and custom libraries, helping you build a personalized toolbox.
+Use the **Search element** field in the top-right corner to search across both libraries at once. Results update as you type and show matches from Universal Elements and My Library together.
 
-## Next Steps
+---
 
-- Open the [Canvas](../surveys/canvas-basics.md) to place elements onto floor plans.
-- Review [Element Information & Metadata](../surveys/element-information.md) for editing properties once elements are on the canvas.
-- Visit [Site Data](site-data.md) to analyze element details in tabular form.
+## Favorites
 
-The Site Elements tab streamlines how teams manage reusable components, ensuring consistent design and faster layout work across projects.
+The **Favorites** dropdown (top-right, shown as *Favorites X/20*) lets you bookmark elements for quick access on this site. You can save up to **20 favorites per site**.
+
+### Adding a Favorite
+
+1. Find an element in either library tab.
+2. Click the **star icon** on the element tile.
+3. The element is added to your Favorites list.
+
+### Removing a Favorite
+
+Click the **star icon** again on any favorited element to remove it.
+
+The Favorites dropdown shows your current saved count (e.g., *Favorites 4/20*). Your favorites appear in the survey's element panel sidebar for fast drag-and-drop placement.
+
+---
+
+## Using Elements in Surveys
+
+Elements are placed onto floor plans by dragging from the element library panel inside the survey workspace. The library in that panel mirrors the same Universal Elements and My Library shown here. Favorites appear at the top for quick access.
+
+For step-by-step instructions on placing elements, see [Drag and Drop Elements](../surveys/drag-and-drop.md).
+
+---
+
+## Related Pages
+
+- [Drag and Drop Elements](../surveys/drag-and-drop.md)
+- [Canvas Basics](../surveys/canvas-basics.md)
+- [Element Information](../surveys/element-information.md)
+- [Site Data](site-data.md)
+

@@ -1,47 +1,36 @@
+﻿---
+audience: public-end-user
+roles:
+  - manager
+  - owner
+last_reviewed: 2026-02-27
+doc_owner: Docs Team
+---
+
 # Clients
 
-Clients represent the organizations you serve. Each client can have multiple projects, surveys, or photo albums attached, letting you keep everything organized under a single entity.
+## Overview
 
-## Adding a Client
+Available to: **Manager, Owner**
 
-- Go to Organization → Clients.
-- Click New Client (or the “+” icon).
-- Fill out the form:
-  - Client Name — the company or organization name.
-  - Primary Contact — optional contact name or title.
-  - Address & Notes — any relevant location or description.
-- Click Create to save.
+Clients are customer records tied to sites, OneSnap sessions, and ticket service expectations.
 
-## Viewing Client Details
+## Client Detail Tabs
 
-- Select a client from the list to open its detail view.
-- Tabs typically include:
-  - Projects — all projects linked to the client.
-  - Contacts — key people or stakeholders.
-  - Notes — internal notes or reminders.
+- **Basic Info**: client profile and contact details.
+- **Sites**: linked sites for that client.
+- **One Snaps**: linked OneSnap sessions.
+- **SLA**: ticket service-level settings.
 
-## Editing or Deleting a Client
+## Typical Workflow
 
-- Open the client you want to modify.
-- Click Edit Client to adjust name, contact info, or notes.
-- Use the Delete action if the client is no longer needed.
-- Deleting a client does not automatically remove associated projects — those must be reassigned or removed separately.
+1. Create or open a client record.
+2. Confirm contact and profile details.
+3. Link sites to the client.
+4. Review OneSnap activity and SLA expectations.
 
-## Linking Projects to a Client
+## Related Pages
 
-- When creating a project:
-  - Choose the client from the Client dropdown.
-  - If the client does not exist yet, select Add New Client directly from the dropdown.
-  - Saving the project associates it with the client, so it appears in the client’s project list.
-
-## Best Practices
-
-- Use clear, consistent names for clients so team members can find the correct one quickly.
-- Assign a primary contact and keep their details updated for smoother communication.
-- Regularly review client lists to deactivate or archive entities that are no longer active.
-
-## Next Steps
-
-- Learn how to set up Users & Roles so clients and internal teams have the correct permissions.
-- Navigate to Projects to create work linked to a specific client.
-- Visit Organization Settings for company-wide configurations.
+- [Sites Overview](../projects/index.md)
+- [Tickets](../projects/tickets.md)
+- [Users and Roles](users.md)
