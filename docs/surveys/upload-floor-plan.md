@@ -31,6 +31,6 @@ Upload the floor plan image or drawing used as the survey background.
 
 ## Related Pages
 - [Canvas Basics](canvas-basics.md)
-- [Start a Survey](start-survey.md)
+- [Surveys Overview](index.md)
 
 

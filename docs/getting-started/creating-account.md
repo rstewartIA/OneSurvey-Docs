@@ -1,8 +1,18 @@
+﻿---
+audience: public-end-user
+roles:
+  - member
+  - manager
+  - owner
+last_reviewed: 2026-02-27
+doc_owner: Docs Team
+---
+
 # Sign In and Invitations
 
 ## Overview
 
-Access to OneSurvey is invitation-based. An organization Owner or Manager sends an invite to each new user. This page covers the admin invite flow, the new user setup flow, and the sign-in experience.
+OneSurvey access is invitation-based. This page explains sign in, first-time setup, and what to do if you manage user invitations.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
@@ -13,66 +23,56 @@ Access to OneSurvey is invitation-based. An organization Owner or Manager sends 
 
 ---
 
-## Signing In
+## Sign In
 
-Go to the OneSurvey login page. Enter your **email address** and **password**, then click **Sign In**.
+1. Open the OneSurvey login page.
+2. Enter your email and password.
+3. Select **Sign In**.
 
-- Use the eye icon on the password field to show or hide your password.
-- If your organization has Google Sign-In enabled, you can also use the **Continue with Google** option below the form.
+Notes:
+- Use the eye icon to show or hide your password.
+- If your organization enables Google sign-in, use **Continue with Google**.
 
-If you cannot sign in, see [Password Reset](#password-reset) below.
-
----
-
-## Admin Flow: Inviting a User
-
-Only **Owners** and **Managers** can invite new users.
-
-1. In the left navigation, click **Users**.
-2. Click **Add User** in the top-right corner.
-3. In the **Add User** modal that opens, fill in the fields:
-
-| Field | Description |
-|---|---|
-| **Email** | The email address of the person being invited. |
-| **Seat Type** | The capability level: **Full**, **Field**, or **Viewer**. Hover the info icon on each seat type button to see a description. |
-| **Org Role** | The organization authority level: **Member**, **Manager**, or **Owner**. |
-
-4. Click **Send Invite**.
-
-The user immediately appears in the Users list with a status of **Invited**.
-
-### Invite Rules
-
-- **Manager** and **Owner** roles require a **Full** seat. When either of those roles is selected, the Field and Viewer seat options are automatically disabled.
-- Only an existing **Owner** can assign the Owner role to another user. A confirmation prompt appears before the Owner role is applied.
-- If your organization has reached its seat limit for the selected seat type, a warning banner appears in the modal showing the current usage (e.g., "Full seat limit reached 10/10"). A link to **Billing** is provided to expand capacity.
-- If the invited email address already belongs to an existing OneSurvey account, the person is added to your organization and receives an **organization join email** rather than a full profile-setup email.
-
-### Managing Pending Invites
-
-From the Users table, find the invited user (shown with **Invited** status) and open their row actions menu (three-dot icon):
-
-- **Resend invite** — Sends a new invite email if the original expired or was not received.
-- **Revoke invite** — Cancels the invitation and removes the pending entry.
+If you cannot sign in, use [Password Reset](#password-reset).
 
 ---
 
-## New User Flow: Accepting an Invitation
+## If You Manage Users: Send an Invitation
 
-When someone is invited for the first time, they receive a setup email.
+Available to: **Manager, Owner**
 
-1. Open the invitation email and click **Accept Invitation**.
-2. The **Complete Your Profile** page opens in the browser. Your email and organization name are pre-filled.
-3. Fill in the required fields:
-   - **First Name**
-   - **Last Name**
-   - **Password** (minimum 8 characters)
-   - **Confirm Password**
-4. Optionally add a phone number, address, and profile photo.
-5. Click **Complete Setup**.
+1. Open **Users**.
+2. Select **Add User**.
+3. Enter the person's email.
+4. Choose **Seat Type** and **Org Role**.
+5. Select **Send Invite**.
 
-Your account is activated immediately and you are signed in and taken to the **Sites** page.
+The person appears in the Users table with status **Invited**.
+
+### Invitation Rules
+
+- **Manager** and **Owner** roles require a **Full** seat.
+- Only an existing **Owner** can assign the Owner role.
+- If a seat limit is reached, the invite modal shows a capacity warning.
+- If the email already belongs to an existing OneSurvey account, the user receives an organization join email.
+
+### Pending Invites
+
+From row actions on an invited user:
+- **Resend invite**: sends a new invite email.
+- **Revoke invite**: cancels the pending invitation.
+
+---
+
+## First-Time User Setup
+
+1. Open the invitation email.
+2. Select **Accept Invitation**.
+3. Complete the required profile fields.
+4. Set and confirm password.
+5. Select **Complete Setup**.
+
+After setup, you are signed in and sent to the Sites page.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
@@ -83,36 +83,37 @@ Your account is activated immediately and you are signed in and taken to the **S
 
 ---
 
-## Existing User Flow: Joining a New Organization
+## Joining Another Organization
 
-If your email is already linked to a OneSurvey account and an admin from another organization invites you, you receive an **organization invite email**.
+If you already have a OneSurvey account and get invited to another organization:
 
-1. Open the organization invite email and click **Go to [Organization Name]**.
-2. Sign in with your existing OneSurvey credentials.
-3. If the new organization is not your current active one, use the **organization selector** to switch to it.
+1. Open the invitation email.
+2. Select the organization link.
+3. Sign in with your existing account.
+4. Switch organizations with the organization selector if needed.
 
 ---
 
 ## Password Reset
 
-1. On the login page, click **Forgot Password**.
-2. Enter your email address and submit.
-3. Open the password reset email and click the reset link.
+1. On the login page, select **Forgot Password**.
+2. Enter your email.
+3. Open the reset email and use the link.
 4. Enter and confirm your new password.
-5. Sign in with the new password.
+5. Sign in.
 
 ---
 
 ## Troubleshooting
 
-| Problem | Solution |
+| Problem | What to do |
 |---|---|
-| Invite email not received | Check spam/junk folders. Ask an admin to use **Resend invite** from the Users page. |
-| Invite link says expired | Ask an admin to resend the invite. The new link will be valid. |
-| Invite link is invalid | The invite may have been revoked. Ask for a new one. |
-| Cannot assign Owner role | Only an existing Owner can assign Owner access. |
-| Invite blocked by seat limit | The organization has reached its seat capacity for that seat type. Ask an admin to free up seats or expand capacity via Billing. |
-| Signed in but missing expected sites | You may be in the wrong organization. Use the organization selector to switch. |
+| Invite email not received | Check spam or junk. Ask your account manager or owner to resend the invite. |
+| Invite link expired | Ask for a new invitation email. |
+| Invite link invalid | The invite may have been revoked. Ask for a new invite. |
+| Cannot assign Owner role | Only an existing Owner can assign Owner. |
+| Invite blocked by seat limit | Ask an owner or manager to free seats or increase capacity. |
+| Signed in but missing expected sites | Switch to the correct organization using the organization selector. |
 
 ---
 
@@ -121,4 +122,3 @@ If your email is already linked to a OneSurvey account and an admin from another
 - [Users and Roles](../organization/users.md)
 - [Sites Overview](../projects/index.md)
 - [FAQ](../support/faq.md)
-

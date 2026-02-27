@@ -20,5 +20,4 @@ Version history provides a clear change trail and a safe rollback option.
 
 ## Related Pages
 - [Canvas Basics](canvas-basics.md)
-- [Quality Check](quality-check.md)
 

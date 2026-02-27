@@ -32,5 +32,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Lint public docs boundaries
+        run: python scripts/public_docs_lint.py
+
       - name: Deploy to gh-pages
         run: mkdocs gh-deploy --clean --remote-name origin --remote-branch gh-pages
