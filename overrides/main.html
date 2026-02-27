@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <div class="os-docs-announce">
+    <span>Need product updates?</span>
+    <a href="{{ 'support/release-notes/' | url }}">View release notes</a>
+  </div>
+{% endblock %}
+
+{% block content %}
+  {% include "partials/content.html" %}
+  {% if page.file and page.file.name != "index" %}
+    {% set has_related_section = page.content and ('id="related-pages"' in page.content or "id='related-pages'" in page.content) %}
+    <section class="os-article-support" aria-label="Article support">
+      {% if not has_related_section %}
+        <div class="os-article-support__group">
+          <h2>Related Pages</h2>
+          <ul>
+            <li><a href="{{ 'getting-started/' | url }}">Start Here</a></li>
+            <li><a href="{{ 'projects/' | url }}">Sites</a></li>
+            <li><a href="{{ 'surveys/' | url }}">Surveys</a></li>
+            <li><a href="{{ 'mobile/' | url }}">Mobile</a></li>
+            <li><a href="{{ 'support/faq/' | url }}">FAQ</a></li>
+          </ul>
+        </div>
+      {% endif %}
+      <div class="os-article-support__group os-article-support__group--cta">
+        <h2>Need More Help?</h2>
+        <p>Contact the OneSurvey team if you need guided setup or troubleshooting support.</p>
+        <p>
+          <a class="os-support-button" href="https://www.onesurveyapp.com/contact" target="_blank" rel="noopener">
+            Contact Support
+          </a>
+        </p>
+      </div>
+    </section>
+  {% endif %}
+{% endblock %}

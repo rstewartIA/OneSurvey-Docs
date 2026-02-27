@@ -4,6 +4,13 @@
 
 The **Site Elements** tab is the element library for a site. It shows all element types available to place on surveys, organized by category. Before starting survey work, use this tab to browse available elements and set up favorites for faster access during survey editing.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/site-elements.png" alt="Site Elements library view">
+  </div>
+  <p class="os-screenshot-caption">Browse and search element libraries before placement.</p>
+</div>
+
 ---
 
 ## Element Libraries
@@ -57,3 +64,4 @@ For step-by-step instructions on placing elements, see [Drag and Drop Elements](
 - [Canvas Basics](../surveys/canvas-basics.md)
 - [Element Information](../surveys/element-information.md)
 - [Site Data](site-data.md)
+

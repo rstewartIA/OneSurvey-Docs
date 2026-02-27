@@ -6,6 +6,13 @@ Site Detail is the main workspace for a site. When you open a site from the Proj
 
 The page header shows the site name. Users with the appropriate role can rename the site directly from the header.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/project-detail.png" alt="Site detail page with tabs">
+  </div>
+  <p class="os-screenshot-caption">Site Detail workspace with surveys, media, and operations tabs.</p>
+</div>
+
 ---
 
 ## Tabs
@@ -72,3 +79,4 @@ The tabs support a natural project progression:
 - [Gallery](gallery.md)
 - [Assignments](assignments.md)
 - [Tickets](tickets.md)
+

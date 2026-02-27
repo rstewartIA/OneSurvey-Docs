@@ -3,6 +3,13 @@
 ## Overview
 Use drag and drop to place elements on the survey canvas.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/drag-and-drop.png" alt="Drag and drop element placement on canvas">
+  </div>
+  <p class="os-screenshot-caption">Drag elements from the library directly onto the canvas.</p>
+</div>
+
 ## Steps
 1. Open the element library.
 2. Drag an element to the canvas.
@@ -16,3 +23,4 @@ Use drag and drop to place elements on the survey canvas.
 ## Related Pages
 - [Canvas Basics](canvas-basics.md)
 - [Element Information](element-information.md)
+

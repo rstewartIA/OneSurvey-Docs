@@ -4,6 +4,13 @@
 
 A **Site** is the central workspace for a project in OneSurvey. Everything — surveys, photos, elements, data, assignments, tickets, and reports — is organized under a site. Creating a site is the first step before any field work or survey design begins.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/add-project.png" alt="Add Project modal for creating a site">
+  </div>
+  <p class="os-screenshot-caption">Create a new site from the Add Project modal.</p>
+</div>
+
 ---
 
 ## Who Can Create a Site
@@ -36,7 +43,7 @@ The modal contains four fields:
 !!! note "Project ID formatting"
     Any spaces you type in the Project ID field will automatically be converted to hyphens when the site is saved. For example, `WSM 2024 01` becomes `WSM-2024-01`.
 
-### 4. Select a Stage (Optional)
+### 4. Select a Stage (Optional) {#stage-options}
 
 The **Stage** field indicates where the project is in its lifecycle. If left blank, the site defaults to **Lead in/Profile**. You can change the stage at any time from the Project List.
 
@@ -162,3 +169,4 @@ Users with a **Full seat** can update a site's stage directly from the Project L
 - [Assignments](assignments.md)
 - [Tickets](tickets.md)
 - [Clients](../organization/clients.md)
+

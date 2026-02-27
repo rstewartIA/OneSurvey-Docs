@@ -47,6 +47,13 @@ Use this tab to:
 - Review totals by element type before generating a Bill of Materials report.
 - Validate scope against the original project estimate.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/bill-of-materials.png" alt="Bill of Materials data table">
+  </div>
+  <p class="os-screenshot-caption">Bill of Materials tab with grouped quantities by element type.</p>
+</div>
+
 ---
 
 ## Filters and Search
@@ -66,3 +73,4 @@ Site Data is a pre-report validation step. Once the data looks correct here, go 
 - [Reports](reports.md)
 - [Element Information](../surveys/element-information.md)
 - [Installation Access](../surveys/installation-access.md)
+

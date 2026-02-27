@@ -4,6 +4,13 @@
 
 **Gallery** is the site media workspace. All photos captured or uploaded for a site are organized here alongside albums for grouping, sharing, and reporting. Gallery has four views accessible from the controls at the top of the tab.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/gallery-photos.png" alt="All Photos view in Gallery">
+  </div>
+  <p class="os-screenshot-caption">All Photos view with filtering and selection controls.</p>
+</div>
+
 ---
 
 ## Views
@@ -65,6 +72,13 @@ Each album card has an actions menu (three-dot icon):
 
 Click an album card to open it in Album Detail view.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/gallery-albums.png" alt="All Albums view in Gallery">
+  </div>
+  <p class="os-screenshot-caption">All Albums view for grouped photo packages.</p>
+</div>
+
 ### Album Detail
 
 Opens a single album and shows all photos inside it. From here you can:
@@ -111,3 +125,4 @@ Right-click a photo (or open its three-dot menu) for quick actions:
 - [Reports](reports.md)
 - [Link Photos](../surveys/link-photos.md)
 - [OneSnap](../media/onesnap.md)
+

@@ -1,7 +1,14 @@
-﻿# Users and Roles
+# Users and Roles
 
 ## Overview
 The **Users** page is where admins invite people, set access, and manage seat usage.
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/users-page.png" alt="Users page with role and seat controls">
+  </div>
+  <p class="os-screenshot-caption">Users page for invitations, role assignment, and seat tracking.</p>
+</div>
 
 ## Role and Seat Model
 
@@ -57,4 +64,5 @@ The page shows Full, Field, and Viewer usage against seat limits, so admins can 
 - [Organization Settings](index.md)
 - [Audit Logs](audit-logs.md)
 - [Creating an Account](../getting-started/creating-account.md)
+
 

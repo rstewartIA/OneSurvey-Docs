@@ -4,6 +4,13 @@
 
 Access to OneSurvey is invitation-based. An organization Owner or Manager sends an invite to each new user. This page covers the admin invite flow, the new user setup flow, and the sign-in experience.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/create-an-account.png" alt="Complete your profile setup page">
+  </div>
+  <p class="os-screenshot-caption">First-time account setup after accepting an invitation.</p>
+</div>
+
 ---
 
 ## Signing In
@@ -67,6 +74,13 @@ When someone is invited for the first time, they receive a setup email.
 
 Your account is activated immediately and you are signed in and taken to the **Sites** page.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/invitation-email.png" alt="Invitation email example">
+  </div>
+  <p class="os-screenshot-caption">Invitation email used to start setup.</p>
+</div>
+
 ---
 
 ## Existing User Flow: Joining a New Organization
@@ -107,3 +121,4 @@ If your email is already linked to a OneSurvey account and an admin from another
 - [Users and Roles](../organization/users.md)
 - [Sites Overview](../projects/index.md)
 - [FAQ](../support/faq.md)
+

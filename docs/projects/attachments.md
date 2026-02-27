@@ -4,6 +4,13 @@
 
 The **Attachments** tab is the site file library. Use it to store and share reference documents, drawings, specifications, and any other files the team needs during or after site work. Files uploaded here are available to all users with access to the site.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/attachments.png" alt="Attachments tab in list view">
+  </div>
+  <p class="os-screenshot-caption">Attachments tab for uploading and managing project files.</p>
+</div>
+
 ---
 
 ## Viewing Attachments
@@ -65,3 +72,4 @@ Keep Attachments current. When files are updated — for example, a revised floo
 
 - [Reports](reports.md)
 - [Site Detail](project-detail.md)
+

@@ -1,26 +1,54 @@
 # Organization Settings
 
-## Overview
-Organization Settings is where admins maintain branding and company-level contact details used across the app.
+Organization and access controls define who can work in OneSurvey and what each user can do.
 
-## Who Can Use It
-- Owners and managers can access organization settings.
+## Most Used
 
-## Where to Find It
-1. Open **Profile**.
-2. Select the **Organization** tab.
+<div class="os-quick-links" role="list">
+  <a class="os-quick-link" href="users/" role="listitem">Users and Roles</a>
+  <a class="os-quick-link" href="clients/" role="listitem">Clients</a>
+  <a class="os-quick-link" href="audit-logs/" role="listitem">Audit Logs</a>
+  <a class="os-quick-link" href="../getting-started/creating-account/" role="listitem">Invitations and Sign In</a>
+</div>
 
-## What You Can Update
-- Organization name.
-- Square and wide logos.
-- Primary contact details.
-- Billing and technical contact information.
-- Company address and account details used in organization records.
+## Guides by Topic
 
-## Why It Matters
-Keeping this information current improves invite emails, exported assets, and shared team context.
+<div class="os-topic-grid">
+  <section class="os-topic-card">
+    <h3>Organization Setup</h3>
+    <p>Maintain branding and account-level details used across your environment.</p>
+    <ul>
+      <li><a href="./">Organization Settings</a></li>
+      <li><a href="clients/">Clients</a></li>
+      <li><a href="../projects/project-detail/">Site Detail</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>User and Access Management</h3>
+    <p>Control invitations, roles, and seats to keep permissions aligned.</p>
+    <ul>
+      <li><a href="users/">Users and Roles</a></li>
+      <li><a href="../getting-started/creating-account/">Sign In and Invitations</a></li>
+      <li><a href="../support/faq/">FAQ</a></li>
+    </ul>
+  </section>
+  <section class="os-topic-card">
+    <h3>Governance</h3>
+    <p>Review system events and ownership changes through organization history.</p>
+    <ul>
+      <li><a href="audit-logs/">Audit Logs</a></li>
+      <li><a href="../support/release-notes/">Release Notes</a></li>
+    </ul>
+  </section>
+</div>
+
+## Access Basics
+- `Role` controls authority: Owner, Manager, Member.
+- `Seat` controls capability: Full, Field, Viewer.
+- Visible menus and actions vary by role and seat.
 
 ## Related Pages
-- [Users and Roles](users.md)
-- [Clients](clients.md)
-- [Audit Logs](audit-logs.md)
+- [Start Here](../getting-started/index.md)
+- [Sites Overview](../projects/index.md)
+- [Mobile Overview](../mobile/index.md)
+- [Help Overview](../support/index.md)
