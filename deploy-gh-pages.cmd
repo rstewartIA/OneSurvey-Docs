@@ -14,4 +14,4 @@ if /I not "%CURRENT_BRANCH%"=="main" (
   exit /b 1
 )
 
-".venv\Scripts\python.exe" -m mkdocs gh-deploy --clean --remote-name origin --remote-branch gh-pages
+".venv\Scripts\python.exe" -m mkdocs gh-deploy --clean --force --remote-name origin --remote-branch gh-pages
