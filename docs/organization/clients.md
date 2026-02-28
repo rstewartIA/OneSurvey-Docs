@@ -1,10 +1,11 @@
-﻿---
+---
+doc_id: HC-ORG-002
+doc_owner: OneSurvey Support Team
 audience: public-end-user
 roles:
-  - manager
-  - owner
+- manager
+- owner
 last_reviewed: 2026-02-27
-doc_owner: Docs Team
 ---
 
 # Clients

@@ -1,3 +1,8 @@
+---
+doc_id: HC-SURV-008
+doc_owner: OneSurvey Support Team
+---
+
 # Link Photos
 
 ## Overview
