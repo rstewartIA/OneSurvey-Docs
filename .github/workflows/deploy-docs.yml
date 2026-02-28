@@ -12,6 +12,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      CHATBASE_BOT_ID: ${{ secrets.CHATBASE_BOT_ID }}
 
     steps:
       - name: Checkout

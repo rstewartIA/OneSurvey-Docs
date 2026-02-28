@@ -66,6 +66,8 @@ validation:
 
 extra:
   generator: false
+  # Set CHATBASE_BOT_ID in your environment to enable the chatbot widget.
+  chatbase_bot_id: !ENV [CHATBASE_BOT_ID, ""]
   feedback:
     title: Was this page helpful?
     ratings:

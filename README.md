@@ -46,3 +46,18 @@ This deploy command runs from `main` and publishes generated output to `gh-pages
 ## Auto-deploy on push
 
 This repo includes `.github/workflows/deploy-docs.yml`, which deploys to `gh-pages` automatically whenever `main` is pushed.
+
+## Optional: Chatbase chatbot widget
+
+The docs site supports a Chatbase widget in the bottom-right corner.
+
+Set your chatbot ID before serving/building:
+
+```powershell
+$env:CHATBASE_BOT_ID="YOUR_CHATBASE_BOT_ID"
+```
+
+If `CHATBASE_BOT_ID` is not set, the widget remains disabled.
+
+For GitHub Actions deploys, add a repository secret named `CHATBASE_BOT_ID`
+so production builds can inject the widget.
