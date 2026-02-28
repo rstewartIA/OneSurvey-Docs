@@ -1,9 +1,10 @@
-﻿---
+---
+doc_id: HC-ORG-004
+doc_owner: OneSurvey Support Team
 audience: public-end-user
 roles:
-  - owner
+- owner
 last_reviewed: 2026-02-27
-doc_owner: Docs Team
 ---
 
 # Audit Logs

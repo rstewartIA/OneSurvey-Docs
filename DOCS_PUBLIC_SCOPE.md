@@ -1,4 +1,4 @@
-﻿# Public Docs Scope Policy
+# Public Docs Scope Policy
 
 This policy defines what belongs in the public OneSurvey help center.
 
@@ -35,21 +35,37 @@ Public docs are for OneSurvey app users:
 - Prefer "Available to" callouts on role-gated pages.
 - Avoid architecture and implementation explanations in end-user docs.
 
-## Optional Frontmatter Standard
+## Required Metadata Standard (Nav Pages)
 
-Use these keys on key pages where practical:
+Every page listed in `mkdocs.yml` nav must include these keys:
 
 ```yaml
 ---
+doc_id: HC-AREA-###
+doc_owner: OneSurvey Support Team
 audience: public-end-user
 roles:
   - member
   - manager
   - owner
 last_reviewed: YYYY-MM-DD
-doc_owner: Docs Team
 ---
 ```
+
+`last_reviewed` is optional for page owners but, if present, must be `YYYY-MM-DD`.
+`Last updated` is rendered automatically from git revision date.
+
+### Doc ID Assignment Rules
+
+- Format: `HC-(START|SITES|SURV|MOB|ORG|HELP)-###`
+- Keep IDs stable forever; moving a page does not change its ID.
+- Assign the next available number in that area.
+- Record every new ID in `DOC_ID_REGISTRY.md`.
+
+Examples:
+- `HC-START-001` for Start Here pages
+- `HC-SITES-006` for Sites pages
+- `HC-HELP-003` for Help pages
 
 ## Pre-Publish Checks
 

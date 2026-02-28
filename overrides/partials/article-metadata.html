@@ -1,0 +1,44 @@
+{% if page and page.meta and not page.meta.hide_metadata %}
+  {% set updated = page.meta.git_revision_date_localized or page.meta.last_reviewed %}
+  {% set doc_id = page.meta.doc_id %}
+  {% set doc_owner = page.meta.doc_owner %}
+  {% set roles = page.meta.roles %}
+  {% set all_roles = roles and roles is not string and roles|length == 3 and "member" in roles and "manager" in roles and "owner" in roles %}
+  {% set show_access = roles and not all_roles %}
+  {% if updated or doc_id or doc_owner or show_access %}
+    <section class="os-article-meta" aria-label="Article metadata">
+      {% if updated %}
+        <div class="os-article-meta__item">
+          <span class="os-article-meta__icon" aria-hidden="true">{% include ".icons/material/clock-edit-outline.svg" %}</span>
+          <span class="os-meta-sr">Updated</span>
+          <span class="os-article-meta__value">{{ updated }}</span>
+        </div>
+      {% endif %}
+      {% if doc_id %}
+        <div class="os-article-meta__item">
+          <span class="os-article-meta__icon" aria-hidden="true">{% include ".icons/material/identifier.svg" %}</span>
+          <span class="os-meta-sr">Document ID</span>
+          <span class="os-article-meta__value">{{ doc_id }}</span>
+        </div>
+      {% endif %}
+      {% if doc_owner %}
+        <div class="os-article-meta__item">
+          <span class="os-article-meta__icon" aria-hidden="true">{% include ".icons/material/account-group-outline.svg" %}</span>
+          <span class="os-meta-sr">Owner Team</span>
+          <span class="os-article-meta__value">{{ doc_owner }}</span>
+        </div>
+      {% endif %}
+      {% if show_access %}
+        <div class="os-article-meta__item">
+          <span class="os-article-meta__icon" aria-hidden="true">{% include ".icons/material/shield-account-outline.svg" %}</span>
+          <span class="os-meta-sr">Access</span>
+          {% if roles is string %}
+            <span class="os-article-meta__value">{{ roles }}</span>
+          {% else %}
+            <span class="os-article-meta__value">{{ roles | join(" / ") }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+    </section>
+  {% endif %}
+{% endif %}

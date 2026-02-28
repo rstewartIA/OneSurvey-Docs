@@ -1,4 +1,9 @@
-﻿# Cross-Platform Reference
+---
+doc_id: HC-MOB-007
+doc_owner: OneSurvey Support Team
+---
+
+# Cross-Platform Reference
 
 ## Overview
 OneSurvey supports desktop, tablet, and phone. Each device is optimized for a different work style.
