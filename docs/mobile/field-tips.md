@@ -1,9 +1,4 @@
----
-doc_id: HC-MOB-008
-doc_owner: OneSurvey Support Team
----
-
-# Field Tips
+﻿# Field Tips
 
 ## Before You Arrive
 - Confirm site access and assignment ownership.

@@ -1,8 +1,3 @@
----
-doc_id: HC-SITES-008
-doc_owner: OneSurvey Support Team
----
-
 # Gallery
 
 ## Overview

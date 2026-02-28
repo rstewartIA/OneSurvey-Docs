@@ -1,8 +1,3 @@
----
-doc_id: HC-SURV-011
-doc_owner: OneSurvey Support Team
----
-
 # Design and Color
 
 ## Overview

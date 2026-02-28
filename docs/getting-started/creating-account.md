@@ -1,12 +1,11 @@
----
-doc_id: HC-START-003
-doc_owner: OneSurvey Support Team
+﻿---
 audience: public-end-user
 roles:
-- member
-- manager
-- owner
+  - member
+  - manager
+  - owner
 last_reviewed: 2026-02-27
+doc_owner: Docs Team
 ---
 
 # Sign In and Invitations

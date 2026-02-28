@@ -1,8 +1,3 @@
----
-doc_id: HC-SURV-007
-doc_owner: OneSurvey Support Team
----
-
 # Element Information
 
 ## Overview

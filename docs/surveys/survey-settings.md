@@ -1,8 +1,3 @@
----
-doc_id: HC-SURV-012
-doc_owner: OneSurvey Support Team
----
-
 # Survey Settings
 
 ## Overview

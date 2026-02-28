@@ -1,8 +1,3 @@
----
-doc_id: HC-ORG-001
-doc_owner: OneSurvey Support Team
----
-
 # Organization Settings
 
 Organization and access controls define who can work in OneSurvey and what each user can do.

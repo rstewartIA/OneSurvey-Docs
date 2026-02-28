@@ -1,9 +1,4 @@
----
-doc_id: HC-MOB-006
-doc_owner: OneSurvey Support Team
----
-
-# Mobile Settings and Notifications
+﻿# Mobile Settings and Notifications
 
 ## Overview
 Settings lets each user manage profile, password, display preferences, and notifications.

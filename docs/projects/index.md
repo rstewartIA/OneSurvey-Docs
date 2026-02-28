@@ -1,8 +1,3 @@
----
-doc_id: HC-SITES-001
-doc_owner: OneSurvey Support Team
----
-
 # Sites Overview
 
 Sites are the central workspace for planning, field execution, media capture, and final handoff.

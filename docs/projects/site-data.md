@@ -1,8 +1,3 @@
----
-doc_id: HC-SITES-005
-doc_owner: OneSurvey Support Team
----
-
 # Site Data
 
 ## Overview

@@ -1,8 +1,3 @@
----
-doc_id: HC-SURV-002
-doc_owner: OneSurvey Support Team
----
-
 # Upload a Floor Plan
 
 ## Overview

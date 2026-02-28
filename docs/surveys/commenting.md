@@ -1,8 +1,3 @@
----
-doc_id: HC-SURV-009
-doc_owner: OneSurvey Support Team
----
-
 # Commenting
 
 ## Overview

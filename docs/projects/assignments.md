@@ -1,8 +1,3 @@
----
-doc_id: HC-SITES-009
-doc_owner: OneSurvey Support Team
----
-
 # Assignments
 
 ## Overview

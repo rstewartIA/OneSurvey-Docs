@@ -1,9 +1,4 @@
----
-doc_id: HC-HELP-005
-doc_owner: OneSurvey Support Team
----
-
-# Release Notes
+﻿# Release Notes
 
 Use this page to summarize important product updates for end users.
 

@@ -1,9 +1,4 @@
----
-doc_id: HC-MOB-003
-doc_owner: OneSurvey Support Team
----
-
-# Mobile Surveys
+﻿# Mobile Surveys
 
 ## Overview
 Mobile Surveys is optimized for quick element updates in the field.

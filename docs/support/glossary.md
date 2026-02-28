@@ -1,9 +1,4 @@
----
-doc_id: HC-HELP-004
-doc_owner: OneSurvey Support Team
----
-
-# Glossary
+﻿# Glossary
 
 **Assignment**: A tracked work item with owner, priority, status, comments, and history.
 

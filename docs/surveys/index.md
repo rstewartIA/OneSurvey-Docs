@@ -1,9 +1,4 @@
----
-doc_id: HC-SURV-001
-doc_owner: OneSurvey Support Team
----
-
-# Surveys Overview
+﻿# Surveys Overview
 
 Surveys are where teams create floor plan layouts, place elements, and maintain field-ready site information.
 

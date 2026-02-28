@@ -1,8 +1,3 @@
----
-doc_id: HC-SITES-010
-doc_owner: OneSurvey Support Team
----
-
 # Tickets
 
 ## Overview

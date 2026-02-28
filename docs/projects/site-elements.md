@@ -1,8 +1,3 @@
----
-doc_id: HC-SITES-004
-doc_owner: OneSurvey Support Team
----
-
 # Site Elements
 
 ## Overview

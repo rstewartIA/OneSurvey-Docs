@@ -1,9 +1,4 @@
----
-doc_id: HC-START-001
-doc_owner: OneSurvey Support Team
----
-
-# OneSurvey Help Center
+﻿# OneSurvey Help Center
 
 OneSurvey brings survey design, field capture, site media, assignments, tickets, and reporting into one workflow.
 

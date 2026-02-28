@@ -1,8 +1,3 @@
----
-doc_id: HC-MOB-005
-doc_owner: OneSurvey Support Team
----
-
 # Mobile OneSnap
 
 ## Overview

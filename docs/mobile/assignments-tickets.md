@@ -1,9 +1,4 @@
----
-doc_id: HC-MOB-004
-doc_owner: OneSurvey Support Team
----
-
-# Mobile Assignments and Tickets
+﻿# Mobile Assignments and Tickets
 
 ## Overview
 Mobile keeps work tracking close to field activity so updates happen in real time.
