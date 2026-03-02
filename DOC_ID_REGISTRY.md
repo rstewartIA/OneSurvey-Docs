@@ -1,0 +1,45 @@
+# Doc ID Registry
+
+This registry tracks article-page Doc IDs for the public help center.
+IDs are never renumbered; moved pages keep their existing ID.
+
+| doc_id | path | title | section |
+|---|---|---|---|
+| HC-START-001 | docs/getting-started/creating-account.md | Sign In and Invitations | Start Here |
+| HC-SITES-001 | docs/projects/create-project.md | Create a Site | Sites |
+| HC-SITES-002 | docs/projects/project-detail.md | Site Detail | Sites |
+| HC-SITES-003 | docs/projects/site-elements.md | Site Elements | Sites |
+| HC-SITES-004 | docs/projects/site-data.md | Site Data | Sites |
+| HC-SITES-005 | docs/projects/attachments.md | Attachments | Sites |
+| HC-SITES-006 | docs/projects/reports.md | Reports | Sites |
+| HC-SITES-007 | docs/projects/gallery.md | Gallery | Sites |
+| HC-SITES-008 | docs/projects/assignments.md | Assignments | Sites |
+| HC-SITES-009 | docs/projects/tickets.md | Tickets | Sites |
+| HC-SITES-010 | docs/media/onesnap.md | OneSnap Overview | Sites |
+| HC-SURV-001 | docs/surveys/upload-floor-plan.md | Upload a Floor Plan | Surveys |
+| HC-SURV-002 | docs/surveys/canvas-basics.md | Canvas Basics | Surveys |
+| HC-SURV-003 | docs/surveys/drag-and-drop.md | Drag and Drop Elements | Surveys |
+| HC-SURV-004 | docs/surveys/drawings-and-walls.md | Drawings and Walls | Surveys |
+| HC-SURV-005 | docs/surveys/visibility-filters.md | Visibility Filters | Surveys |
+| HC-SURV-006 | docs/surveys/element-information.md | Element Information | Surveys |
+| HC-SURV-007 | docs/surveys/link-photos.md | Link Photos | Surveys |
+| HC-SURV-008 | docs/surveys/commenting.md | Commenting | Surveys |
+| HC-SURV-009 | docs/surveys/adding-a-path.md | Adding a Path | Surveys |
+| HC-SURV-010 | docs/surveys/design.md | Design and Color | Surveys |
+| HC-SURV-011 | docs/surveys/survey-settings.md | Survey Settings | Surveys |
+| HC-SURV-012 | docs/surveys/installation-access.md | Installation Access | Surveys |
+| HC-SURV-013 | docs/surveys/version-history.md | Version History | Surveys |
+| HC-MOB-001 | docs/mobile/projects.md | Sites | Mobile |
+| HC-MOB-002 | docs/mobile/surveys.md | Surveys | Mobile |
+| HC-MOB-003 | docs/mobile/assignments-tickets.md | Assignments and Tickets | Mobile |
+| HC-MOB-004 | docs/mobile/onesnap.md | OneSnap | Mobile |
+| HC-MOB-005 | docs/mobile/settings-notifications.md | Settings and Notifications | Mobile |
+| HC-MOB-006 | docs/mobile/cross-platform-reference.md | Cross-Platform Reference | Mobile |
+| HC-MOB-007 | docs/mobile/field-tips.md | Field Tips | Mobile |
+| HC-ORG-001 | docs/organization/clients.md | Clients | Organization & Access |
+| HC-ORG-002 | docs/organization/users.md | Users and Roles | Organization & Access |
+| HC-ORG-003 | docs/organization/audit-logs.md | Audit Logs | Organization & Access |
+| HC-HELP-001 | docs/support/faq.md | FAQ | Help |
+| HC-HELP-002 | docs/support/access-and-roles.md | Access and Roles | Help |
+| HC-HELP-003 | docs/support/glossary.md | Glossary | Help |
+| HC-HELP-004 | docs/support/release-notes.md | Release Notes | Help |
