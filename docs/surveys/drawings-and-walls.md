@@ -18,5 +18,5 @@ Drawing tools add visual context such as walls, lines, arrows, shapes, and text.
 Use wall sections to break large areas into clearer, reviewable segments.
 
 ## Related Pages
-- [Canvas Basics](canvas-basics.md)
+- [Canvas Workspace Basics](index.md#canvas-workspace-basics)
 - [Visibility Filters](visibility-filters.md)

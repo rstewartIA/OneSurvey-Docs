@@ -66,7 +66,7 @@ For step-by-step instructions on placing elements, see [Drag and Drop Elements](
 ## Related Pages
 
 - [Drag and Drop Elements](../surveys/drag-and-drop.md)
-- [Canvas Basics](../surveys/canvas-basics.md)
+- [Canvas Workspace Basics](../surveys/index.md#canvas-workspace-basics)
 - [Element Information](../surveys/element-information.md)
 - [Site Data](site-data.md)
 

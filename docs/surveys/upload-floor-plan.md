@@ -35,7 +35,7 @@ Upload the floor plan image or drawing used as the survey background.
 - Confirm scale before placing many elements.
 
 ## Related Pages
-- [Canvas Basics](canvas-basics.md)
+- [Canvas Workspace Basics](index.md#canvas-workspace-basics)
 - [Surveys Overview](index.md)
 
 

@@ -61,6 +61,9 @@ plugins:
         media/project-album-detail.md: projects/gallery.md
         getting-started/dashboard-tour.md: getting-started/index.md
         surveys/color-styling.md: surveys/design.md
+        surveys/canvas-basics.md: surveys/index.md
+        surveys/survey-settings.md: surveys/design.md
+        surveys/installation-access.md: surveys/design.md
         surveys/quality-check.md: surveys/version-history.md
         projects/project-photos.md: projects/gallery.md
         projects/project-albums.md: projects/gallery.md
@@ -106,17 +109,15 @@ nav:
   - Surveys:
       - Overview: surveys/index.md
       - Upload a Floor Plan: surveys/upload-floor-plan.md
-      - Canvas Basics: surveys/canvas-basics.md
       - Drag and Drop Elements: surveys/drag-and-drop.md
+      - Element Sidebar: surveys/design.md
       - Drawings and Walls: surveys/drawings-and-walls.md
       - Visibility Filters: surveys/visibility-filters.md
       - Element Information: surveys/element-information.md
+      - FoV Adjustment: surveys/fov-adjustment.md
       - Link Photos: surveys/link-photos.md
       - Commenting: surveys/commenting.md
       - Adding a Path: surveys/adding-a-path.md
-      - Design and Color: surveys/design.md
-      - Survey Settings: surveys/survey-settings.md
-      - Installation Access: surveys/installation-access.md
       - Version History: surveys/version-history.md
   - Mobile:
       - Overview: mobile/index.md
