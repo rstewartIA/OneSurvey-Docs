@@ -1,6 +1,8 @@
-﻿# OneSurvey Help Center
+# OneSurvey Help Center
 
-OneSurvey brings survey design, field capture, site media, assignments, tickets, and reporting into one workflow.
+OneSurvey helps teams plan site work, document field conditions, and track execution in one connected workflow.
+
+Use this Help Center to get started quickly and keep projects moving from setup to completion.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
@@ -9,23 +11,34 @@ OneSurvey brings survey design, field capture, site media, assignments, tickets,
   <p class="os-screenshot-caption">Workspace overview across surveys, sites, and field operations.</p>
 </div>
 
-## Most Used
+## Start with These Actions
 
 <div class="os-quick-links" role="list">
-  <a class="os-quick-link" href="getting-started/" role="listitem">Start Here</a>
   <a class="os-quick-link" href="projects/create-project/" role="listitem">Create a Site</a>
   <a class="os-quick-link" href="surveys/upload-floor-plan/" role="listitem">Upload a Floor Plan</a>
-  <a class="os-quick-link" href="projects/gallery/" role="listitem">Manage Gallery</a>
-  <a class="os-quick-link" href="projects/assignments/" role="listitem">Assignments</a>
-  <a class="os-quick-link" href="support/faq/" role="listitem">FAQ</a>
+  <a class="os-quick-link" href="surveys/drag-and-drop/" role="listitem">Design &amp; Document</a>
 </div>
+
+For photo documentation during field work, use [Link Photos](surveys/link-photos.md).
+
+## What OneSurvey Helps You Do
+
+- **Organize site work**: create and manage sites, teams, and project context.
+- **Capture and document field conditions**: build surveys, place elements, and attach evidence.
+- **Track execution**: manage assignments, tickets, and reporting status in one place.
+
+## How It Works
+
+1. Set up access and create a site.
+2. Build or update the survey and document field conditions.
+3. Track assignments and tickets, then review progress through reports.
 
 ## Browse by Area
 
 <div class="os-topic-grid">
   <section class="os-topic-card">
     <h3>Start Here</h3>
-    <p>Account setup, invitations, and first-day orientation.</p>
+    <p>Get access set up and understand your first-day workflow.</p>
     <ul>
       <li><a href="getting-started/">Getting Started Overview</a></li>
       <li><a href="getting-started/creating-account/">Sign In and Invitations</a></li>
@@ -34,25 +47,25 @@ OneSurvey brings survey design, field capture, site media, assignments, tickets,
   </section>
   <section class="os-topic-card">
     <h3>Sites</h3>
-    <p>Plan and manage site-level work from setup through delivery.</p>
+    <p>Create sites and manage work from setup through delivery.</p>
     <ul>
-      <li><a href="projects/">Sites Overview</a></li>
+      <li><a href="projects/create-project/">Create a Site</a></li>
       <li><a href="projects/project-detail/">Site Detail</a></li>
       <li><a href="projects/reports/">Reports</a></li>
     </ul>
   </section>
   <section class="os-topic-card">
     <h3>Surveys</h3>
-    <p>Build floor plans, map elements, and maintain field data.</p>
+    <p>Build floor plans, place elements, and capture documentation.</p>
     <ul>
-      <li><a href="surveys/">Surveys Overview</a></li>
       <li><a href="surveys/upload-floor-plan/">Upload a Floor Plan</a></li>
-      <li><a href="surveys/element-information/">Element Information</a></li>
+      <li><a href="surveys/drag-and-drop/">Drag and Drop Elements</a></li>
+      <li><a href="surveys/link-photos/">Link Photos</a></li>
     </ul>
   </section>
   <section class="os-topic-card">
     <h3>Mobile</h3>
-    <p>Update surveys and operations quickly while in the field.</p>
+    <p>Capture updates quickly while working in the field.</p>
     <ul>
       <li><a href="mobile/">Mobile Overview</a></li>
       <li><a href="mobile/projects/">Sites on Mobile</a></li>
@@ -61,34 +74,32 @@ OneSurvey brings survey design, field capture, site media, assignments, tickets,
   </section>
   <section class="os-topic-card">
     <h3>Organization and Access</h3>
-    <p>Manage organization settings, users, seats, and audit history.</p>
+    <p>Manage users, clients, and organization-level settings.</p>
     <ul>
-      <li><a href="organization/">Organization Settings</a></li>
       <li><a href="organization/users/">Users and Roles</a></li>
-      <li><a href="organization/audit-logs/">Audit Logs</a></li>
+      <li><a href="organization/clients/">Clients</a></li>
+      <li><a href="organization/">Organization Settings</a></li>
     </ul>
   </section>
   <section class="os-topic-card">
     <h3>Help</h3>
-    <p>Find common answers, product terminology, and release updates.</p>
+    <p>Find answers, terms, and product updates fast.</p>
     <ul>
-      <li><a href="support/">Help Overview</a></li>
       <li><a href="support/faq/">FAQ</a></li>
+      <li><a href="support/glossary/">Glossary</a></li>
       <li><a href="support/release-notes/">Release Notes</a></li>
     </ul>
   </section>
 </div>
 
-## Core Workflow
+## Access Note
 
-1. Owners and managers invite users and assign role and seat access.
-2. Teams create sites and build surveys.
-3. Field users capture updates, photos, assignments, and tickets.
-4. Managers review progress and export reports.
+What you see in OneSurvey depends on your role and seat type. See [Access and Roles](support/access-and-roles.md) for details.
 
 ## Related Pages
 
+- [Getting Started Overview](getting-started/index.md)
 - [Users and Roles](organization/users.md)
 - [Sites Overview](projects/index.md)
 - [Surveys Overview](surveys/index.md)
-- [Mobile Overview](mobile/index.md)
+- [FAQ](support/faq.md)
