@@ -5,17 +5,17 @@
   {% if updated and doc_id and doc_owner %}
     <section class="os-article-meta" aria-label="Article metadata">
       <div class="os-article-meta__item">
-        <span class="os-article-meta__icon" aria-hidden="true">{% include ".icons/material/clock-edit-outline.svg" %}</span>
+        <span class="md-icon os-article-meta__icon" aria-hidden="true">{% include ".icons/material/clock-edit-outline.svg" %}</span>
         <span class="os-meta-sr">Updated</span>
         <span class="os-article-meta__value">{{ updated }}</span>
       </div>
       <div class="os-article-meta__item">
-        <span class="os-article-meta__icon" aria-hidden="true">{% include ".icons/material/identifier.svg" %}</span>
+        <span class="md-icon os-article-meta__icon" aria-hidden="true">{% include ".icons/material/identifier.svg" %}</span>
         <span class="os-meta-sr">Document ID</span>
         <span class="os-article-meta__value">{{ doc_id }}</span>
       </div>
       <div class="os-article-meta__item">
-        <span class="os-article-meta__icon" aria-hidden="true">{% include ".icons/material/account-group-outline.svg" %}</span>
+        <span class="md-icon os-article-meta__icon" aria-hidden="true">{% include ".icons/material/account-group-outline.svg" %}</span>
         <span class="os-meta-sr">Owner Team</span>
         <span class="os-article-meta__value">{{ doc_owner }}</span>
       </div>
