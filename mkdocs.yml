@@ -43,6 +43,10 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: false
+      fallback_to_build_date: true
   - redirects:
       redirect_maps:
         start-here.md: getting-started/index.md

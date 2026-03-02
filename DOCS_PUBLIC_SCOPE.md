@@ -35,21 +35,32 @@ Public docs are for OneSurvey app users:
 - Prefer "Available to" callouts on role-gated pages.
 - Avoid architecture and implementation explanations in end-user docs.
 
-## Optional Frontmatter Standard
+## Required Metadata Standard (Article Pages)
 
-Use these keys on key pages where practical:
+Every nav article page (non-`index.md`) must include these keys:
 
 ```yaml
 ---
+doc_id: HC-AREA-###
+doc_owner: OneSurvey Support Team
 audience: public-end-user
 roles:
   - member
   - manager
   - owner
 last_reviewed: YYYY-MM-DD
-doc_owner: Docs Team
 ---
 ```
+
+`last_reviewed` is optional for maintainers but must use `YYYY-MM-DD` if present.
+Displayed page date is sourced automatically from git revision history.
+
+### Doc ID Assignment Rules
+
+- Format: `HC-(START|SITES|SURV|MOB|ORG|HELP)-###`
+- Keep IDs stable permanently; moving a page does not change its ID.
+- Assign the next available number in that area.
+- Record changes in `DOC_ID_REGISTRY.md`.
 
 ## Pre-Publish Checks
 
