@@ -1101,9 +1101,11 @@ body {
 }
 
 .os-article-meta__icon svg {
-  width: 0.72rem;
-  height: 0.72rem;
-  fill: currentcolor;
+  width: 0.72rem !important;
+  height: 0.72rem !important;
+  min-width: 0.72rem !important;
+  max-width: 0.72rem !important;
+  fill: currentcolor !important;
 }
 
 .os-article-meta__value {

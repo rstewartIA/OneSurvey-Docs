@@ -88,7 +88,6 @@ copyright: 'Copyright (c) <span id="os-year"></span> OneSurvey'
 
 nav:
   - Start Here:
-      - Help Center Overview: index.md
       - Getting Started Overview: getting-started/index.md
       - Sign In and Invitations: getting-started/creating-account.md
   - Sites:
