@@ -48,7 +48,7 @@ Organization and access controls define who can work in OneSurvey and what each 
 - Visible menus and actions vary by role and seat.
 
 ## Related Pages
-- [Start Here](../getting-started/index.md)
+- [Start Here](../index.md)
 - [Sites Overview](../projects/index.md)
 - [Mobile Overview](../mobile/index.md)
 - [Help Overview](../support/index.md)

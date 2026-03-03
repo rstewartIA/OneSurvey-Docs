@@ -27,6 +27,6 @@ Visibility filters help you focus on the elements you need by hiding unrelated i
 4. Clear filters when finished.
 
 ## Related Pages
-- [Canvas Basics](canvas-basics.md)
+- [Canvas Workspace Basics](index.md#canvas-workspace-basics)
 - [Element Information](element-information.md)
 

@@ -15,5 +15,5 @@ Paths show movement routes or connection guidance on the floor plan.
 4. Save and review in context.
 
 ## Related Pages
-- [Canvas Basics](canvas-basics.md)
+- [Canvas Workspace Basics](index.md#canvas-workspace-basics)
 - [Drawings and Walls](drawings-and-walls.md)

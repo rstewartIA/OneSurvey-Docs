@@ -24,5 +24,5 @@ Version History lets you review and restore previous survey states.
 Version history provides a clear change trail and a safe rollback option.
 
 ## Related Pages
-- [Canvas Basics](canvas-basics.md)
+- [Canvas Workspace Basics](index.md#canvas-workspace-basics)
 

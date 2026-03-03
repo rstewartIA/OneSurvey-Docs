@@ -17,7 +17,7 @@ IDs are never renumbered; moved pages keep their existing ID.
 | HC-SITES-009 | docs/projects/tickets.md | Tickets | Sites |
 | HC-SITES-010 | docs/media/onesnap.md | OneSnap Overview | Sites |
 | HC-SURV-001 | docs/surveys/upload-floor-plan.md | Upload a Floor Plan | Surveys |
-| HC-SURV-002 | docs/surveys/canvas-basics.md | Canvas Basics | Surveys |
+| HC-SURV-002 | docs/surveys/canvas-basics.md (retired) | Canvas Basics (merged into Surveys Overview) | Surveys |
 | HC-SURV-003 | docs/surveys/drag-and-drop.md | Drag and Drop Elements | Surveys |
 | HC-SURV-004 | docs/surveys/drawings-and-walls.md | Drawings and Walls | Surveys |
 | HC-SURV-005 | docs/surveys/visibility-filters.md | Visibility Filters | Surveys |
@@ -25,10 +25,9 @@ IDs are never renumbered; moved pages keep their existing ID.
 | HC-SURV-007 | docs/surveys/link-photos.md | Link Photos | Surveys |
 | HC-SURV-008 | docs/surveys/commenting.md | Commenting | Surveys |
 | HC-SURV-009 | docs/surveys/adding-a-path.md | Adding a Path | Surveys |
-| HC-SURV-010 | docs/surveys/design.md | Design and Color | Surveys |
-| HC-SURV-011 | docs/surveys/survey-settings.md | Survey Settings | Surveys |
-| HC-SURV-012 | docs/surveys/installation-access.md | Installation Access | Surveys |
+| HC-SURV-010 | docs/surveys/design.md | Element Sidebar | Surveys |
 | HC-SURV-013 | docs/surveys/version-history.md | Version History | Surveys |
+| HC-SURV-014 | docs/surveys/fov-adjustment.md | FoV Adjustment | Surveys |
 | HC-MOB-001 | docs/mobile/projects.md | Sites | Mobile |
 | HC-MOB-002 | docs/mobile/surveys.md | Surveys | Mobile |
 | HC-MOB-003 | docs/mobile/assignments-tickets.md | Assignments and Tickets | Mobile |

@@ -26,6 +26,6 @@ Use drag and drop to place elements on the survey canvas.
 - Use consistent naming for easier review and reporting.
 
 ## Related Pages
-- [Canvas Basics](canvas-basics.md)
+- [Canvas Workspace Basics](index.md#canvas-workspace-basics)
 - [Element Information](element-information.md)
 

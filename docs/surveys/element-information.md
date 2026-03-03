@@ -22,6 +22,7 @@ Element Information is where you review and update details for each placed eleme
 4. Save changes.
 
 ## Related Pages
+- [FoV Adjustment](fov-adjustment.md)
 - [Link Photos](link-photos.md)
 - [Commenting](commenting.md)
-- [Design and Color](design.md)
+- [Element Sidebar](design.md)

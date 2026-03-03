@@ -49,7 +49,7 @@ plugins:
       fallback_to_build_date: true
   - redirects:
       redirect_maps:
-        start-here.md: getting-started/index.md
+        start-here.md: index.md
         help.md: support/index.md
         projects/tasks.md: projects/assignments.md
         projects/proposals.md: support/release-notes.md
@@ -59,8 +59,12 @@ plugins:
         support/tickets.md: support/faq.md
         media/project-photos.md: projects/gallery.md
         media/project-album-detail.md: projects/gallery.md
-        getting-started/dashboard-tour.md: getting-started/index.md
+        getting-started/dashboard-tour.md: index.md
+        getting-started/index.md: index.md
         surveys/color-styling.md: surveys/design.md
+        surveys/canvas-basics.md: surveys/index.md
+        surveys/survey-settings.md: surveys/design.md
+        surveys/installation-access.md: surveys/design.md
         surveys/quality-check.md: surveys/version-history.md
         projects/project-photos.md: projects/gallery.md
         projects/project-albums.md: projects/gallery.md
@@ -89,7 +93,6 @@ copyright: 'Copyright (c) <span id="os-year"></span> OneSurvey'
 nav:
   - Start Here:
       - Home: index.md
-      - Getting Started Overview: getting-started/index.md
       - Sign In and Invitations: getting-started/creating-account.md
   - Sites:
       - Overview: projects/index.md
@@ -106,17 +109,15 @@ nav:
   - Surveys:
       - Overview: surveys/index.md
       - Upload a Floor Plan: surveys/upload-floor-plan.md
-      - Canvas Basics: surveys/canvas-basics.md
       - Drag and Drop Elements: surveys/drag-and-drop.md
+      - Element Sidebar: surveys/design.md
       - Drawings and Walls: surveys/drawings-and-walls.md
       - Visibility Filters: surveys/visibility-filters.md
       - Element Information: surveys/element-information.md
+      - FoV Adjustment: surveys/fov-adjustment.md
       - Link Photos: surveys/link-photos.md
       - Commenting: surveys/commenting.md
       - Adding a Path: surveys/adding-a-path.md
-      - Design and Color: surveys/design.md
-      - Survey Settings: surveys/survey-settings.md
-      - Installation Access: surveys/installation-access.md
       - Version History: surveys/version-history.md
   - Mobile:
       - Overview: mobile/index.md

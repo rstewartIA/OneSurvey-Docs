@@ -77,5 +77,5 @@ Site Data is a pre-report validation step. Once the data looks correct here, go 
 
 - [Reports](reports.md)
 - [Element Information](../surveys/element-information.md)
-- [Installation Access](../surveys/installation-access.md)
+- [Element Sidebar](../surveys/design.md)
 
