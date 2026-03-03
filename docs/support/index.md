@@ -37,7 +37,7 @@ Use this section to find quick answers, terminology, and release updates for the
 </div>
 
 ## Related Pages
-- [Start Here](../getting-started/index.md)
+- [Start Here](../index.md)
 - [Sites Overview](../projects/index.md)
 - [Surveys Overview](../surveys/index.md)
 - [Mobile Overview](../mobile/index.md)

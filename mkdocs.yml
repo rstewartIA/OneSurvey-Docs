@@ -49,7 +49,7 @@ plugins:
       fallback_to_build_date: true
   - redirects:
       redirect_maps:
-        start-here.md: getting-started/index.md
+        start-here.md: index.md
         help.md: support/index.md
         projects/tasks.md: projects/assignments.md
         projects/proposals.md: support/release-notes.md
@@ -59,7 +59,8 @@ plugins:
         support/tickets.md: support/faq.md
         media/project-photos.md: projects/gallery.md
         media/project-album-detail.md: projects/gallery.md
-        getting-started/dashboard-tour.md: getting-started/index.md
+        getting-started/dashboard-tour.md: index.md
+        getting-started/index.md: index.md
         surveys/color-styling.md: surveys/design.md
         surveys/canvas-basics.md: surveys/index.md
         surveys/survey-settings.md: surveys/design.md
@@ -92,7 +93,6 @@ copyright: 'Copyright (c) <span id="os-year"></span> OneSurvey'
 nav:
   - Start Here:
       - Home: index.md
-      - Getting Started Overview: getting-started/index.md
       - Sign In and Invitations: getting-started/creating-account.md
   - Sites:
       - Overview: projects/index.md

@@ -40,9 +40,9 @@ For photo documentation during field work, use [Link Photos](surveys/link-photos
     <h3>Start Here</h3>
     <p>Get access set up and understand your first-day workflow.</p>
     <ul>
-      <li><a href="getting-started/">Getting Started Overview</a></li>
       <li><a href="getting-started/creating-account/">Sign In and Invitations</a></li>
       <li><a href="support/access-and-roles/">Access and Roles</a></li>
+      <li><a href="projects/">Sites Overview</a></li>
     </ul>
   </section>
   <section class="os-topic-card">
@@ -98,7 +98,7 @@ What you see in OneSurvey depends on your role and seat type. See [Access and Ro
 
 ## Related Pages
 
-- [Getting Started Overview](getting-started/index.md)
+- [Sign In and Invitations](getting-started/creating-account.md)
 - [Users and Roles](organization/users.md)
 - [Sites Overview](projects/index.md)
 - [Surveys Overview](surveys/index.md)

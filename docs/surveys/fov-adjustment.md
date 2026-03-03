@@ -40,6 +40,13 @@ One element can use multiple FoVs when you need separate viewing zones.
 
 The current UI supports adding multiple FoVs (up to four per element). One FoV must remain.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/mFoV-menu.png" alt="FoV menu showing multiple FoV entries and Add FoV action">
+  </div>
+  <p class="os-screenshot-caption">FoV menu with multiple FoV entries and quick Add FoV controls.</p>
+</div>
+
 ## Recommended Workflow
 1. Place the element on the [survey canvas](index.md#canvas-workspace-basics).
 2. Set direction first, then tune angle and depth.
