@@ -9,6 +9,15 @@ doc_owner: OneSurvey Support Team
 
 **Site Data** provides tabular views of element and survey information collected across the entire site. Use it to review, validate, and check data in bulk before generating reports or handing off a project. It is the best way to confirm completeness across all surveys at once.
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <video controls preload="metadata" playsinline style="width: 100%; height: auto; display: block;" src="../../assets/videos/Bill-of-Materials.mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <p class="os-screenshot-caption">Site Data overview with a walkthrough of the Bill of Materials tab.</p>
+</div>
+
 ---
 
 ## Tabs

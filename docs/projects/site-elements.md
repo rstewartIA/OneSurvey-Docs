@@ -25,9 +25,9 @@ The tab has two libraries, toggled at the top:
 | Library | What it contains |
 |---|---|
 | **Universal Elements** | Standard elements available to all sites in the organization. Managed by your organization's admins. |
-| **My Library** | Custom elements specific to your organization, organized into super categories and categories. |
+| **My Library** | Custom elements specific to your organization, organized into manufacturers and categories. |
 
-Both libraries organize elements in a hierarchy: **Super Category → Category → Elements**. Click a category header to expand or collapse it and reveal the elements inside.
+Both libraries organize elements in a hierarchy: **Manufacturer → Category → Elements**. Click a category header to expand or collapse it and reveal the elements inside.
 
 ---
 
