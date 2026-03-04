@@ -2,6 +2,15 @@
 
 OneSurvey mobile is built for fast field updates, quick issue tracking, and on-site confirmation.
 
+## Overview
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../assets/images/onesurvey-mobile-phone.png" alt="OneSurvey mobile phone app view">
+  </div>
+  <p class="os-screenshot-caption">OneSurvey mobile experience on phone.</p>
+</div>
+
 ## Most Used
 
 <div class="os-quick-links" role="list">
