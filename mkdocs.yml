@@ -66,6 +66,10 @@ plugins:
         media/project-album-detail.md: sites/gallery.md
         projects/project-photos.md: sites/gallery.md
         projects/project-albums.md: sites/gallery.md
+        projects/tasks.md: sites/assignments.md
+        projects/proposals.md: support/release-notes.md
+        projects/onetime.md: support/release-notes.md
+        projects/site-settings.md: sites/site-detail.md
         sites/tasks.md: sites/assignments.md
         sites/proposals.md: support/release-notes.md
         sites/onetime.md: support/release-notes.md
