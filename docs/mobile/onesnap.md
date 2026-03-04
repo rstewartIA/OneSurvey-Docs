@@ -16,4 +16,4 @@ Mobile OneSnap supports fast photo capture and review in the field.
 
 ## Related Pages
 - [OneSnap](../media/onesnap.md)
-- [Gallery](../projects/gallery.md)
+- [Gallery](../sites/gallery.md)

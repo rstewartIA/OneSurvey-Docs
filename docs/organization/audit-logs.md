@@ -41,5 +41,5 @@ Audit Logs gives owners a searchable history of key changes across sites, users,
 ## Related Pages
 
 - [Users and Roles](users.md)
-- [Assignments](../projects/assignments.md)
-- [Tickets](../projects/tickets.md)
+- [Assignments](../sites/assignments.md)
+- [Tickets](../sites/tickets.md)

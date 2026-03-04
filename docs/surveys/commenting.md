@@ -47,7 +47,7 @@ Keep comments short, specific, and action-oriented.
 
 ## Related Pages
 - [Element Information](element-information.md)
-- [Assignments](../projects/assignments.md)
-- [Tickets](../projects/tickets.md)
+- [Assignments](../sites/assignments.md)
+- [Tickets](../sites/tickets.md)
 
 

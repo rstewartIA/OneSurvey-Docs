@@ -1,4 +1,4 @@
-﻿site_name: OneSurvey Documentation
+site_name: OneSurvey Documentation
 site_url: !ENV [MKDOCS_SITE_URL, "https://rstewartIA.github.io/OneSurvey-Docs/"]
 
 theme:
@@ -51,14 +51,33 @@ plugins:
       redirect_maps:
         start-here.md: index.md
         help.md: support/index.md
-        projects/tasks.md: projects/assignments.md
+        projects/index.md: sites/index.md
+        projects/create-project.md: sites/create-site.md
+        projects/project-detail.md: sites/site-detail.md
+        projects/site-elements.md: sites/site-elements.md
+        projects/site-data.md: sites/site-data.md
+        projects/attachments.md: sites/attachments.md
+        projects/reports.md: sites/reports.md
+        projects/gallery.md: sites/gallery.md
+        projects/assignments.md: sites/assignments.md
+        projects/tickets.md: sites/tickets.md
+        mobile/projects.md: mobile/sites.md
+        media/project-photos.md: sites/gallery.md
+        media/project-album-detail.md: sites/gallery.md
+        projects/project-photos.md: sites/gallery.md
+        projects/project-albums.md: sites/gallery.md
+        projects/tasks.md: sites/assignments.md
         projects/proposals.md: support/release-notes.md
         projects/onetime.md: support/release-notes.md
+        projects/site-settings.md: sites/site-detail.md
+        sites/tasks.md: sites/assignments.md
+        sites/proposals.md: support/release-notes.md
+        sites/onetime.md: support/release-notes.md
         surveys/start-survey.md: surveys/upload-floor-plan.md
-        projects/site-settings.md: projects/project-detail.md
+        sites/site-settings.md: sites/site-detail.md
         support/tickets.md: support/faq.md
-        media/project-photos.md: projects/gallery.md
-        media/project-album-detail.md: projects/gallery.md
+        media/site-photos.md: sites/gallery.md
+        media/site-album-detail.md: sites/gallery.md
         getting-started/dashboard-tour.md: index.md
         getting-started/index.md: index.md
         surveys/color-styling.md: surveys/design.md
@@ -66,8 +85,8 @@ plugins:
         surveys/survey-settings.md: surveys/design.md
         surveys/installation-access.md: surveys/design.md
         surveys/quality-check.md: surveys/version-history.md
-        projects/project-photos.md: projects/gallery.md
-        projects/project-albums.md: projects/gallery.md
+        sites/site-photos.md: sites/gallery.md
+        sites/site-albums.md: sites/gallery.md
 
 validation:
   omitted_files: ignore
@@ -95,16 +114,16 @@ nav:
       - Home: index.md
       - Sign In and Invitations: getting-started/creating-account.md
   - Sites:
-      - Overview: projects/index.md
-      - Create a Site: projects/create-project.md
-      - Site Detail: projects/project-detail.md
-      - Site Elements: projects/site-elements.md
-      - Site Data: projects/site-data.md
-      - Attachments: projects/attachments.md
-      - Reports: projects/reports.md
-      - Gallery: projects/gallery.md
-      - Assignments: projects/assignments.md
-      - Tickets: projects/tickets.md
+      - Overview: sites/index.md
+      - Create a Site: sites/create-site.md
+      - Site Detail: sites/site-detail.md
+      - Site Elements: sites/site-elements.md
+      - Site Data: sites/site-data.md
+      - Attachments: sites/attachments.md
+      - Reports: sites/reports.md
+      - Gallery: sites/gallery.md
+      - Assignments: sites/assignments.md
+      - Tickets: sites/tickets.md
       - OneSnap Overview: media/onesnap.md
   - Surveys:
       - Overview: surveys/index.md
@@ -121,7 +140,7 @@ nav:
       - Version History: surveys/version-history.md
   - Mobile:
       - Overview: mobile/index.md
-      - Sites: mobile/projects.md
+      - Sites: mobile/sites.md
       - Surveys: mobile/surveys.md
       - Assignments and Tickets: mobile/assignments-tickets.md
       - OneSnap: mobile/onesnap.md

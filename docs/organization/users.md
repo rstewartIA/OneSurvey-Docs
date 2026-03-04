@@ -31,7 +31,7 @@ Use the **Users** page to invite people, set access, and track seat usage.
 | --- | --- |
 | Owner | Full organization authority, including assigning Owner access. |
 | Manager | Manages users and operations across the organization. |
-| Member | Works in sites based on seat type and project access. |
+| Member | Works in sites based on seat type and site access. |
 
 ### Seat Type
 

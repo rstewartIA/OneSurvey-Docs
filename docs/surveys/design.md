@@ -12,9 +12,9 @@ The Element Sidebar opens when you select an element on the survey canvas. It is
 - **Photos**: attach and review visual proof. See [Link Photos](link-photos.md).
 - **Comments**: add context and field notes. See [Commenting](commenting.md).
 - **FoV**: adjust field-of-view direction, depth, and coverage settings. See [FoV Adjustment](fov-adjustment.md).
-- **Assignments**: route work to team members. See [Assignments](../projects/assignments.md).
-- **Tickets**: track issues and follow-up actions. See [Tickets](../projects/tickets.md).
-- **Installation**: capture install status and details used in reporting. See [Element Information](element-information.md) and [Site Data](../projects/site-data.md).
+- **Assignments**: route work to team members. See [Assignments](../sites/assignments.md).
+- **Tickets**: track issues and follow-up actions. See [Tickets](../sites/tickets.md).
+- **Installation**: capture install status and details used in reporting. See [Element Information](element-information.md) and [Site Data](../sites/site-data.md).
 
 ## Recommended Workflow
 1. Select the element on the canvas.

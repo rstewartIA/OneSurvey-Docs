@@ -1,4 +1,4 @@
-﻿# Surveys Overview
+# Surveys Overview
 
 Surveys are where teams create floor plan layouts, place elements, and maintain field-ready site information.
 
@@ -83,7 +83,7 @@ The canvas is the primary survey workspace for placing elements, adding context,
 
 ## Related Pages
 
-- [Sites Overview](../projects/index.md)
+- [Sites Overview](../sites/index.md)
 - [Mobile Surveys](../mobile/surveys.md)
-- [Reports](../projects/reports.md)
+- [Reports](../sites/reports.md)
 - [FAQ](../support/faq.md)

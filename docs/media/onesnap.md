@@ -45,6 +45,6 @@ OneSnap is a fast photo workflow for field capture, organization, and review.
 Floor Plan Builder currently shows as a maintenance/coming-soon area.
 
 ## Related Pages
-- [Gallery](../projects/gallery.md)
+- [Gallery](../sites/gallery.md)
 - [Mobile OneSnap](../mobile/onesnap.md)
 

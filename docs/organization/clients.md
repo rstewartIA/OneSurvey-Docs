@@ -32,6 +32,6 @@ Clients are customer records tied to sites, OneSnap sessions, and ticket service
 
 ## Related Pages
 
-- [Sites Overview](../projects/index.md)
-- [Tickets](../projects/tickets.md)
+- [Sites Overview](../sites/index.md)
+- [Tickets](../sites/tickets.md)
 - [Users and Roles](users.md)

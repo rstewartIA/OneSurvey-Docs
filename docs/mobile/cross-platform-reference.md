@@ -21,6 +21,6 @@ OneSurvey supports desktop, tablet, and phone. Each device is optimized for a di
 
 ## Related Pages
 - [Mobile Overview](index.md)
-- [Mobile Sites](projects.md)
+- [Mobile Sites](sites.md)
 - [Mobile Surveys](surveys.md)
 

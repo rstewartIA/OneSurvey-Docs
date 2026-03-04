@@ -19,7 +19,7 @@ Use this page to understand what users can do based on **organization role** and
 |---|---|
 | **Owner** | Full organization control, including assigning Owner access. |
 | **Manager** | Manages users, operations, and organization settings. |
-| **Member** | Works in sites based on seat type and assigned project access. |
+| **Member** | Works in sites based on seat type and assigned site access. |
 
 ## Seat Types
 
@@ -33,13 +33,13 @@ Use this page to understand what users can do based on **organization role** and
 
 - Owner and Manager roles require a Full seat.
 - Visible menus depend on both role and seat.
-- Project-level access (Edit, Restricted Edit, View) is also limited by seat type.
+- site-level access (Edit, Restricted Edit, View) is also limited by seat type.
 
 ## Feature Access Snapshot
 
 | Area | Who typically has access |
 |---|---|
-| Sites and Surveys | Most users with project access |
+| Sites and Surveys | Most users with site access |
 | Assignments | Field and Full seat users |
 | Tickets | Viewer, Field, and Full seat users |
 | Users / Clients | Managers and Owners |
@@ -52,5 +52,5 @@ If a button or menu is missing, ask your manager or owner to review your role an
 ## Related Pages
 
 - [Users and Roles](../organization/users.md)
-- [Create a Site](../projects/create-project.md)
+- [Create a Site](../sites/create-site.md)
 - [FAQ](faq.md)

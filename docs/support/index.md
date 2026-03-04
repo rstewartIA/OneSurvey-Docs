@@ -38,6 +38,6 @@ Use this section to find quick answers, terminology, and release updates for the
 
 ## Related Pages
 - [Start Here](../index.md)
-- [Sites Overview](../projects/index.md)
+- [Sites Overview](../sites/index.md)
 - [Surveys Overview](../surveys/index.md)
 - [Mobile Overview](../mobile/index.md)
