@@ -37,7 +37,7 @@ Mobile keeps work tracking close to field activity so updates happen in real tim
 - Closed
 
 ## Related Pages
-- [Assignments](../projects/assignments.md)
-- [Tickets](../projects/tickets.md)
+- [Assignments](../sites/assignments.md)
+- [Tickets](../sites/tickets.md)
 - [Mobile Overview](index.md)
 

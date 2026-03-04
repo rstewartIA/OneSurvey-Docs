@@ -20,7 +20,7 @@ Organization and access controls define who can work in OneSurvey and what each 
     <ul>
       <li><a href="./">Organization Settings</a></li>
       <li><a href="clients/">Clients</a></li>
-      <li><a href="../projects/project-detail/">Site Detail</a></li>
+      <li><a href="../sites/site-detail/">Site Detail</a></li>
     </ul>
   </section>
   <section class="os-topic-card">
@@ -49,6 +49,6 @@ Organization and access controls define who can work in OneSurvey and what each 
 
 ## Related Pages
 - [Start Here](../index.md)
-- [Sites Overview](../projects/index.md)
+- [Sites Overview](../sites/index.md)
 - [Mobile Overview](../mobile/index.md)
 - [Help Overview](../support/index.md)

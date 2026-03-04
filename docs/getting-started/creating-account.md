@@ -121,5 +121,5 @@ If you already have a OneSurvey account and get invited to another organization:
 ## Related Pages
 
 - [Users and Roles](../organization/users.md)
-- [Sites Overview](../projects/index.md)
+- [Sites Overview](../sites/index.md)
 - [FAQ](../support/faq.md)

@@ -35,6 +35,6 @@ Link photos to elements to keep visual documentation tied to the exact location.
 </div>
 
 ## Related Pages
-- [Gallery](../projects/gallery.md)
+- [Gallery](../sites/gallery.md)
 - [Commenting](commenting.md)
 

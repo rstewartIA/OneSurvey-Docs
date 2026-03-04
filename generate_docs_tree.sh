@@ -19,21 +19,21 @@ create_doc getting-started/creating-account.md "Creating an Account"
 create_doc getting-started/logging-in.md "Logging In"
 create_doc getting-started/dashboard-tour.md "Dashboard Tour"
 
-# Projects
-create_doc projects/index.md "Overview"
-create_doc projects/create-project.md "Create a Project"
-create_doc projects/project-detail.md "Project Detail"
-create_doc projects/project-albums.md "Project Albums"
-create_doc projects/project-photos.md "Project Photos"
-create_doc projects/attachments.md "Attachments"
-create_doc projects/gallery.md "Gallery"
-create_doc projects/proposals.md "Proposals"
-create_doc projects/reports.md "Reports"
-create_doc projects/site-data.md "Site Data"
-create_doc projects/site-elements.md "Site Elements"
-create_doc projects/site-settings.md "Site Settings"
-create_doc projects/tasks.md "Tasks"
-create_doc projects/tickets.md "Tickets"
+# Sites
+create_doc sites/index.md "Overview"
+create_doc sites/create-site.md "Create a Site"
+create_doc sites/site-detail.md "Site Detail"
+create_doc sites/site-albums.md "Site Albums"
+create_doc sites/site-photos.md "Site Photos"
+create_doc sites/attachments.md "Attachments"
+create_doc sites/gallery.md "Gallery"
+create_doc sites/proposals.md "Proposals"
+create_doc sites/reports.md "Reports"
+create_doc sites/site-data.md "Site Data"
+create_doc sites/site-elements.md "Site Elements"
+create_doc sites/site-settings.md "Site Settings"
+create_doc sites/tasks.md "Tasks"
+create_doc sites/tickets.md "Tickets"
 
 # Surveys
 create_doc surveys/index.md "Overview"
@@ -53,8 +53,8 @@ create_doc surveys/quality-check.md "Quality Check"
 
 # Media & Documentation
 create_doc media/onesnap.md "OneSnap"
-create_doc media/project-album-detail.md "Project Album Detail"
-create_doc media/project-photos.md "Project Photos"
+create_doc media/site-album-detail.md "Site Album Detail"
+create_doc media/site-photos.md "Site Photos"
 
 # Organization & Users
 create_doc organization/index.md "Organization Settings"

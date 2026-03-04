@@ -48,7 +48,7 @@ Use this FAQ for quick answers to common OneSurvey workflow questions. For full 
 <a id="faq-q04-different-menus"></a>
 <details>
   <summary>Why do I see different menus than my teammate?</summary>
-  <p>Menu visibility depends on role, seat type, and project-level access. Two users can be on the same site and still see different options if permissions differ. This is expected and keeps actions aligned to each user’s responsibilities.</p>
+  <p>Menu visibility depends on role, seat type, and site-level access. Two users can be on the same site and still see different options if permissions differ. This is expected and keeps actions aligned to each user’s responsibilities.</p>
   <p><a href="../access-and-roles/">Read more</a>.</p>
 </details>
 
@@ -57,8 +57,8 @@ Use this FAQ for quick answers to common OneSurvey workflow questions. For full 
 <a id="faq-q05-create-new-site"></a>
 <details>
   <summary>How do I create a new site?</summary>
-  <p>Go to Sites and use <strong>Add Project</strong> to create the site workspace. Add core details first, then assign team members and start floor plan setup. If the create action is missing, your current access may not include site creation.</p>
-  <p><a href="../../projects/create-project/">Read more</a>.</p>
+  <p>Go to Sites and use <strong>Add Site</strong> to create the site workspace. Add core details first, then assign team members and start floor plan setup. If the create action is missing, your current access may not include site creation.</p>
+  <p><a href="../../sites/create-site/">Read more</a>.</p>
 </details>
 
 <a id="faq-q06-floor-plan-file-types"></a>
@@ -132,21 +132,21 @@ Use this FAQ for quick answers to common OneSurvey workflow questions. For full 
 <details>
   <summary>What is the difference between Assignments and Tickets?</summary>
   <p>Assignments are planned, owned tasks for execution work. Tickets are issue tracking records for problems, service requests, and follow-up. A common pattern is to capture a field issue as a ticket, then convert to an assignment when work ownership is defined.</p>
-  <p><a href="../../projects/assignments/">Read more</a>.</p>
+  <p><a href="../../sites/assignments/">Read more</a>.</p>
 </details>
 
 <a id="faq-q16-convert-ticket-to-assignment"></a>
 <details>
   <summary>Can I convert a ticket into an assignment?</summary>
   <p>Yes. Open the ticket detail panel and use <strong>Convert to Assignment</strong>. The resulting assignment stays linked so your team can track issue context and execution progress together.</p>
-  <p><a href="../../projects/tickets/">Read more</a>.</p>
+  <p><a href="../../sites/tickets/">Read more</a>.</p>
 </details>
 
 <a id="faq-q17-where-see-assigned-work"></a>
 <details>
   <summary>Where do I see work assigned to me?</summary>
   <p>Use <strong>My Assignments</strong> for your task queue across sites. In site context, also use the Assignments tab for local planning and status checks. If you work issues, use ticket filters to focus on your own tickets.</p>
-  <p><a href="../../projects/assignments/">Read more</a>.</p>
+  <p><a href="../../sites/assignments/">Read more</a>.</p>
 </details>
 
 ## Site Data and Reports {#faq-site-data-reports}
@@ -155,21 +155,21 @@ Use this FAQ for quick answers to common OneSurvey workflow questions. For full 
 <details>
   <summary>When should I use Site Data vs Reports?</summary>
   <p>Use Site Data for live validation, filtering, and cleanup before handoff. Use Reports when you are ready to generate deliverables for stakeholders. A reliable workflow is: validate in Site Data first, then generate and export.</p>
-  <p><a href="../../projects/site-data/">Read more</a>.</p>
+  <p><a href="../../sites/site-data/">Read more</a>.</p>
 </details>
 
 <a id="faq-q19-which-report-type"></a>
 <details>
   <summary>Which report type should I choose?</summary>
   <p>Choose by outcome: Bill of Materials for quantity totals, Element Information for asset fields, and Floor Plan or Photo Report for visual deliverables. Teams often generate more than one report type for design review and final handoff. Pick the output your audience needs first, then add supporting reports.</p>
-  <p><a href="../../projects/reports/">Read more</a>.</p>
+  <p><a href="../../sites/reports/">Read more</a>.</p>
 </details>
 
 <a id="faq-q20-report-not-showing"></a>
 <details>
   <summary>Why is my report not showing up yet?</summary>
   <p>Reports are queued and generated server-side, so larger sites can take longer. Wait briefly, refresh the Reports tab, and confirm you are in the correct site and report view. If it still does not appear, regenerate and confirm your selected configuration.</p>
-  <p><a href="../../projects/reports/">Read more</a>.</p>
+  <p><a href="../../sites/reports/">Read more</a>.</p>
 </details>
 
 ## Mobile and Field Use {#faq-mobile-field}
@@ -197,6 +197,6 @@ Use this FAQ for quick answers to common OneSurvey workflow questions. For full 
 
 - [Sign In and Invitations](../getting-started/creating-account.md)
 - [Users and Roles](../organization/users.md)
-- [Gallery](../projects/gallery.md)
-- [Assignments](../projects/assignments.md)
-- [Tickets](../projects/tickets.md)
+- [Gallery](../sites/gallery.md)
+- [Assignments](../sites/assignments.md)
+- [Tickets](../sites/tickets.md)

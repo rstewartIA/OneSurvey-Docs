@@ -2,7 +2,7 @@
 
 OneSurvey helps teams plan site work, document field conditions, and track execution in one connected workflow.
 
-Use this Help Center to get started quickly and keep projects moving from setup to completion.
+Use this Help Center to get started quickly and keep sites moving from setup to completion.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
@@ -14,7 +14,7 @@ Use this Help Center to get started quickly and keep projects moving from setup 
 ## Start with These Actions
 
 <div class="os-quick-links" role="list">
-  <a class="os-quick-link" href="projects/create-project/" role="listitem">Create a Site</a>
+  <a class="os-quick-link" href="sites/create-site/" role="listitem">Create a Site</a>
   <a class="os-quick-link" href="surveys/upload-floor-plan/" role="listitem">Upload a Floor Plan</a>
   <a class="os-quick-link" href="surveys/drag-and-drop/" role="listitem">Design &amp; Document</a>
 </div>
@@ -23,7 +23,7 @@ For photo documentation during field work, use [Link Photos](surveys/link-photos
 
 ## What OneSurvey Helps You Do
 
-- **Organize site work**: create and manage sites, teams, and project context.
+- **Organize site work**: create and manage sites, teams, and site context.
 - **Capture and document field conditions**: build surveys, place elements, and attach evidence.
 - **Track execution**: manage assignments, tickets, and reporting status in one place.
 
@@ -42,16 +42,16 @@ For photo documentation during field work, use [Link Photos](surveys/link-photos
     <ul>
       <li><a href="getting-started/creating-account/">Sign In and Invitations</a></li>
       <li><a href="support/access-and-roles/">Access and Roles</a></li>
-      <li><a href="projects/">Sites Overview</a></li>
+      <li><a href="sites/">Sites Overview</a></li>
     </ul>
   </section>
   <section class="os-topic-card">
     <h3>Sites</h3>
     <p>Create sites and manage work from setup through delivery.</p>
     <ul>
-      <li><a href="projects/create-project/">Create a Site</a></li>
-      <li><a href="projects/project-detail/">Site Detail</a></li>
-      <li><a href="projects/reports/">Reports</a></li>
+      <li><a href="sites/create-site/">Create a Site</a></li>
+      <li><a href="sites/site-detail/">Site Detail</a></li>
+      <li><a href="sites/reports/">Reports</a></li>
     </ul>
   </section>
   <section class="os-topic-card">
@@ -68,7 +68,7 @@ For photo documentation during field work, use [Link Photos](surveys/link-photos
     <p>Capture updates quickly while working in the field.</p>
     <ul>
       <li><a href="mobile/">Mobile Overview</a></li>
-      <li><a href="mobile/projects/">Sites on Mobile</a></li>
+      <li><a href="mobile/sites/">Sites on Mobile</a></li>
       <li><a href="mobile/assignments-tickets/">Assignments and Tickets</a></li>
     </ul>
   </section>
@@ -100,6 +100,6 @@ What you see in OneSurvey depends on your role and seat type. See [Access and Ro
 
 - [Sign In and Invitations](getting-started/creating-account.md)
 - [Users and Roles](organization/users.md)
-- [Sites Overview](projects/index.md)
+- [Sites Overview](sites/index.md)
 - [Surveys Overview](surveys/index.md)
 - [FAQ](support/faq.md)

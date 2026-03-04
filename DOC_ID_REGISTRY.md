@@ -6,15 +6,15 @@ IDs are never renumbered; moved pages keep their existing ID.
 | doc_id | path | title | section |
 |---|---|---|---|
 | HC-START-001 | docs/getting-started/creating-account.md | Sign In and Invitations | Start Here |
-| HC-SITES-001 | docs/projects/create-project.md | Create a Site | Sites |
-| HC-SITES-002 | docs/projects/project-detail.md | Site Detail | Sites |
-| HC-SITES-003 | docs/projects/site-elements.md | Site Elements | Sites |
-| HC-SITES-004 | docs/projects/site-data.md | Site Data | Sites |
-| HC-SITES-005 | docs/projects/attachments.md | Attachments | Sites |
-| HC-SITES-006 | docs/projects/reports.md | Reports | Sites |
-| HC-SITES-007 | docs/projects/gallery.md | Gallery | Sites |
-| HC-SITES-008 | docs/projects/assignments.md | Assignments | Sites |
-| HC-SITES-009 | docs/projects/tickets.md | Tickets | Sites |
+| HC-SITES-001 | docs/sites/create-site.md | Create a Site | Sites |
+| HC-SITES-002 | docs/sites/site-detail.md | Site Detail | Sites |
+| HC-SITES-003 | docs/sites/site-elements.md | Site Elements | Sites |
+| HC-SITES-004 | docs/sites/site-data.md | Site Data | Sites |
+| HC-SITES-005 | docs/sites/attachments.md | Attachments | Sites |
+| HC-SITES-006 | docs/sites/reports.md | Reports | Sites |
+| HC-SITES-007 | docs/sites/gallery.md | Gallery | Sites |
+| HC-SITES-008 | docs/sites/assignments.md | Assignments | Sites |
+| HC-SITES-009 | docs/sites/tickets.md | Tickets | Sites |
 | HC-SITES-010 | docs/media/onesnap.md | OneSnap Overview | Sites |
 | HC-SURV-001 | docs/surveys/upload-floor-plan.md | Upload a Floor Plan | Surveys |
 | HC-SURV-002 | docs/surveys/canvas-basics.md (retired) | Canvas Basics (merged into Surveys Overview) | Surveys |
@@ -28,7 +28,7 @@ IDs are never renumbered; moved pages keep their existing ID.
 | HC-SURV-010 | docs/surveys/design.md | Element Sidebar | Surveys |
 | HC-SURV-013 | docs/surveys/version-history.md | Version History | Surveys |
 | HC-SURV-014 | docs/surveys/fov-adjustment.md | FoV Adjustment | Surveys |
-| HC-MOB-001 | docs/mobile/projects.md | Sites | Mobile |
+| HC-MOB-001 | docs/mobile/sites.md | Sites | Mobile |
 | HC-MOB-002 | docs/mobile/surveys.md | Surveys | Mobile |
 | HC-MOB-003 | docs/mobile/assignments-tickets.md | Assignments and Tickets | Mobile |
 | HC-MOB-004 | docs/mobile/onesnap.md | OneSnap | Mobile |

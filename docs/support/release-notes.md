@@ -19,7 +19,7 @@ Use this page to summarize important product updates for end users.
 4. Any action required.
 
 ## Related Pages
-- [Sites Overview](../projects/index.md)
+- [Sites Overview](../sites/index.md)
 - [Surveys Overview](../surveys/index.md)
 - [Mobile Overview](../mobile/index.md)
 

@@ -17,6 +17,6 @@ Mobile Surveys is optimized for quick element updates in the field.
 - Open related assignment or ticket details.
 
 ## Related Pages
-- [Mobile Sites](projects.md)
+- [Mobile Sites](sites.md)
 - [Field Tips](field-tips.md)
 
