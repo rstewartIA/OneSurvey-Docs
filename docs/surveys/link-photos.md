@@ -10,9 +10,11 @@ Link photos to elements to keep visual documentation tied to the exact location.
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../../assets/images/upload-photo.png" alt="Upload photo flow for linked element">
+    <video controls preload="metadata" playsinline style="width: 100%; height: auto; display: block;" src="../../assets/videos/Tablet-Photo-Upload.mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
-  <p class="os-screenshot-caption">Upload photos directly from the linked element workflow.</p>
+  <p class="os-screenshot-caption">Tablet photo upload workflow for linking photos to the correct element.</p>
 </div>
 
 ## Steps
@@ -20,6 +22,13 @@ Link photos to elements to keep visual documentation tied to the exact location.
 2. Open element photos.
 3. Upload one or more images.
 4. Confirm the images are linked to the correct element.
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/upload-photo.png" alt="Upload photo flow for linked element">
+  </div>
+  <p class="os-screenshot-caption">Upload photos directly from the linked element workflow.</p>
+</div>
 
 ## Common Actions
 - Preview photos.
