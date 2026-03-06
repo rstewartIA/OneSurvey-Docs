@@ -19,7 +19,16 @@ Use this Help Center to get started quickly and keep sites moving from setup to 
   <a class="os-quick-link" href="surveys/drag-and-drop/" role="listitem">Design &amp; Document</a>
 </div>
 
-For photo documentation during field work, use [Link Photos](surveys/link-photos.md).
+For photo documentation during field work, use [Link Photos](surveys/link-photos.md). See the reference video below.
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <video controls preload="metadata" playsinline style="width: 100%; height: auto; display: block;" src="assets/videos/Tablet-Photo-Upload.mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <p class="os-screenshot-caption">Reference walkthrough for tablet photo upload during field work.</p>
+</div>
 
 ## What OneSurvey Helps You Do
 

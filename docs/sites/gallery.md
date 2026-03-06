@@ -11,10 +11,14 @@ doc_owner: OneSurvey Support Team
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../../assets/images/gallery-photos.png" alt="All Photos view in Gallery">
+    <video controls preload="metadata" playsinline style="width: 100%; height: auto; display: block;" src="../../assets/videos/Photo-Reporting-and-Gallery.mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
-  <p class="os-screenshot-caption">All Photos view with filtering and selection controls.</p>
+  <p class="os-screenshot-caption">Photo reporting and gallery workflow walkthrough.</p>
 </div>
+
+For step-by-step details on creating reports (including Photo Reports), see [Reports](reports.md).
 
 ---
 
@@ -44,6 +48,13 @@ Use the **filter panel** to narrow the photo list. Available filters:
 | **Date Range** | Show photos captured within a specific date window. |
 
 Applied filters can be cleared individually or all at once using **Clear filters**.
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/gallery-photos.png" alt="All Photos view in Gallery">
+  </div>
+  <p class="os-screenshot-caption">All Photos view with filtering and selection controls.</p>
+</div>
 
 #### Selecting Photos
 
@@ -83,6 +94,8 @@ Click an album card to open it in Album Detail view.
   </div>
   <p class="os-screenshot-caption">All Albums view for grouped photo packages.</p>
 </div>
+
+For more on generating Photo Reports from albums, go to [Reports](reports.md).
 
 ### Album Detail
 
