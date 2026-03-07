@@ -34,6 +34,13 @@ If you have many sites, keep scrolling to load more.
 
 When you open a site, it starts on the **Surveys** tab. From the site detail view you can move into:
 
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="../../assets/images/mobile-site-detail.png" alt="Mobile site detail tabs">
+  </div>
+  <p class="os-screenshot-caption">Mobile site detail view showing the Surveys, Tickets, Assignments, Attachment, and Info tabs.</p>
+</div>
+
 - **Surveys** to open a survey and work on element updates in the field.
 - **Tickets** to review or manage site issues.
 - **Assignments** to review linked work items when assignments are available for your role.
