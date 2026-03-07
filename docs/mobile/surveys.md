@@ -37,7 +37,7 @@ Tap any element to open its detail view. If you need floor plan context, expand 
 
 ## Working with an Element
 
-Depending on your role, the element detail view can include:
+Depending on your access, the element detail view can include:
 
 - **Status** to update installation status and operational status.
 - **Photos** to review linked images and, when allowed, capture or upload new ones.
@@ -45,7 +45,7 @@ Depending on your role, the element detail view can include:
 - **Assignments** to review linked assignments when assignment access is available.
 - **Tickets** to review or manage issue records tied to the selected element.
 - **Comments** to add field notes and keep discussion attached to the element.
-- **OneSafe** for viewer-focused access to protected element information.
+- **OneSafe** for protected element information in viewer-oriented workflows.
 
 ## Photo Actions on Mobile
 
@@ -58,11 +58,11 @@ In the **Photos** tab you can:
 
 ## Access Differences
 
-Mobile Surveys is role-aware, so available tabs and actions change based on project access:
+Mobile Surveys is access-aware, so available tabs and actions change based on the seat and site access you have:
 
-- Collaborator and Technician access includes **Status**, **Photos**, **Fields**, **Assignments**, **Tickets**, and **Comments**.
-- Viewer access is focused on **Photos**, **OneSafe**, **Tickets**, and **Comments**.
-- Viewer-only access does not show photo upload controls or status and field editing.
+- **Full members** and **Field members** typically see **Status**, **Photos**, **Fields**, **Assignments**, **Tickets**, and **Comments**.
+- **Viewer members** focus on **Photos**, **OneSafe**, **Tickets**, and **Comments**.
+- **Viewer members** do not see photo upload controls or status and field editing.
 
 ## Typical Field Flow
 
