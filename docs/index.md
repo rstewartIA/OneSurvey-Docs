@@ -6,9 +6,11 @@ Use this Help Center to get started quickly and keep sites moving from setup to 
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="assets/images/onesurvey-intro.png" alt="OneSurvey workspace overview">
+    <video controls preload="metadata" playsinline src="assets/videos/OneSurvey x WiseEyes AI.mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
-  <p class="os-screenshot-caption">Workspace overview across surveys, sites, and field operations.</p>
+  <p class="os-screenshot-caption">See how OneSurvey helps your team plan work, document the field, and keep projects moving.</p>
 </div>
 
 ## Start with These Actions
@@ -41,6 +43,13 @@ For photo documentation during field work, use [Link Photos](surveys/link-photos
 1. Set up access and create a site.
 2. Build or update the survey and document field conditions.
 3. Track assignments and tickets, then review progress through reports.
+
+<div class="os-screenshot">
+  <div class="os-screenshot-card">
+    <img src="assets/images/onesurvey-intro.png" alt="OneSurvey workspace overview">
+  </div>
+  <p class="os-screenshot-caption">Use the floor plan editor to place elements, map coverage, and document site conditions directly on the plan.</p>
+</div>
 
 ## Browse by Area
 
