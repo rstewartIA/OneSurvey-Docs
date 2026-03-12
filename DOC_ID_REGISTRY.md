@@ -28,6 +28,7 @@ IDs are never renumbered; moved pages keep their existing ID.
 | HC-SURV-010 | docs/surveys/design.md | Element Sidebar | Surveys |
 | HC-SURV-013 | docs/surveys/version-history.md | Version History | Surveys |
 | HC-SURV-014 | docs/surveys/fov-adjustment.md | FoV Adjustment | Surveys |
+| HC-SURV-015 | docs/surveys/wiseeyes-ai.md | WiseEyes AI (Beta) | Surveys |
 | HC-MOB-001 | docs/mobile/sites.md | Sites | Mobile |
 | HC-MOB-002 | docs/mobile/surveys.md | Surveys | Mobile |
 | HC-MOB-003 | docs/mobile/assignments-tickets.md | Assignments and Tickets | Mobile |

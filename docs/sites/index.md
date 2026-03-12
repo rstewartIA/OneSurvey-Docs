@@ -4,9 +4,9 @@ Sites are the central workspace for planning, field execution, media capture, an
 
 <div class="os-screenshot">
   <div class="os-screenshot-card">
-    <img src="../assets/images/site-list.png" alt="Sites list view">
+    <img src="../assets/images/Site-Page.png" alt="Sites page overview">
   </div>
-  <p class="os-screenshot-caption">Sites list with stage, team, and quick actions.</p>
+  <p class="os-screenshot-caption">Sites page overview with stage, team, and quick actions.</p>
 </div>
 
 ## Most Used
@@ -20,38 +20,24 @@ Sites are the central workspace for planning, field execution, media capture, an
   <a class="os-quick-link" href="reports/" role="listitem">Reports</a>
 </div>
 
-## Guides by Topic
+## Site Workflows
 
-<div class="os-topic-grid">
-  <section class="os-topic-card">
-    <h3>Planning and Setup</h3>
-    <p>Create site records, manage key details, and establish structured data.</p>
-    <ul>
-      <li><a href="create-site/">Create a Site</a></li>
-      <li><a href="site-detail/">Site Detail</a></li>
-      <li><a href="site-elements/">Site Elements</a></li>
-      <li><a href="site-data/">Site Data</a></li>
-    </ul>
-  </section>
-  <section class="os-topic-card">
-    <h3>Media and Deliverables</h3>
-    <p>Capture evidence, store files, and generate reports for delivery.</p>
-    <ul>
-      <li><a href="gallery/">Gallery</a></li>
-      <li><a href="attachments/">Attachments</a></li>
-      <li><a href="reports/">Reports</a></li>
-      <li><a href="../media/onesnap/">OneSnap Overview</a></li>
-    </ul>
-  </section>
-  <section class="os-topic-card">
-    <h3>Execution and Follow-up</h3>
-    <p>Track install work and service requests throughout Site lifecycles.</p>
-    <ul>
-      <li><a href="assignments/">Assignments</a></li>
-      <li><a href="tickets/">Tickets</a></li>
-      <li><a href="../support/faq/">FAQ</a></li>
-    </ul>
-  </section>
+<div class="os-grid">
+  <article class="os-card">
+    <h4>Set Up Site Records</h4>
+    <p>Create the site and confirm key details before field work starts.</p>
+    <p><a href="create-site/">Create a Site</a> · <a href="site-detail/">Site Detail</a></p>
+  </article>
+  <article class="os-card">
+    <h4>Capture Field Evidence</h4>
+    <p>Keep media organized and ready for handoff deliverables.</p>
+    <p><a href="gallery/">Gallery</a> · <a href="attachments/">Attachments</a> · <a href="../media/onesnap/">OneSnap</a></p>
+  </article>
+  <article class="os-card">
+    <h4>Track Work to Completion</h4>
+    <p>Manage execution tasks, issues, and final report output in one flow.</p>
+    <p><a href="assignments/">Assignments</a> · <a href="tickets/">Tickets</a> · <a href="reports/">Reports</a></p>
+  </article>
 </div>
 
 ## Related Pages
